@@ -1,0 +1,240 @@
+[
+    {
+        "date": "2021-12-19T17:00:00.000Z",
+        "link": "https://www.musa.de/konzerte-partys/frittenbude-open-air/",
+        "name": "Frittenbude - Open Air",
+        "place": "Musa",
+        "type": "Konzert, Party, Kultur"
+    },
+    {
+        "date": "2021-12-19T17:00:00.000Z",
+        "link": "https://www.musa.de/konzerte-partys/meadows/",
+        "name": "Meadows -Open Air",
+        "place": "Musa",
+        "type": "Konzert, Party, Kultur"
+    },
+    {
+        "date": "2021-06-26T17:00:00.000Z",
+        "link": "https://www.musa.de/konzerte-partys/twice-couple-open-air/",
+        "name": "Twice a Couple - Open Air",
+        "place": "Musa",
+        "type": "Konzert, Party, Kultur"
+    },
+    {
+        "date": "2021-09-13T15:30:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11929",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-13T18:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11925",
+        "name": "Ich bin dein Mensch",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-14T15:30:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11924",
+        "name": "Ich bin dein Mensch",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-14T18:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11931",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-16T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11932",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-16T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11939",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-17T17:30:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11944",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-18T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11933",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-18T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11940",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-19T14:30:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11945",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-19T18:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11938",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-20T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11934",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-20T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11941",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-21T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11937",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-21T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11942",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-22T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11935",
+        "name": "Der Rosengarten von Madame Vernet",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-22T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11943",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-23T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11960",
+        "name": "Himmel \u00fcber dem Camino - Der Jakobsweg ist Leben!",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-23T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11946",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-24T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11953",
+        "name": "Himmel \u00fcber dem Camino - Der Jakobsweg ist Leben!",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-24T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11947",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-25T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11954",
+        "name": "Himmel \u00fcber dem Camino - Der Jakobsweg ist Leben!",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-25T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11948",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-26T14:30:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11952",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-26T18:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11957",
+        "name": "Himmel \u00fcber dem Camino - Der Jakobsweg ist Leben!",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-27T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11955",
+        "name": "Himmel \u00fcber dem Camino - Der Jakobsweg ist Leben!",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-27T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11949",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-28T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11961",
+        "name": "Himmel \u00fcber dem Camino - Der Jakobsweg ist Leben!",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-28T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11950",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-29T15:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11956",
+        "name": "Himmel \u00fcber dem Camino - Der Jakobsweg ist Leben!",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    },
+    {
+        "date": "2021-09-29T17:00:00.000Z",
+        "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/11951",
+        "name": "Fabian oder Der Gang vor die Hunde",
+        "place": "Meli\u00e8s",
+        "type": "Kino"
+    }
+]
