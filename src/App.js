@@ -2,11 +2,16 @@
 import EventsAll from "./EventsAll";
 import Today from "./Today";
 import Header from "./Header";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  HashRouter,
+  Route,
+  Switch,
+} from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Header />
         <main className="main">
@@ -20,7 +25,7 @@ function App() {
           </Switch>
         </main>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
