@@ -10,9 +10,11 @@ const EventsAll = () => {
   // eventsJSON.forEach((el) => console.log(el));
   // const buildEvents = () => setEvents(convertDates(eventsJSON));
 
-  // const API_URL = "http://139.177.178.43/events.json";
+  // Get data from redis
   const API_URL = "https://sleepy-crag-13951.herokuapp.com/bvents.json";
-  async function getEvents() {
+
+  /* 
+  const getEvents = () => {
     fetch(API_URL, {
       headers: {
         "Content-Type": "application/json",
@@ -24,7 +26,56 @@ const EventsAll = () => {
       // dateDetails provides info necessery when rendering events
       .then((data) => setEvents(convertDates(data)));
     // .then(data => setEvents(data.data))
-  }
+  };
+  */
+
+  const getEvents = () => {
+    // define criteria to filter for
+    const date = new Date();
+    const today = {
+      month: date.getMonth(),
+      day: date.getDate(),
+      time: `${date.getHours()}:${date.getMinutes()}`,
+      //time: "20:55",
+    };
+
+    // Fetch JSON from API containing events info
+    fetch(API_URL, {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw Error("could not fetch data for that resource");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        const eventsArr = convertDates(data);
+        const todaysEvents = [];
+
+        console.log("ALL EVENTS LOADED:", eventsArr);
+        console.log("CURRENT TIME:", today);
+
+        // Filter events to not show expired events
+        eventsArr.forEach((event) => {
+          if (
+            event.dateDetails.day === today.day &&
+            event.dateDetails.time <= today.time
+          )
+            return;
+          if (
+            event.dateDetails.month >= today.month &&
+            event.dateDetails.day >= today.day
+          )
+            todaysEvents.push(event);
+        });
+        console.log("TODAYS EVENTS:", todaysEvents);
+        setEvents(todaysEvents);
+      });
+  };
 
   useEffect(() => {
     getEvents();

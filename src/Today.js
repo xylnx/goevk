@@ -16,6 +16,7 @@ const Today = () => {
     const today = {
       month: date.getMonth(),
       day: date.getDate(),
+      time: `${date.getHours()}:${date.getMinutes()}`,
     };
 
     // Fetch JSON from API containing events info
@@ -32,20 +33,23 @@ const Today = () => {
         return response.json();
       })
       .then((data) => {
-        //
         const eventsArr = convertDates(data);
         const todaysEvents = [];
 
+        console.log("ALL EVENTS LOADED:", eventsArr);
+        console.log("CURRENT TIME:", today);
+
         // Filter events to find todays events
-        eventsArr.filter((event) => {
+        eventsArr.forEach((event) => {
           if (
             event.dateDetails.month === today.month &&
-            event.dateDetails.day === today.day
+            event.dateDetails.day === today.day &&
+            event.dateDetails.time >= today.time
           ) {
             todaysEvents.push(event);
           }
         });
-        console.log(2);
+        console.log("TODAYS EVENTS:", todaysEvents);
         setEvents(todaysEvents);
       });
   };
