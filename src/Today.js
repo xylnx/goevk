@@ -5,9 +5,10 @@ import convertDates from "./getDateDetails";
 const Today = () => {
   const [events, setEvents] = useState(null);
 
-  // local redis:
-  // const API_URL = "http://139.177.178.43/events.json";
-  // heroku api
+  // local test data:
+  // const API_URL = "http://localhost:5000/events.json";
+
+  // heroku api (redis endpoint)
   const API_URL = "https://sleepy-crag-13951.herokuapp.com/bvents.json";
 
   const getEvents = () => {
@@ -36,7 +37,7 @@ const Today = () => {
         const eventsArr = convertDates(data);
         const todaysEvents = [];
 
-        console.log("ALL EVENTS LOADED:", eventsArr);
+        console.log("ALL EVENTS:", eventsArr);
         console.log("CURRENT TIME:", today);
 
         // Filter events to find todays events
@@ -49,7 +50,7 @@ const Today = () => {
             todaysEvents.push(event);
           }
         });
-        console.log("TODAYS EVENTS:", todaysEvents);
+        console.log("TODAY'S EVENTS:", todaysEvents);
         setEvents(todaysEvents);
       });
   };

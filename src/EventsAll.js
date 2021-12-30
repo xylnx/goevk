@@ -2,35 +2,17 @@ import { useState, useEffect } from "react";
 import Event from "./Event";
 import convertDates from "./getDateDetails";
 
-// import eventsJSON from "./events.json";
-
 const EventsAll = () => {
   const [events, setEvents] = useState(null);
-  // setEvents(convertDates(eventsJSON));
-  // eventsJSON.forEach((el) => console.log(el));
-  // const buildEvents = () => setEvents(convertDates(eventsJSON));
 
-  // Get data from redis
+  // local test data:
+  // const API_URL = "http://localhost:5000/events.json";
+
+  // heroku api (redis endpoint)
   const API_URL = "https://sleepy-crag-13951.herokuapp.com/bvents.json";
 
-  /* 
   const getEvents = () => {
-    fetch(API_URL, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then((response) => response.json())
-      // convertDates adds a property called 'dateDetails' to each event obj
-      // dateDetails provides info necessery when rendering events
-      .then((data) => setEvents(convertDates(data)));
-    // .then(data => setEvents(data.data))
-  };
-  */
-
-  const getEvents = () => {
-    // define criteria to filter for
+    // define criteria to filter events data for
     const date = new Date();
     const today = {
       month: date.getMonth(),
@@ -39,7 +21,7 @@ const EventsAll = () => {
       //time: "20:55",
     };
 
-    // Fetch JSON from API containing events info
+    // Fetch JSON from API containing events data
     fetch(API_URL, {
       headers: {
         "Content-Type": "application/json",
