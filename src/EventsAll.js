@@ -38,7 +38,7 @@ const EventsAll = () => {
         const eventsArr = convertDates(data);
         const todaysEvents = [];
 
-        console.log("ALL EVENTS LOADED:", eventsArr);
+        console.log("ALL EVENTS:", eventsArr);
         console.log("CURRENT TIME:", today);
 
         // Filter events to not show expired events
@@ -54,7 +54,7 @@ const EventsAll = () => {
           )
             todaysEvents.push(event);
         });
-        console.log("TODAYS EVENTS:", todaysEvents);
+        console.log("TODAY'S EVENTS:", todaysEvents);
         setEvents(todaysEvents);
       });
   };
