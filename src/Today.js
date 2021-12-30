@@ -45,6 +45,7 @@ const Today = () => {
             todaysEvents.push(event);
           }
         });
+        console.log(1);
         setEvents(todaysEvents);
       });
   };
