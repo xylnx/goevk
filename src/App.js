@@ -3,7 +3,7 @@ import EventsAll from "./EventsAll";
 import Today from "./Today";
 import Header from "./Header";
 import {
-  BrowserRouter as Router,
+  //BrowserRouter as Router,
   HashRouter,
   Route,
   Switch,

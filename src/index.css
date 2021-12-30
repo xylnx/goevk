@@ -210,6 +210,11 @@ a.event__name {
     opacity: 1;
   }
 }
+@media (max-width: 340px) {
+  .btn {
+    font-size: 14px;
+  }
+}
 
 @media (min-width: 800px) {
   .events {

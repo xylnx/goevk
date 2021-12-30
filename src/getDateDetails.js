@@ -16,6 +16,7 @@ function getDateDetails(dateStr) {
   const date = new Date(dateStr);
 
   // Format date infos
+  /*
   const options = {
     weekday: "short",
     year: "numeric",
@@ -24,7 +25,9 @@ function getDateDetails(dateStr) {
     hour: "numeric",
     minute: "numeric",
   };
+
   const eventDateLocalized = date.toLocaleDateString("de-DE", options);
+  */
 
   const optionsWeekday = { weekday: "short" };
   const eventWeekday = date.toLocaleDateString("de-DE", optionsWeekday);
