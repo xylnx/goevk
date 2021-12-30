@@ -11,7 +11,7 @@ const EventsAll = () => {
   // const buildEvents = () => setEvents(convertDates(eventsJSON));
 
   // const API_URL = "http://139.177.178.43/events.json";
-  const API_URL = "https://sleepy-crag-13951.herokuapp.com/events.json";
+  const API_URL = "https://sleepy-crag-13951.herokuapp.com/bvents.json";
   async function getEvents() {
     fetch(API_URL, {
       headers: {

@@ -8,7 +8,7 @@ const Today = () => {
   // local redis:
   // const API_URL = "http://139.177.178.43/events.json";
   // heroku api
-  const API_URL = "https://sleepy-crag-13951.herokuapp.com/events.json";
+  const API_URL = "https://sleepy-crag-13951.herokuapp.com/bvents.json";
 
   const getEvents = () => {
     // define criteria to filter for
@@ -45,7 +45,7 @@ const Today = () => {
             todaysEvents.push(event);
           }
         });
-        console.log(1);
+        console.log(2);
         setEvents(todaysEvents);
       });
   };
