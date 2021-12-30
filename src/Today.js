@@ -2,49 +2,55 @@ import { useState, useEffect } from "react";
 import Event from "./Event";
 import convertDates from "./getDateDetails";
 
-import eventsJSON from "./events.json";
-
 const Today = () => {
-  const API_URL = "http://localhost:8000/api/events/today";
-
   const [events, setEvents] = useState(null);
 
-  const buildEvents = async () => {
+  // local redis:
+  // const API_URL = "http://139.177.178.43/events.json";
+  // heroku api
+  const API_URL = "https://sleepy-crag-13951.herokuapp.com/events.json";
+
+  const getEvents = () => {
+    // define criteria to filter for
     const date = new Date();
     const today = {
       month: date.getMonth(),
       day: date.getDate(),
     };
-    const allEvents = await convertDates(eventsJSON);
 
-    setEvents(allEvents);
-    setEvents(
-      allEvents.filter((event) => {
-        return (
-          event.dateDetails.month === today.month &&
-          event.dateDetails.day === today.day
-        );
-      })
-    );
-  };
-
-  async function getEvents() {
+    // Fetch JSON from API containing events info
     fetch(API_URL, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
       },
     })
-      .then((response) => response.json())
-      // convertDates adds a property called 'dateDetails' to each event obj
-      // dateDetails provides info necessery when rendering events
-      .then((data) => setEvents(convertDates(data.data)));
-    // .then(data => setEvents(data.data))
-  }
+      .then((response) => {
+        if (!response.ok) {
+          throw Error("could not fetch data for that resource");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        //
+        const eventsArr = convertDates(data);
+        const todaysEvents = [];
+
+        // Filter events to find todays events
+        eventsArr.filter((event) => {
+          if (
+            event.dateDetails.month === today.month &&
+            event.dateDetails.day === today.day
+          ) {
+            todaysEvents.push(event);
+          }
+        });
+        setEvents(todaysEvents);
+      });
+  };
 
   useEffect(() => {
-    // getEvents();
-    buildEvents();
+    getEvents();
   }, []);
 
   return (

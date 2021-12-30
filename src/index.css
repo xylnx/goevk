@@ -16,10 +16,20 @@
 }
 
 html {
+  box-sizing: border-box;
+
   /* prevent layout from jumping to the left if no scrollbar exists */
   margin-left: calc(100vw - 100%);
   min-height: 100vh;
   background-color: var(--clr-bg) !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -92,7 +102,7 @@ EVENTS VIEW *******
   flex-direction: column;
   border: 1px solid var(--clr-fg);
   border-radius: 1px;
-  padding: 4px;
+  padding: 8px 16px;
   margin-bottom: 8px;
   font-size: 16px;
   color: var(--clr-fg);
@@ -112,6 +122,10 @@ EVENTS VIEW *******
 
 .event-card__lower > *:not(:last-child) {
   margin-right: 8px;
+}
+
+.event-card__lower a {
+  word-wrap: anywhere;
 }
 
 .event__place {
@@ -144,12 +158,16 @@ EVENTS VIEW *******
 
 a.event__name {
   text-decoration: none;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .event__type {
   position: absolute;
-  top: -15px;
+  top: -19px;
   right: 0;
+  padding-bottom: 8px;
   font-size: 12px;
   font-weight: bold;
 }

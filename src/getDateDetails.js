@@ -1,7 +1,6 @@
 // Provide date + time of an event
-// Takes a stringified dateObj
-// converts + manipulates it,
-// and spits out an object for further use
+// Takes an array of event objects
+// manipulates each of the containing objects
 
 function convertDates(eventObjects) {
   eventObjects.forEach((eventObj) => {
@@ -18,7 +17,7 @@ function getDateDetails(dateStr) {
 
   // Format date infos
   const options = {
-    weekday: "long",
+    weekday: "short",
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -27,7 +26,7 @@ function getDateDetails(dateStr) {
   };
   const eventDateLocalized = date.toLocaleDateString("de-DE", options);
 
-  const optionsWeekday = { weekday: "long" };
+  const optionsWeekday = { weekday: "short" };
   const eventWeekday = date.toLocaleDateString("de-DE", optionsWeekday);
 
   const optionsDate = { month: "long", day: "numeric" };
