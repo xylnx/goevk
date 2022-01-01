@@ -10,7 +10,7 @@ const EventsNone = () => {
   const containerStyles = {
     border: "1px solid var(--clr-fg)",
     margin: "24px 0px",
-    padding: "96px",
+    padding: "4%",
     color: "var(--clr-fg)",
     fontSize: "16px",
     textAlign: "center",
