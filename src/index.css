@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;500&display=swap");
+
 :root {
   --clr-bg: #000;
   --clr-fg: #fff;
@@ -13,6 +16,8 @@
   --clr-bg: #001524;
   --clr-fg: #ffecd1;
   --clr-accent: #ff7d00;
+
+  --fnt-main: "Sora";
 }
 
 html {
@@ -33,7 +38,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: var(--fnt-main), -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   margin: 0;
@@ -53,12 +58,11 @@ h1 {
 }
 
 h1 + div {
-  font-weight: bold;
 }
 
 button,
 .btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--fnt-main), sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
@@ -71,11 +75,13 @@ button,
 }
 .btn.today {
   --clr-btn: var(--clr-accent);
+  color: var(--clr-fg);
   background-color: transparent;
   border-color: var(--clr-accent);
 }
 .btn.all {
   --clr-btn: var(--clr-accent);
+  color: var(--clr-fg);
   background-color: transparent;
   border-color: var(--clr-btn);
 }

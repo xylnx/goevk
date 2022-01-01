@@ -1,6 +1,30 @@
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
+  console.log(location.pathname);
+
+  const setBtnActiveState = () => {
+    console.log(location.pathname);
+    const btnToday = document.querySelector(".btn.today");
+    const btnAll = document.querySelector(".btn.all");
+    console.log(btnToday);
+
+    if (location.pathname === "/") {
+      console.log(1);
+      btnAll.classList.remove("active");
+      btnToday.classList.add("active");
+    }
+    if (location.pathname === "/all") {
+      console.log(2);
+      btnToday.classList.remove("active");
+      btnAll.classList.add("active");
+    }
+  };
+
+  useEffect(() => setBtnActiveState());
+
   /*
   const btnStyles = {
     marginTop: "8px",
@@ -24,10 +48,13 @@ const Header = () => {
   const handleBtnClick = (e) => {
     const main = document.querySelector("main");
     main.classList.add("viewTrans");
+
+    /*
     // toggle active states
     const btns = document.querySelectorAll(".btn");
     btns.forEach((el) => el.classList.remove("active"));
     e.target.classList.add("active");
+    */
 
     setTimeout(removeTrans, 900);
     // load events
@@ -62,7 +89,7 @@ const Header = () => {
         Dein Veranstaltungskalender für Göttingen
       </div>
 
-      <Link to="/" onClick={handleBtnClick} className="btn today active">
+      <Link to="/" onClick={handleBtnClick} className="btn today">
         Heute
       </Link>
       <Link to="/all" onClick={handleBtnClick} className="btn all">
