@@ -46,7 +46,7 @@ const EventsNone = () => {
       </div>
       <div className="eventsNone__copy">
         <span style={{ fontWeight: "500" }}>Ooops</span>, leider finde ich keine
-        Events für heute. Guck doch mal, was in den kommenden Tage los ist:
+        Events für heute. Guck doch mal, was in den kommenden Tagen los ist:
       </div>
       <div style={btnContainer}>
         <Link to="/all" onClick={handleBtnClick} className="btn all">
