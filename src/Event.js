@@ -5,7 +5,11 @@ const Event = (props) => {
     <>
       {events.map((event) => (
         // TODO: ad id column to event DB
-        <article className="event-card" key={event.id}>
+        <article
+          className="event-card"
+          key={event.id}
+          data-color={event.dateDetails.weekday}
+        >
           <div className="event-card__upper" style={{ color: "var(--clr-fg)" }}>
             <div className="event__place">{event.place}</div>
 
