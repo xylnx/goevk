@@ -2,48 +2,6 @@ import { useState, useEffect } from "react";
 import Event from "./Event";
 import convertDates from "./getDateDetails";
 
-const colorWeekdays = () => {
-  console.log("running colorWeekdays");
-  const colors = [
-    "var(--clr-fg)",
-    "#f72585",
-    "#4cc9f0",
-    "#b5179e",
-    "#4361ee",
-    "var(--clr-accent)",
-    "#7209b7",
-  ];
-  const applyColor = (el, color) => {
-    return (el.style.borderColor = color);
-  };
-
-  const allEvents = document.querySelectorAll("article");
-  allEvents.forEach((ev) => {
-    switch (ev.dataset.color) {
-      case "Mo":
-        applyColor(ev, colors[0]);
-        break;
-      case "Di":
-        applyColor(ev, colors[1]);
-        break;
-      case "Mi":
-        applyColor(ev, colors[2]);
-        break;
-      case "Do":
-        applyColor(ev, colors[3]);
-        break;
-      case "Fr":
-        applyColor(ev, colors[4]);
-        break;
-      case "Sa":
-        applyColor(ev, colors[5]);
-        break;
-      case "So":
-        applyColor(ev, colors[6]);
-    }
-  });
-};
-
 const EventsAll = () => {
   const [events, setEvents] = useState(null);
 
@@ -98,8 +56,6 @@ const EventsAll = () => {
         });
         console.log("TODAY'S EVENTS:", todaysEvents);
         setEvents(todaysEvents);
-
-        colorWeekdays();
       });
   };
 
