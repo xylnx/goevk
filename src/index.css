@@ -60,6 +60,14 @@ h1 {
 h1 + div {
 }
 
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 button,
 .btn {
   font-family: var(--fnt-main), sans-serif;
