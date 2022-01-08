@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+/*
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;500&display=swap");
+*/
 
 :root {
   --clr-bg: #000;
@@ -67,6 +69,22 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
+.App {
+  margin: 1rem;
+}
+
+header {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  color: var(--clr-fg);
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(calc(450px - 4px), 1fr));
+  gap: 0.4rem;
+  margin: 24px 0px;
+}
 
 button,
 .btn {
@@ -96,19 +114,16 @@ button,
 
 .btn.active {
   background-color: var(--clr-btn) !important;
-  color: #000;
+  color: var(--clr-bg);
   transition: background-color 0.3s ease;
 }
 
 /*******************
-EVENTS VIEW *******
+EVENTS ************
 ******************/
 
 .events {
-  display: flex;
-  flex-direction: column;
   width: 90vw;
-  margin: auto;
 }
 
 .event-card {
@@ -194,11 +209,13 @@ a.event__name {
   width: 32px;
   height: 32px;
   fill: var(--clr-accent);
+  /*
   animation: moveArrow 4s infinite;
+  */
 }
 
 .viewTrans {
-  animation: viewTrans 0.8s ease;
+  animation: viewTrans 0.4s ease-in-out;
 }
 
 @keyframes moveArrow {
@@ -230,16 +247,9 @@ a.event__name {
   }
 }
 
-@media (min-width: 800px) {
-  .events {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .event-card {
-    flex: 0 0 calc(50% - 15px);
-  }
-  .event-card:nth-child(2n) {
-    margin-left: 10px;
+@media (max-width: 800px) {
+  .event-list {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -251,9 +261,5 @@ a.event__name {
   .events,
   .header {
     width: 100% !important;
-  }
-
-  .event-card {
-    width: 50%;
   }
 }

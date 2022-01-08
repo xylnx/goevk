@@ -1,45 +1,9 @@
-import { useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  const location = useLocation();
-  // console.log(location.pathname);
-
-  const setBtnActiveState = () => {
-    const btnToday = document.querySelector(".btn.today");
-    const btnAll = document.querySelector(".btn.all");
-
-    if (location.pathname === "/") {
-      btnAll.classList.remove("active");
-      btnToday.classList.add("active");
-    }
-    if (location.pathname === "/all") {
-      btnToday.classList.remove("active");
-      btnAll.classList.add("active");
-    }
-  };
-
-  useEffect(() => setBtnActiveState());
-
-  // add a bit of a smoother transition when changing views
-  const viewTransition = () => {
-    const main = document.querySelector("main");
-    main.classList.add("viewTrans");
-    setTimeout(removeTrans, 600);
-  };
-
-  function removeTrans() {
-    const main = document.querySelector("main");
-    main.classList.remove("viewTrans");
-  }
-
-  const handleBtnClick = () => {
-    viewTransition();
-  };
-
   return (
-    <>
-      <Link to="/" onClick={viewTransition}>
+    <header className="header">
+      <Link to="/">
         <h1 style={{ marginBottom: "14px" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,14 +21,7 @@ const Header = () => {
       <div style={{ fontSize: "16px" }}>
         Dein Veranstaltungskalender für Göttingen
       </div>
-
-      <Link to="/" onClick={handleBtnClick} className="btn today">
-        Heute
-      </Link>
-      <Link to="/all" onClick={handleBtnClick} className="btn all">
-        Alle Veranstaltungen
-      </Link>
-    </>
+    </header>
   );
 };
 

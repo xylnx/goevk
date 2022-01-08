@@ -1,6 +1,7 @@
 // import './App.css';
 import EventsAll from "./EventsAll";
-import Today from "./Today";
+import EventList from "./components/EventList";
+
 import Header from "./Header";
 import {
   //BrowserRouter as Router,
@@ -17,7 +18,7 @@ function App() {
         <main className="main">
           <Switch>
             <Route exact path="/">
-              <Today />
+              <EventList />
             </Route>
             <Route exact path="/all">
               <EventsAll />

@@ -1,25 +1,23 @@
 import { useState, useEffect } from "react";
 import Event from "./Event";
-import EventsNone from "./EventsNone";
+import EventsNone from "./components/EventsNone";
 
 import fetchEvents from "./data/fetchEvents";
 
-// TESTING
-// import { prepareLocalEventObjs } from "./testing/Data";
+// Set production mode
 
 const Today = () => {
   const [events, setEvents] = useState([]);
   const viewName = "today";
 
-  // local test data:
-  // const API_URL = "http://localhost:5000/events.json";
-
   // heroku api (redis endpoint)
-  const API_URL = "https://sleepy-crag-13951.herokuapp.com/bvents.json";
+  // const API_URL = "https://sleepy-crag-13951.herokuapp.com/bvents.json";
+
+  // Local test data
+  const API_URL = "http://localhost:3002/data";
 
   useEffect(() => {
     fetchEvents({ API_URL, setEvents, viewName });
-    // prepareLocalEventObjs({ setEvents });
   }, []);
 
   return (
