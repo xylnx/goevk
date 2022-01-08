@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { filterForTodaysEvents } from "../handleData";
-import convertDates from "../getDateDetails";
+import convertDates from "../helpers/convertDates";
 
 const useFetch = (url) => {
   const [data, setData] = useState(null);

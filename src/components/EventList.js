@@ -30,6 +30,7 @@ const EventList = () => {
   useEffect(() => {
     today ? setEvents(FilterToday(data)) : setEvents(data);
   }, [data, today]);
+
   return (
     <>
       <div className="buttons">
