@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import useFetch from "../hooks/useFetch";
 
-import { FilterToday } from "../filters/FilterToday";
+import { FilterToday, FilterAll } from "../filters/FilterDates";
 import Event from "./Event";
 import EventsNone from "./EventsNone";
 
@@ -28,7 +28,7 @@ const EventList = () => {
   };
 
   useEffect(() => {
-    today ? setEvents(FilterToday(data)) : setEvents(data);
+    today ? setEvents(FilterToday(data)) : setEvents(FilterAll(data));
   }, [data, today]);
 
   return (
