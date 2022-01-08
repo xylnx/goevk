@@ -6,8 +6,13 @@ import Event from "./Event";
 import EventsNone from "./EventsNone";
 
 const EventList = () => {
+  const initialURL =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3002/data"
+      : "https://sleepy-crag-13951.herokuapp.com/bvents.json";
+
   const [today, setToday] = useState(true);
-  const [url, setUrl] = useState("http://localhost:3002/data");
+  const [url, setUrl] = useState(initialURL);
   const [events, setEvents] = useState(null);
   const { data } = useFetch(url);
 
