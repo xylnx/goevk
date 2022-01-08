@@ -3,12 +3,6 @@ import { Link } from "react-router-dom";
 const EventsNone = ({ today, setToday }) => {
   const handleBtnClick = (e) => {
     setToday(false);
-
-    /*
-    const btns = document.querySelectorAll(".btn");
-    btns.forEach((el) => el.classList.remove("active"));
-    e.target.classList.add("active");
-    */
   };
 
   const containerStyles = {

@@ -1,8 +1,5 @@
-// import './App.css';
-import EventsAll from "./EventsAll";
+import Header from "./components/Header";
 import EventList from "./components/EventList";
-
-import Header from "./Header";
 import {
   //BrowserRouter as Router,
   HashRouter,
@@ -20,9 +17,12 @@ function App() {
             <Route exact path="/">
               <EventList />
             </Route>
+
+            {/*
             <Route exact path="/all">
               <EventsAll />
             </Route>
+            */}
           </Switch>
         </main>
       </div>
