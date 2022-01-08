@@ -23,7 +23,7 @@ const filterTodaysEvents = ({ eventsArr, setEvents }) => {
       todaysEvents.push(event);
     }
   });
-  setEvents(todaysEvents);
+  return todaysEvents;
 };
 
 /* ALL EVENTS */
