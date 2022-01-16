@@ -8,13 +8,14 @@ import EventsNone from "./EventsNone";
 const EventList = () => {
   const initialURL =
     process.env.NODE_ENV === "development"
-      ? "http://localhost:3002/data"
+      ? "http://localhost:3002/events"
       : "https://sleepy-crag-13951.herokuapp.com/bvents.json";
 
   const [today, setToday] = useState(true);
-  const [url, setUrl] = useState(initialURL);
+  // const [url, setUrl] = useState(initialURL);
+  const url = initialURL;
   const [events, setEvents] = useState(null);
-  const { data } = useFetch(url);
+  const { data, pending } = useFetch(url);
 
   // add smoother transition when changing views
   const viewTransition = () => {
@@ -75,7 +76,9 @@ const EventList = () => {
           })}
 
         {/* no events at all */}
-        {!events && <EventsNone today={today} setToday={setToday} />}
+        {!events && (
+          <EventsNone today={today} setToday={setToday} pending={pending} />
+        )}
       </div>
     </>
   );
