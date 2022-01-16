@@ -33,7 +33,7 @@
     "eject": "react-scripts eject",
     "update": "node ../../scrapers/parseEventsAsJSON.js && react-scripts --openssl-legacy-provider build && gh-pages -d build",
     "deploy": "react-scripts --openssl-legacy-provider build && gh-pages -d build",
-    "devServer": "json-server --watch ../../test_data/db.json --port 3002"
+    "devServer": "json-server --watch testData/db.json --port 3002"
   },
   "eslintConfig": {
     "extends": [
