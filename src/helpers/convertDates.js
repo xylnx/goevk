@@ -15,6 +15,9 @@ function getDateDetails(dateStr) {
   // Convert it back into a date object!
   const date = new Date(dateStr);
 
+  // Temporary work around for DST adding an additional hour to the starting time
+  date.setHours(date.getHours() - 1);
+
   // Format date infos
   /*
   const options = {
