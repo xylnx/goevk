@@ -67,7 +67,7 @@ a:active,
 a:hover,
 a:visited {
   text-decoration: none;
-  color: inherit;
+  color: var(--clr-fg);
 }
 .App {
   margin: 1rem;
@@ -131,7 +131,7 @@ EVENTS ************
   flex-direction: column;
   border: 1px solid var(--clr-fg);
   border-radius: 1px;
-  padding: 8px 12px;
+  padding: 12px 12px;
   margin-bottom: 8px;
   font-size: 16px;
   color: var(--clr-fg);
@@ -192,6 +192,10 @@ a.event__name {
   hyphens: auto;
 }
 
+a.event__name span {
+  padding-bottom: 2px;
+}
+
 .event__type {
   position: absolute;
   top: -19px;
@@ -201,9 +205,14 @@ a.event__name {
   font-weight: bold;
 }
 .event__link {
+  display: flex;
+  align-items: self-end;
+  justify-content: end;
   position: absolute;
   right: 8px;
-  bottom: -10px;
+  bottom: -6px;
+  width: 80px;
+  height: 80px;
 }
 .event__link svg {
   width: 32px;
