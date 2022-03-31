@@ -1,15 +1,15 @@
-import { useState, useEffect } from 'react';
-import useFetch from '../hooks/useFetch';
+import { useState, useEffect } from "react";
+import useFetch from "../hooks/useFetch";
 
-import { FilterToday, FilterAll } from '../filters/FilterDates';
-import Event from './Event';
-import EventsNone from './EventsNone';
+import { FilterToday, FilterAll } from "../filters/FilterDates";
+import Event from "./Event";
+import EventsNone from "./EventsNone";
 
 const EventList = () => {
   const initialURL =
-    process.env.NODE_ENV === 'development'
-      ? 'http://localhost:5000/events.json'
-      : 'https://sleepy-crag-13951.herokuapp.com/bvents.json';
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:5033/events.json"
+      : "https://sleepy-crag-13951.herokuapp.com/bvents.json";
 
   const [today, setToday] = useState(true);
   // const [url, setUrl] = useState(initialURL);
@@ -19,14 +19,14 @@ const EventList = () => {
 
   // add smoother transition when changing views
   const viewTransition = () => {
-    const eventList = document.querySelector('.event-list');
-    eventList.classList.add('viewTrans');
+    const eventList = document.querySelector(".event-list");
+    eventList.classList.add("viewTrans");
     setTimeout(removeTrans, 600);
   };
 
   function removeTrans() {
-    const eventList = document.querySelector('.event-list');
-    eventList.classList.remove('viewTrans');
+    const eventList = document.querySelector(".event-list");
+    eventList.classList.remove("viewTrans");
   }
 
   const handleBtnClick = () => {
@@ -41,7 +41,7 @@ const EventList = () => {
     <>
       <div className="buttons">
         <button
-          className={`btn today ${today ? 'active' : ''}`}
+          className={`btn today ${today ? "active" : ""}`}
           onClick={() => {
             setToday(true);
             handleBtnClick();
@@ -50,7 +50,7 @@ const EventList = () => {
           Heute
         </button>
         <button
-          className={`btn all ${today ? '' : 'active'}`}
+          className={`btn all ${today ? "" : "active"}`}
           onClick={() => {
             setToday(false);
             handleBtnClick();
