@@ -16,7 +16,7 @@ function getDateDetails(dateStr) {
   const date = new Date(dateStr);
 
   // Temporary work around for DST adding an additional hour to the starting time
-  date.setHours(date.getHours() - 1);
+  // date.setHours(date.getHours() - 1);
 
   // Format date infos
   /*
@@ -32,19 +32,19 @@ function getDateDetails(dateStr) {
   const eventDateLocalized = date.toLocaleDateString("de-DE", options);
   */
 
-  const optionsWeekday = { weekday: 'short' };
-  const eventWeekday = date.toLocaleDateString('de-DE', optionsWeekday);
+  const optionsWeekday = { weekday: "short" };
+  const eventWeekday = date.toLocaleDateString("de-DE", optionsWeekday);
 
-  const optionsDate = { month: 'long', day: 'numeric' };
-  const eventDate = date.toLocaleDateString('de-DE', optionsDate);
+  const optionsDate = { month: "long", day: "numeric" };
+  const eventDate = date.toLocaleDateString("de-DE", optionsDate);
 
-  const optionsTime = { hour: 'numeric', minute: 'numeric' };
-  const eventTime = date.toLocaleDateString('de-DE', optionsTime);
+  const optionsTime = { hour: "numeric", minute: "numeric" };
+  const eventTime = date.toLocaleDateString("de-DE", optionsTime);
 
   const dateInfo = {
     weekday: eventWeekday,
     date: eventDate,
-    time: eventTime.split(' ')[1],
+    time: eventTime.split(" ")[1],
     month: date.getMonth(),
     day: date.getDate(),
   };
