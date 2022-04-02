@@ -6,7 +6,7 @@ function convertDates(eventObjects) {
   eventObjects.forEach((eventObj) => {
     const dateDetails = getDateDetails(eventObj.date, eventObj.name);
     eventObj.dateDetails = dateDetails;
-    console.log(eventObj.dateDetails);
+    // console.log(eventObj.dateDetails);
   });
   return eventObjects;
 }
@@ -35,7 +35,7 @@ function getDateDetails(dateStr, eventName) {
   const dateInfo = {
     weekday: dateArr[0],
     date: dateArr[1],
-    time: dateArr[2],
+    time: dateArr[2].trim(),
     month: date.getMonth(),
     day: date.getDate(),
   };
