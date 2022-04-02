@@ -8,6 +8,7 @@ const getCurrentDateInfo = () => {
 };
 
 const FilterToday = (events) => {
+  console.log(events);
   const today = getCurrentDateInfo();
   const todaysEvents = [];
   if (events) {
@@ -15,7 +16,7 @@ const FilterToday = (events) => {
       if (
         event.dateDetails.month === today.month &&
         event.dateDetails.day === today.day &&
-        event.dateDetails.time >= today.time - 4
+        event.dateDetails.time >= today.time
       )
         todaysEvents.push(event);
     });
@@ -46,10 +47,9 @@ const FilterAll = (events) => {
         // Event is today => check if start time is in the past
         event.dateDetails.day === today.day &&
         event.dateDetails.month === today.month &&
-        event.dateDetails.time <= today.time - 4
+        event.dateDetails.time <= today.time
       ) {
         // Do not push it into allEvents
-        console.log(2);
         return;
       }
 
