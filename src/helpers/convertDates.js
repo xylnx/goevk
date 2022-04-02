@@ -4,47 +4,38 @@
 
 function convertDates(eventObjects) {
   eventObjects.forEach((eventObj) => {
-    const dateDetails = getDateDetails(eventObj.date);
+    const dateDetails = getDateDetails(eventObj.date, eventObj.name);
     eventObj.dateDetails = dateDetails;
+    console.log(eventObj.dateDetails);
   });
   return eventObjects;
 }
 
-function getDateDetails(dateStr) {
+function getDateDetails(dateStr, eventName) {
   // dateObj gets passed as a string, so:
   // Convert it back into a date object!
   const date = new Date(dateStr);
 
-  // Temporary work around for DST adding an additional hour to the starting time
-  // date.setHours(date.getHours() - 1);
-
-  // Format date infos
-  /*
-  const options = {
+  var options = {
     weekday: "short",
     year: "numeric",
     month: "long",
-    day: "numeric",
     hour: "numeric",
     minute: "numeric",
+    day: "numeric",
+    timeZone: "Europe/Berlin",
+    // timeZoneName: "short",
   };
 
-  const eventDateLocalized = date.toLocaleDateString("de-DE", options);
-  */
-
-  const optionsWeekday = { weekday: "short" };
-  const eventWeekday = date.toLocaleDateString("de-DE", optionsWeekday);
-
-  const optionsDate = { month: "long", day: "numeric" };
-  const eventDate = date.toLocaleDateString("de-DE", optionsDate);
-
-  const optionsTime = { hour: "numeric", minute: "numeric" };
-  const eventTime = date.toLocaleDateString("de-DE", optionsTime);
+  // Format date
+  const dateArr = new Intl.DateTimeFormat("de-DE", options)
+    .format(date)
+    .split(",");
 
   const dateInfo = {
-    weekday: eventWeekday,
-    date: eventDate,
-    time: eventTime.split(" ")[1],
+    weekday: dateArr[0],
+    date: dateArr[1],
+    time: dateArr[2],
     month: date.getMonth(),
     day: date.getDate(),
   };
