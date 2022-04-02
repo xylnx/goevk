@@ -203,6 +203,7 @@ a.event__name span {
   padding-bottom: 8px;
   font-size: 12px;
   font-weight: bold;
+  color: var(--clr-accent);
 }
 .event__link {
   display: flex;
