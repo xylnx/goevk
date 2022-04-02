@@ -210,10 +210,7 @@ a.event__name span {
   align-items: self-end;
   justify-content: end;
   position: absolute;
-  right: 8px;
-  bottom: -6px;
-  width: 80px;
-  height: 80px;
+  right: 0;
 }
 .event__link svg {
   width: 32px;
