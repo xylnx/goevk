@@ -34,7 +34,6 @@ const EventsNone = ({ today, setToday, pending }) => {
           width="100%"
           height="100%"
           fill="var(--clr-accent)"
-          className="bi bi-boombox"
           className={`${pending ? "svgLoading" : ""} bi bi-boombox`}
           viewBox="0 0 16 16"
         >
