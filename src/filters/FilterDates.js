@@ -1,10 +1,13 @@
 const getCurrentDateInfo = () => {
   const date = new Date();
+  /*
   return {
     month: date.getMonth(),
     day: date.getDate(),
-    time: `${date.getHours()}:${date.getMinutes()}`,
+    hours: date.getHours(),
   };
+  */
+  return date;
 };
 
 const FilterToday = (events) => {
@@ -13,10 +16,12 @@ const FilterToday = (events) => {
   const todaysEvents = [];
   if (events) {
     events.forEach((event) => {
+      const date = new Date(event.date);
+      // console.log(date.getDay());
       if (
-        event.dateDetails.month === today.month &&
-        event.dateDetails.day === today.day &&
-        event.dateDetails.time >= today.time
+        date.getMonth() === today.getMonth() &&
+        date.getDate() === today.getDate() &&
+        date.getHours() >= today.getHours() - 2
       )
         todaysEvents.push(event);
     });
@@ -46,8 +51,8 @@ const FilterAll = (events) => {
       if (
         // Event is today => check if start time is in the past
         event.dateDetails.day === today.day &&
-        event.dateDetails.month === today.month &&
-        event.dateDetails.time <= today.time
+        event.dateDetails.month === today.month
+        // && event.dateDetails.time <= today.time
       ) {
         // Do not push it into allEvents
         return;
