@@ -27,10 +27,8 @@
   },
   "homepage":"https://xylnx.github.io/goevk/",
   "scripts": {
-    "startAPI": "node ../goevk-api/index.js",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "update": "node ../../scrapers/parseEventsAsJSON.js && react-scripts --openssl-legacy-provider build && gh-pages -d build",
     "deploy": "react-scripts --openssl-legacy-provider build && gh-pages -d build",
     "devServer": "json-server --watch testData/db.json --port 3002"
   },
