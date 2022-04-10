@@ -10,7 +10,11 @@ This project displays and filters data on events taking place in [Goettingen](ht
 
 Run the app locally
 
-### `npm deploy`
+### `npm run build`
+
+Build the app for production.
+
+### `npm run deploy`
 
 Build the app and deploy using `gh-pages`.
 
