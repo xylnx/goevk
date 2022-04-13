@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import useFetch from "../hooks/useFetch";
 
-import { FilterToday, FilterAll } from "../filters/FilterDates";
+// Components
+import { ButtonNav } from "./ButtonNav";
 import Event from "./Event";
 import EventsNone from "./EventsNone";
 
-const EventList = () => {
+const EventList = ({ filter }) => {
   const initialURL =
     process.env.NODE_ENV === "development"
       ? "http://localhost:5033/events.json"
@@ -34,48 +35,27 @@ const EventList = () => {
   };
 
   useEffect(() => {
-    today ? setEvents(FilterToday(data)) : setEvents(FilterAll(data));
-  }, [data, today]);
+    setEvents(filter(data));
+    filter.name == "FilterToday" ? setToday(true) : setToday(false);
 
+    viewTransition();
+  }, [data, filter]);
+
+  console.log(today);
   return (
     <>
-      <div className="buttons">
-        <button
-          className={`btn today ${today ? "active" : ""}`}
-          onClick={() => {
-            setToday(true);
-            handleBtnClick();
-          }}
-        >
-          Heute
-        </button>
-        <button
-          className={`btn all ${today ? "" : "active"}`}
-          onClick={() => {
-            setToday(false);
-            handleBtnClick();
-          }}
-        >
-          Alle Veranstaltungen
-        </button>
-      </div>
-
+      <ButtonNav
+        todayP={today}
+        setToday={setToday}
+        handleBtnClick={handleBtnClick}
+      />
       <div className="event-list">
         {/* today's events */}
-        {today &&
-          events &&
+        {events &&
           events.map((event, index) => {
             return <Event event={event} index={index} />;
           })}
-
-        {/* all events */}
-        {!today &&
-          events &&
-          events.map((event, index) => {
-            return <Event event={event} index={index} />;
-          })}
-
-        {/* no events at all */}
+        {/* no events */}
         {!events && (
           <EventsNone today={today} setToday={setToday} pending={pending} />
         )}

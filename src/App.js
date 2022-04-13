@@ -1,11 +1,15 @@
 import Header from "./components/Header";
 import EventList from "./components/EventList";
+
 import {
   //BrowserRouter as Router,
   HashRouter,
   Route,
   Switch,
 } from "react-router-dom";
+
+// Filters
+import { FilterToday, FilterAll } from "./filters/FilterDates";
 
 function App() {
   return (
@@ -15,14 +19,11 @@ function App() {
         <main className="main">
           <Switch>
             <Route exact path="/">
-              <EventList />
+              <EventList filter={FilterToday} />
             </Route>
-
-            {/*
             <Route exact path="/all">
-              <EventsAll />
+              <EventList filter={FilterAll} />
             </Route>
-            */}
           </Switch>
         </main>
       </div>
