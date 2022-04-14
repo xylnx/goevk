@@ -1,4 +1,4 @@
-const Event = ({ event, index }) => {
+export const Event = ({ event, index }) => {
   return (
     <article
       className="event-card"
@@ -46,5 +46,3 @@ const Event = ({ event, index }) => {
     </article>
   );
 };
-
-export default Event;

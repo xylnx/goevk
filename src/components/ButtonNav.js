@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export const ButtonNav = ({ today, setToday, handleBtnClick }) => {
+export const ButtonNav = () => {
   return (
     <div className="buttons">
       <NavLink exact to="/" className="btn today">

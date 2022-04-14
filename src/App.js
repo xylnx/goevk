@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import EventList from "./components/EventList";
+import { EventList } from "./components/EventList";
 
 import {
   //BrowserRouter as Router,

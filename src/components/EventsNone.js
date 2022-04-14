@@ -1,8 +1,6 @@
-const EventsNone = ({ today, setToday, pending }) => {
-  const handleBtnClick = (e) => {
-    setToday(false);
-  };
+import { Link } from "react-router-dom";
 
+const EventsNone = ({ today, setToday, pending }) => {
   const containerStyles = {
     border: "1px solid var(--clr-fg)",
     padding: "4%",
@@ -24,8 +22,6 @@ const EventsNone = ({ today, setToday, pending }) => {
     fontSize: "16px",
   };
 
-  console.log({ pending });
-
   return (
     <div className="eventsNone__container" style={containerStyles}>
       <div className="eventsNone__svg-container" style={svgContainer}>
@@ -41,32 +37,35 @@ const EventsNone = ({ today, setToday, pending }) => {
           <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z" />
         </svg>
       </div>
+      {/* Still loading data */}
       {pending && (
         <div className="eventsNone__copy">
           <span style={{ fontWeight: "bold" }}>Einen Moment... </span>
           <p>Ich suche nach Veranstaltungen.</p>
         </div>
       )}
+      {/* No events for today */}
       {today && !pending && (
-        <div className="eventsNone__copy">
-          <span style={{ fontWeight: "bold" }}>Ooops</span>, leider finde ich
-          keine Events für heute. Guck doch mal, was in den kommenden Tagen los
-          ist:
-        </div>
+        <>
+          <div className="eventsNone__copy">
+            <span style={{ fontWeight: "bold" }}>Ooops</span>, leider finde ich
+            keine Events für heute. Guck doch mal, was in den kommenden Tagen
+            los ist:
+          </div>
+          <div style={btnContainer}>
+            <Link to="/all" className="btn all">
+              Alle Veranstaltungen
+            </Link>
+          </div>
+        </>
       )}
+      {/* No events at all */}
       {!today && !pending && (
         <div className="eventsNone__copy">
           <span style={{ fontWeight: "bold" }}>
             Leider finde ich keine Veranstaltungen.
           </span>{" "}
           Schau später nochmal vorbei.
-        </div>
-      )}
-      {today && !pending && (
-        <div style={btnContainer}>
-          <button onClick={handleBtnClick} className="btn all">
-            Alle Veranstaltungen
-          </button>
         </div>
       )}
     </div>
