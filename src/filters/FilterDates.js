@@ -1,27 +1,26 @@
+// Define how long after it's starting time an event will still be displayed
+const timeOffset = 2;
+// Return an object with info on the current time
 const getCurrentDateInfo = () => {
   const date = new Date();
-  /*
   return {
     month: date.getMonth(),
-    day: date.getDate(),
+    date: date.getDate(),
     hours: date.getHours(),
   };
-  */
-  return date;
 };
 
 const FilterToday = (events) => {
-  console.log(events);
-  const today = getCurrentDateInfo();
   const todaysEvents = [];
+  const today = getCurrentDateInfo();
   if (events) {
     events.forEach((event) => {
-      const date = new Date(event.date);
+      const eventDate = new Date(event.date);
       // console.log(date.getDay());
       if (
-        date.getMonth() === today.getMonth() &&
-        date.getDate() === today.getDate() &&
-        date.getHours() >= today.getHours() - 2
+        eventDate.getMonth() === today.month &&
+        eventDate.getDate() === today.date &&
+        eventDate.getHours() >= today.hours - timeOffset
       )
         todaysEvents.push(event);
     });
@@ -33,31 +32,27 @@ const FilterToday = (events) => {
 };
 
 const FilterAll = (events) => {
-  const today = getCurrentDateInfo();
   const allEvents = [];
+  const today = getCurrentDateInfo();
   if (events) {
-    console.log(0);
     // Filter events to not show expired events
     events.forEach((event) => {
-      // Event is this month => check if day is in the past
-      if (
-        event.dateDetails.month === today.month &&
-        event.dateDetails.day < today.day
-      ) {
-        // Do not push it into allEvents
-        console.log(1);
-        return;
-      }
-      if (
-        // Event is today => check if start time is in the past
-        event.dateDetails.day === today.day &&
-        event.dateDetails.month === today.month
-        // && event.dateDetails.time <= today.time
-      ) {
-        // Do not push it into allEvents
-        return;
-      }
+      const eventDate = new Date(event.date);
 
+      if (
+        eventDate.getMonth() === today.month && // Event is this month
+        eventDate.getDate() < today.date // but, date is in the past
+      ) {
+        return;
+      }
+      if (
+        eventDate.getMonth() === today.month && // The month is this month
+        eventDate.getDate() === today.date && // The day is today
+        eventDate.getHours() <= today.hours - timeOffset // but, the event already started (- offset)
+      ) {
+        return;
+      }
+      // The event is today and did n
       allEvents.push(event);
     });
     // Return null, if array is empty
