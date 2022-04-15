@@ -209,7 +209,7 @@ a.event__name span {
 .event__link {
   display: flex;
   align-items: self-end;
-  justify-content: end;
+  justify-content: flex-end;
   position: absolute;
   right: 0;
 }
