@@ -1,10 +1,6 @@
-export const Event = ({ event, index }) => {
+export const Event = ({ event }) => {
   return (
-    <article
-      className="event-card"
-      key={index}
-      data-color={event.dateDetails.weekday}
-    >
+    <article className="event-card" data-color={event.dateDetails.weekday}>
       <div className="event-card__upper" style={{ color: "var(--clr-fg)" }}>
         <div className="event__place">{event.place}</div>
         <div className="event__date">{event.dateDetails.date}</div>
