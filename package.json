@@ -27,7 +27,7 @@
   },
   "homepage":"https://xylnx.github.io/goevk/",
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "deploy": "react-scripts --openssl-legacy-provider build && gh-pages -d build",
     "devServer": "json-server --watch testData/db.json --port 3002"
