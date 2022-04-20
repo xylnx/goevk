@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import { ButtonNav } from "./components/ButtonNav";
 import { EventList } from "./components/EventList";
 
 import {
@@ -16,6 +17,7 @@ function App() {
     <HashRouter>
       <div className="App">
         <Header />
+        <ButtonNav />
         <main className="main">
           <Switch>
             <Route exact path="/">

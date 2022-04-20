@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import useFetch from "../hooks/useFetch";
 
 // Components
-import { ButtonNav } from "./ButtonNav";
 import { Event } from "./Event";
 import EventsNone from "./EventsNone";
 
@@ -38,7 +37,6 @@ export const EventList = ({ filter }) => {
 
   return (
     <>
-      <ButtonNav />
       <div className="event-list">
         {/* today's events */}
         {events &&
