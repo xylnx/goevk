@@ -7,8 +7,8 @@
 
 :root {
   --clr-bg: #001524;
-  --clr-fg: #ffecd1;
-  --clr-accent: #ff7d00;
+  --clr-fg: 255, 236, 209; /* #ffecd1 */
+  --clr-accent: 255, 125, 0; /*#ff7d00 */
 
   /* font-sizes */
   --fs-200: 1.2rem;
@@ -63,13 +63,6 @@ body {
   overflow-x: hidden;
 }
 
-/* make images easier to work with */
-img,
-picutre {
-  max-width: 100%;
-  display: block;
-}
-
 /* make form elements easier to work with */
 input,
 button,
@@ -92,23 +85,27 @@ select {
 
 /* clear link styles */
 a:link,
-a:active,
-a:hover,
-a:visited {
+a:hover {
   text-decoration: none;
-  color: var(--clr-fg);
+  color: rgb(var(--clr-fg));
+}
+
+a:active,
+a:visited {
+  color: rgb(var(--clr-fg), 0.6);
 }
 
 /* ========================================
  * General Styles
  * ===================================== */
+
 .App {
   margin: 1rem;
 }
 
 h1 {
   font-family: "Bungee Outline", cursive;
-  color: var(--clr-accent);
+  color: rgb(var(--clr-accent));
 }
 
 /* ========================================
@@ -128,7 +125,15 @@ h1 {
 header {
   margin-top: 2.4rem;
   margin-bottom: 3.2rem;
-  color: var(--clr-fg);
+  color: rgb(var(--clr-fg));
+}
+
+header svg {
+  fill: rgb(var(--clr-accent));
+}
+
+header h1 {
+  font-weight: 600;
 }
 
 /* BUTTON NAV */
@@ -140,16 +145,16 @@ nav .btn {
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
-  border: 1px solid var(--clr-accent);
+  border: 2px solid rgb(var(--clr-accent));
   border-radius: var(--border-radius);
   padding: 0.3em 0.3em 0.1em 0.3em;
   margin: 8px 8px 8px 0;
-  color: var(--clr-fg);
+  color: var(rgb(--clr-fg));
   transition: background-color 0.3s ease;
 }
 
 .btn.active {
-  background-color: var(--clr-accent) !important;
+  background-color: rgb(var(--clr-accent));
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
 }
@@ -170,11 +175,11 @@ nav .btn {
 .event-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--clr-fg);
+  border: 1px solid rgb(var(--clr-fg));
   border-radius: var(--border-radius);
   padding: 1.2rem;
   font-size: 16px;
-  color: var(--clr-fg);
+  color: rgb(var(--clr-fg));
 }
 
 .event-card__upper,
@@ -201,12 +206,10 @@ nav .btn {
   flex: 0 0 20%;
   text-transform: uppercase;
   font-weight: bold;
-  order: 0;
 }
 
 .event__day {
   font-size: var(--fs-200);
-  order: 2;
 }
 
 .event__time {
@@ -214,12 +217,16 @@ nav .btn {
 }
 
 .event__name {
-  flex: 0 0 65%;
-  margin-right: 2rem;
+  border-bottom: 2px solid transparent;
+  margin-right: 2remk;
   font-weight: bold;
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
+}
+
+.event__name:hover {
+  border-bottom: 2px solid rgb(var(--clr-accent));
 }
 
 .event__type {
@@ -229,7 +236,7 @@ nav .btn {
   padding-bottom: 0.8rem;
   font-size: 1.2rem;
   font-weight: bold;
-  color: var(--clr-accent);
+  color: rgb(var(--clr-accent));
 }
 
 .event__link {
@@ -240,7 +247,7 @@ nav .btn {
 .event__link svg {
   width: 3.2rem;
   height: 3.2rem;
-  fill: var(--clr-accent);
+  fill: rgb(var(--clr-accent));
 }
 
 /* ========================================

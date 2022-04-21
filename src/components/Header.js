@@ -9,7 +9,6 @@ const Header = () => {
             xmlns="http://www.w3.org/2000/svg"
             width="36"
             height="36"
-            fill="var(--clr-accent)"
             className="bi bi-lightning-charge"
             viewBox="0 0 16 16"
           >
