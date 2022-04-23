@@ -38,15 +38,21 @@ export const EventList = ({ filter }) => {
   return (
     <>
       <div className="event-list">
+        <EventsNone today={today} setToday={setToday} pending={pending} />
         {/* today's events */}
+        {/* 
+
         {events &&
           events.map((event, index) => (
             <Event key={index} event={event} index={index} />
           ))}
+          */}
         {/* no events */}
+        {/* 
         {!events && (
           <EventsNone today={today} setToday={setToday} pending={pending} />
         )}
+          */}
       </div>
     </>
   );

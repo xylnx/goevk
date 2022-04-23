@@ -115,6 +115,9 @@ h1 {
 .flow > * + * {
   margin-top: 0.8rem;
 }
+.text-bold {
+  font-weight: 600;
+}
 
 /* ========================================
  * Components
@@ -134,11 +137,12 @@ header svg {
 
 header h1 {
   font-weight: 600;
+  margin-bottom: 1.4rem;
 }
 
 /* BUTTON NAV */
 
-nav .btn {
+.nav__item {
   display: inline-block;
   margin: 8px 8px 8px 0;
   border: 2px solid rgb(var(--clr-accent));
@@ -153,7 +157,7 @@ nav .btn {
   transition: background-color 0.3s ease;
 }
 
-.btn.active {
+.nav__item.active {
   background-color: rgb(var(--clr-accent));
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
@@ -248,6 +252,28 @@ nav .btn {
   width: 3.2rem;
   height: 3.2rem;
   fill: rgb(var(--clr-accent));
+}
+
+/* EventsNone */
+/* this box appears if no events can be found */
+.eventsNone__container {
+  border: 1px solid rgb(var(--clr-fg));
+  padding: 4%;
+  color: rgb(var(--clr-fg));
+  font-size: 1.6rem;
+  text-align: center;
+}
+.eventsNone__svg-container {
+  max-width: 12rem;
+  max-height: 12rem;
+  margin: 16px auto;
+}
+.eventsNone__svg-container svg {
+  fill: rgb(var(--clr-accent));
+}
+
+.eventsNone__copy {
+  color: inherit;
 }
 
 /* ========================================

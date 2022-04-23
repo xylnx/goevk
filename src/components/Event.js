@@ -1,7 +1,7 @@
 export const Event = ({ event }) => {
   return (
     <article className="event-card" data-color={event.dateDetails.weekday}>
-      <div className="event-card__upper" style={{ color: "var(--clr-fg)" }}>
+      <div className="event-card__upper">
         <div className="event__place">{event.place}</div>
         <div className="event__date">{event.dateDetails.date}</div>
         <div className="event__day">[ {event.dateDetails.weekday} ]</div>
@@ -31,7 +31,6 @@ export const Event = ({ event }) => {
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
-            fill="var(--clr-accent)"
             className="bi bi-forward-fill"
             viewBox="0 0 16 16"
           >

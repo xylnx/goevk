@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="header">
       <Link to="/">
-        <h1 style={{ marginBottom: "14px" }}>
+        <h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="36"
@@ -17,7 +17,7 @@ const Header = () => {
           goeVK
         </h1>
       </Link>
-      <div style={{ fontSize: "16px" }}>
+      <div className="header_claim">
         Dein Veranstaltungskalender für Göttingen
       </div>
     </header>

@@ -1,35 +1,13 @@
 import { Link } from "react-router-dom";
 
 const EventsNone = ({ today, setToday, pending }) => {
-  const containerStyles = {
-    border: "1px solid var(--clr-fg)",
-    padding: "4%",
-    color: "var(--clr-fg)",
-    fontSize: "16px",
-    textAlign: "center",
-  };
-
-  const svgContainer = {
-    maxWidth: "120px",
-    maxHeight: "120px",
-    margin: "16px auto",
-  };
-
-  const btnContainer = {
-    margin: "16px 0",
-    display: "flex",
-    justifyContent: "center",
-    fontSize: "16px",
-  };
-
   return (
-    <div className="eventsNone__container" style={containerStyles}>
-      <div className="eventsNone__svg-container" style={svgContainer}>
+    <div className="eventsNone__container">
+      <div className="eventsNone__svg-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="100%"
           height="100%"
-          fill="var(--clr-accent)"
           className={`${pending ? "svgLoading" : ""} bi bi-boombox`}
           viewBox="0 0 16 16"
         >
@@ -40,7 +18,7 @@ const EventsNone = ({ today, setToday, pending }) => {
       {/* Still loading data */}
       {pending && (
         <div className="eventsNone__copy">
-          <span style={{ fontWeight: "bold" }}>Einen Moment... </span>
+          <span className="text-bold">Einen Moment... </span>
           <p>Ich suche nach Veranstaltungen.</p>
         </div>
       )}
@@ -48,12 +26,11 @@ const EventsNone = ({ today, setToday, pending }) => {
       {today && !pending && (
         <>
           <div className="eventsNone__copy">
-            <span style={{ fontWeight: "bold" }}>Ooops</span>, leider finde ich
-            keine Events für heute. Guck doch mal, was in den kommenden Tagen
-            los ist:
+            <span className="text-bold">Ooops</span>, leider finde ich keine
+            Events für heute. Guck doch mal, was in den kommenden Tagen los ist:
           </div>
-          <div style={btnContainer}>
-            <Link to="/all" className="btn all">
+          <div>
+            <Link to="/all" className="nav__item">
               Alle Veranstaltungen
             </Link>
           </div>
@@ -62,7 +39,7 @@ const EventsNone = ({ today, setToday, pending }) => {
       {/* No events at all */}
       {!today && !pending && (
         <div className="eventsNone__copy">
-          <span style={{ fontWeight: "bold" }}>
+          <span className="text-bold">
             Leider finde ich keine Veranstaltungen.
           </span>{" "}
           Schau später nochmal vorbei.

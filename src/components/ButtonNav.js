@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 
 export const ButtonNav = () => {
   return (
-    <nav className="buttons">
-      <NavLink exact to="/" className="btn today">
+    <nav className="nav">
+      <NavLink exact to="/" className="btn nav__item today">
         Heute
       </NavLink>
-      <NavLink to="/all" className="btn all">
+      <NavLink to="/all" className="btn nav__item all">
         Alle Veranstaltungen
       </NavLink>
     </nav>
