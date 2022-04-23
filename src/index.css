@@ -44,22 +44,22 @@ p {
 }
 
 html {
+  min-height: 100vh;
   /* prevent layout from jumping to the left if no scrollbar exists */
   /* Happens when switching from a view without to a view with scrollbar or vice versa */
   margin-left: calc(100vw - 100%);
-  min-height: 100vh;
   font-size: 62.5%;
 }
 
 /* Set up the body */
 body {
+  background-color: var(--clr-bg);
+  margin: 0;
   font-family: var(--ff-main);
   font-size: var(--fs-400);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--clr-bg);
   line-height: 1.5;
-  margin: 0;
   overflow-x: hidden;
 }
 
@@ -86,8 +86,8 @@ select {
 /* clear link styles */
 a:link,
 a:hover {
-  text-decoration: none;
   color: rgb(var(--clr-fg));
+  text-decoration: none;
 }
 
 a:active,
@@ -140,16 +140,16 @@ header h1 {
 
 nav .btn {
   display: inline-block;
-  font-size: var(--fs-400);
-  font-family: var(--fnt-main), sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
+  margin: 8px 8px 8px 0;
   border: 2px solid rgb(var(--clr-accent));
   border-radius: var(--border-radius);
   padding: 0.3em 0.3em 0.1em 0.3em;
-  margin: 8px 8px 8px 0;
   color: var(rgb(--clr-fg));
+  font-family: var(--fnt-main), sans-serif;
+  font-size: var(--fs-400);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
@@ -178,24 +178,24 @@ nav .btn {
   border: 1px solid rgb(var(--clr-fg));
   border-radius: var(--border-radius);
   padding: 1.2rem;
-  font-size: 16px;
   color: rgb(var(--clr-fg));
+  font-size: var(--fs-400);
 }
 
 .event-card__upper,
 .event-card__lower {
-  position: relative;
   display: flex;
   align-items: bottom;
-  margin: 15px 0;
+  position: relative;
+  margin: 1.5rem 0;
 }
 
 .event-card__upper > *:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 0.8rem;
 }
 
 .event-card__lower > *:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 0.8rem;
 }
 
 .event-card__lower a {
@@ -217,8 +217,8 @@ nav .btn {
 }
 
 .event__name {
+  margin-right: 2rem;
   border-bottom: 2px solid transparent;
-  margin-right: 2remk;
   font-weight: bold;
   word-wrap: break-word;
   word-break: break-word;
@@ -234,9 +234,9 @@ nav .btn {
   top: -1.9rem;
   right: 0;
   padding-bottom: 0.8rem;
+  color: rgb(var(--clr-accent));
   font-size: 1.2rem;
   font-weight: bold;
-  color: rgb(var(--clr-accent));
 }
 
 .event__link {
@@ -291,8 +291,9 @@ nav .btn {
  * ===================================== */
 
 @media (max-width: 340px) {
-  .btn {
-    font-size: 13px;
+  nav .btn {
+    padding: 0.5em 0.5em 0.3em 0.5em;
+    font-size: var(--fs-200);
   }
 }
 
