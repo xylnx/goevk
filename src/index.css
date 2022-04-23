@@ -221,8 +221,8 @@ header h1 {
 }
 
 .event__name {
+  flex: 0 0 64%;
   margin-right: 2rem;
-  border-bottom: 2px solid transparent;
   font-weight: bold;
   word-wrap: break-word;
   word-break: break-word;
@@ -230,7 +230,9 @@ header h1 {
 }
 
 .event__name:hover {
-  border-bottom: 2px solid rgb(var(--clr-accent));
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--clr-accent));
+  text-decoration-thickness: 2px;
 }
 
 .event__type {
