@@ -136,6 +136,7 @@ header svg {
 }
 
 header h1 {
+  font-size: 4rem;
   font-weight: 600;
   margin-bottom: 1.4rem;
 }
@@ -181,9 +182,13 @@ header h1 {
   flex-direction: column;
   border: 1px solid rgb(var(--clr-fg));
   border-radius: var(--border-radius);
-  padding: 1.2rem;
   color: rgb(var(--clr-fg));
   font-size: var(--fs-400);
+}
+
+/* This link wraps the whole event */
+.event-card a:first-child {
+  padding: 1.2rem;
 }
 
 .event-card__upper,
@@ -204,6 +209,14 @@ header h1 {
 
 .event-card__lower a {
   word-wrap: anywhere;
+}
+
+.event-card__lower svg {
+  position: absolute;
+  right: 0;
+  width: 3.2rem;
+  height: 3.2rem;
+  fill: rgb(var(--clr-accent));
 }
 
 .event__place {
@@ -229,7 +242,7 @@ header h1 {
   hyphens: auto;
 }
 
-.event__name:hover {
+.event-card:hover .event__name {
   text-decoration: underline;
   text-decoration-color: rgb(var(--clr-accent));
   text-decoration-thickness: 2px;
@@ -243,17 +256,6 @@ header h1 {
   color: rgb(var(--clr-accent));
   font-size: 1.2rem;
   font-weight: bold;
-}
-
-.event__link {
-  position: absolute;
-  right: 0;
-}
-
-.event__link svg {
-  width: 3.2rem;
-  height: 3.2rem;
-  fill: rgb(var(--clr-accent));
 }
 
 /* EventsNone */
