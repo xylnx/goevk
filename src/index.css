@@ -164,6 +164,25 @@ header h1 {
   transition: background-color 0.3s ease;
 }
 
+.nav__item.tomorrow {
+  border-color: lime;
+}
+.nav__item.tomorrow.active {
+  background-color: lime;
+  color: var(--clr-bg);
+  transition: background-color 0.3s ease;
+}
+
+.nav__item.all {
+  border-color: yellow;
+}
+
+.nav__item.all.active {
+  background-color: yellow;
+  color: var(--clr-bg);
+  transition: background-color 0.3s ease;
+}
+
 /* EVENTS */
 
 .event-list {

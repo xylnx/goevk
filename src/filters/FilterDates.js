@@ -31,6 +31,26 @@ const FilterToday = (events) => {
   return null;
 };
 
+const FilterTomorrow = (events) => {
+  const todaysEvents = [];
+  const today = getCurrentDateInfo();
+  if (events) {
+    events.forEach((event) => {
+      const eventDate = new Date(event.date);
+      // console.log(date.getDay());
+      if (
+        eventDate.getMonth() === today.month &&
+        eventDate.getDate() === today.date + 1
+      )
+        todaysEvents.push(event);
+    });
+    // Return null, if array is empty
+    if (!todaysEvents.length) return null;
+    return todaysEvents;
+  }
+  return null;
+};
+
 const FilterAll = (events) => {
   const allEvents = [];
   const today = getCurrentDateInfo();
@@ -62,4 +82,4 @@ const FilterAll = (events) => {
   return null;
 };
 
-export { FilterToday, FilterAll };
+export { FilterToday, FilterTomorrow, FilterAll };

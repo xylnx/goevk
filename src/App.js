@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 
 // Filters
-import { FilterToday, FilterAll } from "./filters/FilterDates";
+import { FilterToday, FilterTomorrow, FilterAll } from "./filters/FilterDates";
 
 function App() {
   return (
@@ -22,6 +22,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <EventList filter={FilterToday} />
+            </Route>
+            <Route exact path="/tomorrow">
+              <EventList filter={FilterTomorrow} />
             </Route>
             <Route exact path="/all">
               <EventList filter={FilterAll} />
