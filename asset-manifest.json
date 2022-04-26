@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/goevk/static/css/main.17fc5f32.chunk.css",
-    "main.js": "/goevk/static/js/main.a3c71d4b.chunk.js",
-    "main.js.map": "/goevk/static/js/main.a3c71d4b.chunk.js.map",
+    "main.css": "/goevk/static/css/main.3660de1e.chunk.css",
+    "main.js": "/goevk/static/js/main.4a99e87c.chunk.js",
+    "main.js.map": "/goevk/static/js/main.4a99e87c.chunk.js.map",
     "runtime-main.js": "/goevk/static/js/runtime-main.5b86ed7b.js",
     "runtime-main.js.map": "/goevk/static/js/runtime-main.5b86ed7b.js.map",
     "static/js/2.7bc069fa.chunk.js": "/goevk/static/js/2.7bc069fa.chunk.js",
     "static/js/2.7bc069fa.chunk.js.map": "/goevk/static/js/2.7bc069fa.chunk.js.map",
     "index.html": "/goevk/index.html",
-    "static/css/main.17fc5f32.chunk.css.map": "/goevk/static/css/main.17fc5f32.chunk.css.map",
+    "static/css/main.3660de1e.chunk.css.map": "/goevk/static/css/main.3660de1e.chunk.css.map",
     "static/js/2.7bc069fa.chunk.js.LICENSE.txt": "/goevk/static/js/2.7bc069fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5b86ed7b.js",
     "static/js/2.7bc069fa.chunk.js",
-    "static/css/main.17fc5f32.chunk.css",
-    "static/js/main.a3c71d4b.chunk.js"
+    "static/css/main.3660de1e.chunk.css",
+    "static/js/main.4a99e87c.chunk.js"
   ]
 }
