@@ -9,6 +9,8 @@
   --clr-bg: #001524;
   --clr-fg: 255, 236, 209; /* #ffecd1 */
   --clr-accent: 255, 125, 0; /*#ff7d00 */
+  --clr-btn-1: #007745; /* #fa515d */
+  --clr-btn-2: #9b0095;
 
   /* font-sizes */
   --fs-200: 1.2rem;
@@ -165,20 +167,20 @@ header h1 {
 }
 
 .nav__item.tomorrow {
-  border-color: lime;
+  border-color: var(--clr-btn-1);
 }
 .nav__item.tomorrow.active {
-  background-color: lime;
+  background-color: var(--clr-btn-1);
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
 }
 
 .nav__item.all {
-  border-color: yellow;
+  border-color: var(--clr-btn-2);
 }
 
 .nav__item.all.active {
-  background-color: yellow;
+  background-color: var(--clr-btn-2);
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
 }
