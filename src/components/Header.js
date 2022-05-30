@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+// Components
+import { ModeSelector } from "./ModeSelector";
+
 const Header = () => {
   return (
     <header className="header">
@@ -17,7 +20,8 @@ const Header = () => {
           goeVK
         </h1>
       </Link>
-      <div className="header_claim">
+      <ModeSelector cssClass="header__mode-selector" />
+      <div className="header__claim">
         Dein Veranstaltungskalender für Göttingen
       </div>
     </header>

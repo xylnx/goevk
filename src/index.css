@@ -15,6 +15,7 @@
   /* font-sizes */
   --fs-200: 1.2rem;
   --fs-400: 1.6rem;
+  --fs-600: 1.8rem;
 
   /* font-families */
   --ff-main: "Sora", sans-serif;
@@ -128,19 +129,45 @@ h1 {
 /* HEADER */
 
 header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   margin-top: 2.4rem;
   margin-bottom: 3.2rem;
   color: rgb(var(--clr-fg));
-}
-
-header svg {
-  fill: rgb(var(--clr-accent));
 }
 
 header h1 {
   font-size: 4rem;
   font-weight: 600;
   margin-bottom: 1.4rem;
+}
+
+header h1 svg {
+  fill: rgb(var(--clr-accent));
+}
+
+.header__mode-selector {
+  justify-self: end;
+}
+
+.header__claim {
+  grid-column: 1 / -1;
+}
+
+.header__mode-selector__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header__mode-selector__button svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: rgba(var(--clr-accent));
 }
 
 /* BUTTON NAV */
