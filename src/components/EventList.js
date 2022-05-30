@@ -22,7 +22,7 @@ function removeTrans() {
 export const EventList = ({ filter }) => {
   const url =
     process.env.NODE_ENV === "development"
-      ? "http://localhost:5033/events.json"
+      ? "http://localhost:3002/events"
       : "https://sleepy-crag-13951.herokuapp.com/bvents.json";
 
   const [today, setToday] = useState(true);
