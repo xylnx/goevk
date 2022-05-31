@@ -9,12 +9,15 @@ import {
   Switch,
 } from "react-router-dom";
 
+import { GlobalStyles } from "./styles/GlobalStyles";
+
 // Filters
 import { FilterToday, FilterTomorrow, FilterAll } from "./filters/FilterDates";
 
 function App() {
   return (
     <HashRouter>
+      <GlobalStyles />
       <div className="App">
         <Header />
         <ButtonNav />
