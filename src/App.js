@@ -9,15 +9,19 @@ import {
   Switch,
 } from "react-router-dom";
 
-import { GlobalStyles } from "./styles/GlobalStyles";
+import { useTheme } from "./hooks/useTheme";
+
+import { GlobalStyles, GlobalStylesLight } from "./styles/GlobalStyles";
 
 // Filters
 import { FilterToday, FilterTomorrow, FilterAll } from "./filters/FilterDates";
 
 function App() {
+  const { mode } = useTheme();
   return (
     <HashRouter>
-      <GlobalStyles />
+      {mode === "dark" && <GlobalStyles />}
+      {mode === "light" && <GlobalStylesLight />}
       <div className="App">
         <Header />
         <ButtonNav />
