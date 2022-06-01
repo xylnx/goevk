@@ -10,3 +10,14 @@ export const GlobalStyles = createGlobalStyle`
     --border-radius: 1px;
   }
 `;
+
+export const GlobalStylesLight = createGlobalStyle`
+  :root {
+    --clr-bg: #e9ecf5;
+    --clr-fg: #202c59;
+    --clr-accent: #9b0095;
+    --clr-btn-1: #007745; /* #fa515d */
+    --clr-btn-2: #9b0095;
+    --border-radius: 4px;
+  }
+`;
