@@ -17,25 +17,25 @@ function getDateDetails(dateStr, eventName) {
   const date = new Date(dateStr);
 
   var options = {
-    weekday: "short",
-    year: "numeric",
-    month: "long",
-    hour: "numeric",
-    minute: "numeric",
-    day: "numeric",
-    timeZone: "Europe/Berlin",
+    weekday: 'short',
+    year: 'numeric',
+    month: 'long',
+    hour: 'numeric',
+    minute: 'numeric',
+    day: 'numeric',
+    timeZone: 'Europe/Berlin',
     // timeZoneName: "short",
   };
 
   // Format date
-  const dateArr = new Intl.DateTimeFormat("de-DE", options)
+  const dateArr = new Intl.DateTimeFormat('de-DE', options)
     .format(date)
-    .split(",");
+    .split(/(,|\sum\s)/);
 
   const dateInfo = {
     weekday: dateArr[0],
-    date: dateArr[1],
-    time: dateArr[2].trim(),
+    date: dateArr[2],
+    time: dateArr[4].trim(),
     month: date.getMonth(),
     day: date.getDate(),
   };
