@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* ========================================
  * Custom Props
@@ -19,7 +20,7 @@
   --fs-600: 1.8rem;
 
   /* font-families */
-  --ff-main: "Sora", sans-serif;
+  --ff-main: 'Sora', sans-serif;
 }
 
 /* ========================================
@@ -105,7 +106,7 @@ a:visited {
 }
 
 h1 {
-  font-family: "Bungee Outline", cursive;
+  font-family: 'Bungee Shade', cursive;
   color: var(--clr-accent);
 }
 

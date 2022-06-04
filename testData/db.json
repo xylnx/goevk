@@ -1,300 +1,1460 @@
 {
-    "events":
-[
-    {
-        "date": "2022-01-16T15:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
-        "name": "Der satanarch\u00e4ol\u00fcgenialkoh\u00f6llische Wunschpunsch",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-17T10:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/was-das-nashorn-sah-als-es-ueber-den-zaun-schaute/",
-        "name": "Was das Nashorn sah, als es auf die andere Seite des Zauns schaute",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-19T18:30:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/ein-bericht-fuer-eine-akademie/",
-        "name": "Ein Bericht f\u00fcr eine Akademie",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-21T19:45:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-riss-durch-die-welt/",
-        "name": "Der Riss durch die Welt",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-21T20:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-taetowierte-mann/",
-        "name": "Der t\u00e4towierte Mann",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-21T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/fraeulein-julie/",
-        "name": "Fr\u00e4ulein Julie",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-22T20:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter/",
-        "name": "Der Schimmelreiter",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-22T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/ach-diese-luecke-diese-entsetzliche-luecke/",
-        "name": "Ach, diese L\u00fccke, diese entsetzliche L\u00fccke",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-23T15:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
-        "name": "Der satanarch\u00e4ol\u00fcgenialkoh\u00f6llische Wunschpunsch",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-24T09:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
-        "name": "Der satanarch\u00e4ol\u00fcgenialkoh\u00f6llische Wunschpunsch",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-24T11:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-satanarchaeoluegenialkohoellische-wunschpunsch/",
-        "name": "Der satanarch\u00e4ol\u00fcgenialkoh\u00f6llische Wunschpunsch",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-25T18:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/jour-fixe-3/",
-        "name": "Jour Fixe",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-25T20:00:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/wilhelm-busch-ein-querkopf-auf-dem-dorf/",
-        "name": "Wilhelm Busch - Ein Querkopf auf dem Dorf",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-25T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/unter-der-drachenwand/",
-        "name": "Unter der Drachenwand",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-26T18:30:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/ein-bericht-fuer-eine-akademie/",
-        "name": "Ein Bericht f\u00fcr eine Akademie",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-27T19:45:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/der-vortrag/",
-        "name": "Der Vortrag",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-27T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
-        "name": "Der Tatortreiniger",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-28T19:45:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/wagner-der-ring-des-nibelungen/",
-        "name": "wagner \u2013 der ring des nibelungen",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-28T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/fraeulein-julie/",
-        "name": "Fr\u00e4ulein Julie",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-29T15:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/der-raeuber-hotzenplotz-und-die-mondrakete/",
-        "name": "Der R\u00e4uber Hotzenplotz und die Mondrakete",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-29T19:45:00.000Z",
-        "link": "https://www.dt-goettingen.de/stueck/wagner-der-ring-des-nibelungen/",
-        "name": "wagner \u2013 der ring des nibelungen",
-        "place": "Deutsches Theater",
-        "type": "Theater, Kultur, Veranstaltungen"
-    },
-    {
-        "date": "2022-01-29T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/heilig-abend/",
-        "name": "Heilig Abend",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-01T18:30:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/nipplejesus/",
-        "name": "NippleJesus",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-02T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/unter-der-drachenwand/",
-        "name": "Unter der Drachenwand",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-03T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
-        "name": "Der Tatortreiniger",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-04T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/danke-fuer-das-geraeusch/",
-        "name": "Danke f\u00fcr das Ger\u00e4usch!",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-05T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/fraeulein-julie/",
-        "name": "Fr\u00e4ulein Julie",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-08T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/unter-der-drachenwand/",
-        "name": "Unter der Drachenwand",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-10T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/fraeulein-julie/",
-        "name": "Fr\u00e4ulein Julie",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-11T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/ach-diese-luecke-diese-entsetzliche-luecke/",
-        "name": "Ach, diese L\u00fccke, diese entsetzliche L\u00fccke",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-12T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
-        "name": "Der Tatortreiniger",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-15T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/unter-der-drachenwand/",
-        "name": "Unter der Drachenwand",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-17T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
-        "name": "Der Tatortreiniger",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-18T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/heilig-abend/",
-        "name": "Heilig Abend",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-19T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/danke-fuer-das-geraeusch/",
-        "name": "Danke f\u00fcr das Ger\u00e4usch!",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-23T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/ein-bericht-fuer-eine-akademie/",
-        "name": "Ein Bericht f\u00fcr eine Akademie",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-25T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/ich-singe-weil-ich-ein-lied-hab/",
-        "name": "Ich singe, weil ich ein Lied hab",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-26T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/ich-singe-weil-ich-ein-lied-hab/",
-        "name": "Ich singe, weil ich ein Lied hab",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-02-27T19:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/poetry-slam/",
-        "name": "Poetry Slam",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-03-04T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/qualityland/",
-        "name": "QualityLand",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-04-29T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/koenig-korczak-oder-wenn-ich-wieder-klein-bin-ua/",
-        "name": "K\u00f6nig Korczak oder Wenn ich wieder klein bin (UA)",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    },
-    {
-        "date": "2022-05-20T20:00:00.000Z",
-        "link": "https://www.junges-theater.de/stueck/groner-strasse-arbeitstitel/",
-        "name": "Groner Stra\u00dfe (Arbeitstitel)",
-        "place": "Junges Theater",
-        "type": "Theater, Musicals, Veranstaltungen"
-    }
-]
-
+    "events": [
+        {
+            "date": "2022-06-04T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "River",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-04T17:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "The Jews and the Blues",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-04T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/alles-luege-und-immer-wieder-waechst-das-gras",
+            "name": "Alles L\u00fcge und immer wieder w\u00e4chst das Gras",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-04T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/der-weg-zurueck",
+            "name": "Der Weg zur\u00fcck",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-04T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/koenig-korczak-oder-wenn-ich-wieder-klein-bin-ua/",
+            "name": "K\u00f6nig Korczak oder Wenn ich wieder klein bin (UA)",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-05T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Red Rocket",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-05T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "River",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-05T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/das-letzte-haus",
+            "name": "Das letzte Haus",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-05T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Abteil Nr. 6",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-05T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "The Jews and the Blues",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-06T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Red Rocket",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-06T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Das M\u00e4dchen mit den goldenen H\u00e4nden",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-06T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Abteil Nr. 6",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-06T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "River",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-07T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Abteil Nr. 6",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-07T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Das M\u00e4dchen mit den goldenen H\u00e4nden",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-07T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Red Rocket",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-07T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "River",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-08T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Red Rocket",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-08T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "River",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-08T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/am-boden",
+            "name": "Am Boden",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-08T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/mondscheintarif/",
+            "name": "Mondscheintarif",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-08T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Abteil Nr. 6",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-08T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Das M\u00e4dchen mit den goldenen H\u00e4nden",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-08T18:00:00.000Z",
+            "link": "https://noergelbuff.de/events/salsa-en-sotano/2022-06-08/",
+            "name": "Salsa en sotano",
+            "place": "N\u00f6rgelbuff",
+            "type": "Konzert, Party"
+        },
+        {
+            "date": "2022-06-08T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-06-08-benefiz-sh-hoerspiel.html",
+            "name": "stille hunde: HUNDSTAGE 2022: Deutsche Stunden",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-09T15:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/ich-mach-dich-gesund-sagte-der-baer-zu-gast-im-festzelt-woellmarshausen/",
+            "name": "Ich mach dich gesund, sagte der B\u00e4r \u2013 Zu Gast im Festzelt W\u00f6llmarshausen",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-09T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Nawalny",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-09T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Mit Herz und Hund",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-09T17:00:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-06-09-sh-hoerspiel.html",
+            "name": "stille hunde: HUNDSTAGE 2022: Deutsche Stunden",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-09T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/gewalt-und-leidenschaft",
+            "name": "Gewalt und Leidenschaft",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-09T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/buergerdenkmal-zu-gast-im-festzelt-woellmarshausen/",
+            "name": "B\u00fcrgerdenkmal \u2013 Zu Gast im Festzelt W\u00f6llmarshausen",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-09T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Everything Everywhere All At Once",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-09T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-10T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Nawalny",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-10T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Mit Herz und Hund",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-10T17:00:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-06-10-sh-hoerspiel.html",
+            "name": "stille hunde: HUNDSTAGE 2022: Deutsche Stunden",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-10T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/szenen-einer-ehe",
+            "name": "Szenen einer Ehe",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-10T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter",
+            "name": "Der Schimmelreiter",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-10T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Everything Everywhere All At Once",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-10T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-10T18:30:00.000Z",
+            "link": "https://noergelbuff.de/events/bonsai/",
+            "name": "Bonsai",
+            "place": "N\u00f6rgelbuff",
+            "type": "Konzert, Party"
+        },
+        {
+            "date": "2022-06-11T13:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Geschichten vom Franz",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-11T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Mit Herz und Hund",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-11T16:00:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-06-11-nachtder-kultur.html",
+            "name": "Bj\u00f6rn Jentsch: Klassiker des Stummfilms - live vertont",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-11T17:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Everything Everywhere All At Once",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-11T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/alles-muss-glaenzen",
+            "name": "Alles muss gl\u00e4nzen",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-11T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/der-hund-muss-raus",
+            "name": "Der Hund muss raus",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-11T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/qualityland/",
+            "name": "QualityLand",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-11T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-11T20:00:00.000Z",
+            "link": "https://noergelbuff.de/events/club-mundial/2022-06-11/",
+            "name": "Club Mundial",
+            "place": "N\u00f6rgelbuff",
+            "type": "Konzert, Party"
+        },
+        {
+            "date": "2022-06-12T13:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/yola-club-zwischen-zwei-welten/",
+            "name": "YOLA-Club: Zwischen zwei Welten",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-12T13:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Geschichten vom Franz",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-12T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Mit Herz und Hund",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-12T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Die Odyssee",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-12T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/das-letzte-haus",
+            "name": "Das letzte Haus",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-12T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/der-weg-zurueck",
+            "name": "Der Weg zur\u00fcck",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-12T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Nawalny",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-12T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-13T09:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/yola-club-zwischen-zwei-welten/",
+            "name": "YOLA-Club: Zwischen zwei Welten",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-13T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Mit Herz und Hund",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-13T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/szenen-einer-ehe",
+            "name": "Szenen einer Ehe",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-13T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/der-hund-muss-raus",
+            "name": "Der Hund muss raus",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-13T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Everything Everywhere All At Once",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-13T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-13T19:00:00.000Z",
+            "link": "https://noergelbuff.de/events/querbeat-band/2022-06-13/",
+            "name": "QuerBeat-Session (Rock/Pop)",
+            "place": "N\u00f6rgelbuff",
+            "type": "Konzert, Party"
+        },
+        {
+            "date": "2022-06-14T09:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/yola-club-zwischen-zwei-welten/",
+            "name": "YOLA-Club: Zwischen zwei Welten",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-14T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Mit Herz und Hund",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-14T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Die Odyssee",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-14T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/kiesslingkaffka-abschiedskonzert-ein-improvisiertes-stueck-musik/",
+            "name": "Kie\u00dfling&Kaffka: Abschiedskonzert \u2013 Ein improvisiertes St\u00fcck Musik",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-14T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Everything Everywhere All At Once",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-14T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-14T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-06-14-querquassler.html",
+            "name": "QuerQuassler: Bring Dein Ding!",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-14T18:30:00.000Z",
+            "link": "https://noergelbuff.de/events/sun-state-of-mind/",
+            "name": "Sun State of mind",
+            "place": "N\u00f6rgelbuff",
+            "type": "Konzert, Party"
+        },
+        {
+            "date": "2022-06-15T09:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/die-zertrennlichen/",
+            "name": "Die Zertrennlichen",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-15T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Mit Herz und Hund",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-15T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Die Odyssee",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-15T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/am-boden",
+            "name": "Am Boden",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-15T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/koenig-korczak-oder-wenn-ich-wieder-klein-bin-ua/",
+            "name": "K\u00f6nig Korczak oder Wenn ich wieder klein bin (UA)",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-15T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Everything Everywhere All At Once",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-15T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-15T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-06-15-benfiz.html",
+            "name": "Driftwood: Musikalisches Upcycling mit Peter Zingrebe, Andreas D\u00fcker und Wilfried Bode",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-16T09:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/die-zertrennlichen/",
+            "name": "Die Zertrennlichen",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-16T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-16T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Alles in bester Ordnung",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-16T18:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter",
+            "name": "Der Schimmelreiter",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-16T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
+            "name": "Der Tatortreiniger",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-16T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-16T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-17T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Alles in bester Ordnung",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-17T17:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2171-pink-poison",
+            "name": "PINK POISON",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-06-17T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/komm-ins-offene-danke-fuer-das-geraeusch/",
+            "name": "Danke f\u00fcr das Ger\u00e4usch!",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-17T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/wagner-der-ring-des-nibelungen",
+            "name": "wagner \u2013 der ring des nibelungen",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-17T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-17T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-17T18:00:00.000Z",
+            "link": "https://www.musa.de/konzerte-partys/powerdance/",
+            "name": "PowerDance",
+            "place": "Musa",
+            "type": "Konzert, Party, Kultur"
+        },
+        {
+            "date": "2022-06-18T13:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/yola-club-zwischen-zwei-welten/",
+            "name": "YOLA-Club: Zwischen zwei Welten",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-18T13:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Janosch - Komm, wir finden einen Schatz!",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-18T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-18T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-18T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/alles-luege-und-immer-wieder-waechst-das-gras",
+            "name": "Alles L\u00fcge und immer wieder w\u00e4chst das Gras",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-18T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/qualityland/",
+            "name": "QualityLand",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-18T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-18T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Alles in bester Ordnung",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-18T18:00:00.000Z",
+            "link": "https://www.musa.de/konzerte-partys/20-jahre-rock-gegen-rheuma/",
+            "name": "20 Jahre Rock gegen Rheuma",
+            "place": "Musa",
+            "type": "Konzert, Party, Kultur"
+        },
+        {
+            "date": "2022-06-19T13:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/der-untertan",
+            "name": "Der Untertan",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-19T13:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/der-raeuber-hotzenplotz-und-die-mondrakete/",
+            "name": "Der R\u00e4uber Hotzenplotz und die Mondrakete",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-19T13:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Janosch - Komm, wir finden einen Schatz!",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-19T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-19T16:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/was-das-nashorn-sah-als-es-auf-die-andere-seite-des-zauns-schaute",
+            "name": "Was das Nashorn sah, als es auf die andere Seite des Zauns schaute",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-19T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-19T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-19T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Alles in bester Ordnung",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-20T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-20T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-20T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Alles in bester Ordnung",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-21T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-21T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-21T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-21T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Alles in bester Ordnung",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-22T16:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/jour-fixe",
+            "name": "Jour Fixe",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-22T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-22T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Alles in bester Ordnung",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-22T17:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2169-the-perfect-tool",
+            "name": "THE PERFECT TOOL",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-06-22T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/jugendclub-das-dorf-erwacht/",
+            "name": "Jugendclub: Das Dorf erwacht",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-22T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-22T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-23T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der Schneeleopard",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-23T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Der Waldmacher",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-23T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/jugendclub-das-dorf-erwacht/",
+            "name": "Jugendclub: Das Dorf erwacht",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-23T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-23T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Schmetterlinge im Ohr",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-24T09:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/jugendclub-das-dorf-erwacht/",
+            "name": "Jugendclub: Das Dorf erwacht",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-24T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der Schneeleopard",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-24T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Der Waldmacher",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-24T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/pardauz-schnupdiwup-klirrbatsch-rabum",
+            "name": "PARDAUZ! SCHNUPDIWUP! KLIRRBATSCH! RABUM!",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-24T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/ich-singe-weil-ich-ein-lied-hab/",
+            "name": "Ich singe, weil ich ein Lied hab",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-24T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-24T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Schmetterlinge im Ohr",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-24T18:00:00.000Z",
+            "link": "https://www.musa.de/konzerte-partys/rock-gegen-rheuma/",
+            "name": "Rock gegen Rheuma",
+            "place": "Musa",
+            "type": "Konzert, Party, Kultur"
+        },
+        {
+            "date": "2022-06-25T13:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der kleine Nick auf Schatzsuche",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-25T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der Schneeleopard",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-25T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Der Waldmacher",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-25T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/pardauz-schnupdiwup-klirrbatsch-rabum",
+            "name": "PARDAUZ! SCHNUPDIWUP! KLIRRBATSCH! RABUM!",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-25T18:00:00.000Z",
+            "link": "https://kultur-im-esel.de//konzert/event/143-comedy-company",
+            "name": "Comedy Company",
+            "place": "Kultur im Esel [Einbeck]",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-25T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
+            "name": "Der Tatortreiniger",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-25T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-25T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Schmetterlinge im Ohr",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-25T18:00:00.000Z",
+            "link": "https://www.musa.de/konzerte-partys/imposant-die-hitparade/",
+            "name": "Improsant - DieHitparade",
+            "place": "Musa",
+            "type": "Konzert, Party, Kultur"
+        },
+        {
+            "date": "2022-06-26T13:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der kleine Nick auf Schatzsuche",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-26T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der Schneeleopard",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-26T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Schmetterlinge im Ohr",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-26T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/poetry-slam/",
+            "name": "Poetry Slam",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-26T17:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "The Disciple",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-26T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Der Waldmacher",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-27T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-27T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Schmetterlinge im Ohr",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-27T17:30:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Der Waldmacher",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-27T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der Schneeleopard",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-28T15:30:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-28T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Schmetterlinge im Ohr",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-28T17:00:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/im-fokus",
+            "name": "Im Fokus",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-28T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/koenig-korczak-oder-wenn-ich-wieder-klein-bin-ua/",
+            "name": "K\u00f6nig Korczak oder Wenn ich wieder klein bin (UA)",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-28T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der Schneeleopard",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-28T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Der Waldmacher",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-29T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der Schneeleopard",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-29T16:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Der Waldmacher",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-29T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/ausreisserclub-neun-stiche/",
+            "name": "Ausrei\u00dferclub: Neun Stiche",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-29T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/pardauz-schnupdiwup-klirrbatsch-rabum",
+            "name": "PARDAUZ! SCHNUPDIWUP! KLIRRBATSCH! RABUM!",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-29T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "name": "Der schlimmste Mensch der Welt",
+            "place": "Lumiere",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-29T18:00:00.000Z",
+            "link": "https://lumiere-melies.de/melies-programm/",
+            "name": "Schmetterlinge im Ohr",
+            "place": "Meli\u00e8s",
+            "type": "Kino"
+        },
+        {
+            "date": "2022-06-29T18:00:00.000Z",
+            "link": "https://www.musa.de/konzerte-partys/moritz-neumeier/",
+            "name": "Moritz Neumeier",
+            "place": "Musa",
+            "type": "Konzert, Party, Kultur"
+        },
+        {
+            "date": "2022-06-29T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-06-29-benefiz-trasnitz.html",
+            "name": "Daniel von Trausnitz: Die Grenzen der Kommunikation",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-30T09:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/ausreisserclub-neun-stiche/",
+            "name": "Ausrei\u00dferclub: Neun Stiche",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-30T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/ausreisserclub-neun-stiche/",
+            "name": "Ausrei\u00dferclub: Neun Stiche",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-06-30T17:45:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/pardauz-schnupdiwup-klirrbatsch-rabum",
+            "name": "PARDAUZ! SCHNUPDIWUP! KLIRRBATSCH! RABUM!",
+            "place": "Deutsches Theater",
+            "type": "Theater, Kultur, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-01T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
+            "name": "Der Tatortreiniger",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-02T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/komm-ins-offene-danke-fuer-das-geraeusch/",
+            "name": "Danke f\u00fcr das Ger\u00e4usch!",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-02T18:00:00.000Z",
+            "link": "https://kultur-im-esel.de//konzert/event/139-erkin-cavus-reentko-dirks-the-10-string-orchestra",
+            "name": "Erkin Cavus & Reentko Dirks + The 10 String Orchestra",
+            "place": "Kultur im Esel [Einbeck]",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-05T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-07-05-querquassler.html",
+            "name": "QuerQuassler: Impro-Poetry-Musik",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-06T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-07-06-benefiz-zora.html",
+            "name": "SORA & Friends: Female Artist Power",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-07T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-07-07-schmeckts.html",
+            "name": "Jacqueline Amirfallah & Comedy Company: Schmeckt's? - Die Impro-Kochshow",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-08T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/extrawurst/",
+            "name": "Extrawurst",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-09T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/extrawurst/",
+            "name": "Extrawurst",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-10T13:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/miniclub-das-neinhorn-und-die-schlangeweile/",
+            "name": "Miniclub: Das NEINhorn und die SchLANGEWEILE",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-12T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/qualityland/",
+            "name": "QualityLand",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-13T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/jugendclub-das-dorf-erwacht/",
+            "name": "Jugendclub: Das Dorf erwacht",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-13T17:30:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-07-13-benefiz-improjam.html",
+            "name": "Friends with Benefiz: Impro-Jam",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-14T17:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/1908-unzucht",
+            "name": "UNZUCHT | AUSVERKAUFT!",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-07-14T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/fraeulein-julie/",
+            "name": "Fr\u00e4ulein Julie",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-15T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/dirty-old-town-ua-zu-gast-auf-der-waldbuehne-bremke/",
+            "name": "Dirty Old Town (UA) \u2013 Zu Gast auf der Waldb\u00fchne Bremke",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-15T18:00:00.000Z",
+            "link": "https://kultur-im-esel.de//konzert/event/140-friend-n-fellow",
+            "name": "Friend N Fellow",
+            "place": "Kultur im Esel [Einbeck]",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-16T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/extrawurst/",
+            "name": "Extrawurst",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-07-20T18:15:00.000Z",
+            "link": "https://www.apex-goe.de/programm/2022-07-20-gitarrenquartett.html",
+            "name": "G\u00f6ttinger Gitarrenquartett: Vier, there and everywhere - Kammermusik auf 4 Gitarren",
+            "place": "Apex",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-08-18T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/extrawurst/",
+            "name": "Extrawurst",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-08-20T18:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/dirty-old-town-ua-zu-gast-im-freibad-brauweg/",
+            "name": "Dirty Old Town (UA) \u2013 Zu Gast im Freibad Brauweg",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-09-02T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/extrawurst/",
+            "name": "Extrawurst",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-09-03T17:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2172-nudi-tra-i-musicanti-5",
+            "name": "NUDI TRA I MUSICANTI",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-09-03T17:00:00.000Z",
+            "link": "https://www.junges-theater.de/stueck/extrawurst/",
+            "name": "Extrawurst",
+            "place": "Junges Theater",
+            "type": "Theater, Musicals, Veranstaltungen"
+        },
+        {
+            "date": "2022-09-08T17:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2167-lacrimas-profundere-2",
+            "name": "LACRIMAS PROFUNDERE",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-09-17T17:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2173-julius-lahai-4",
+            "name": "JULIUS LAHAI",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-09-23T17:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2159-the-hirsch-effekt-2",
+            "name": "THE HIRSCH EFFEKT",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-10-08T18:00:00.000Z",
+            "link": "https://kultur-im-esel.de//konzert/event/141-julio-resende-quartett",
+            "name": "Julio Resende Quartett",
+            "place": "Kultur im Esel [Einbeck]",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-11-04T18:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2165-stahlmann-3",
+            "name": "STAHLMANN",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2022-11-19T19:00:00.000Z",
+            "link": "https://kultur-im-esel.de//konzert/event/142-sigurd-hole-trio",
+            "name": "Sigurd Hole Trio",
+            "place": "Kultur im Esel [Einbeck]",
+            "type": "Konzert, Veranstaltungen"
+        },
+        {
+            "date": "2022-12-06T18:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2170-kack-sachgeschichten",
+            "name": "KACK & SACHGESCHICHTEN",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2023-01-06T18:00:00.000Z",
+            "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2150-my-tallica-best-of-metallica-live",
+            "name": "MY'TALLICA  | NEUER TERMIN 2023",
+            "place": "Exil",
+            "type": "Konzert, Club"
+        },
+        {
+            "date": "2023-02-26T19:00:00.000Z",
+            "link": "https://kultur-im-esel.de//konzert/event/133-ringsgwandl-neuer-termin",
+            "name": "Ringsgwandl - Neuer Termin!",
+            "place": "Kultur im Esel [Einbeck]",
+            "type": "Konzert, Veranstaltungen"
+        }
+    ]
 }
