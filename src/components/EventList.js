@@ -1,29 +1,29 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 // Custom hooks
-import useFetch from "../hooks/useFetch";
+import useFetch from '../hooks/useFetch';
 
 // Components
-import { Event } from "./Event";
-import EventsNone from "./EventsNone";
+import { Event } from './Event';
+import EventsNone from './EventsNone';
 
+const localEndpoint = 'http://localhost:5033/events.json';
+const apiEndpoint = 'https://sleepy-crag-13951.herokuapp.com/bvents.json';
 // add a smoother transition when changing filters
 const viewTransition = () => {
-  const eventList = document.querySelector(".event-list");
-  eventList.classList.add("viewTrans");
+  const eventList = document.querySelector('.event-list');
+  eventList.classList.add('viewTrans');
   setTimeout(removeTrans, 600);
 };
 
 function removeTrans() {
-  const eventList = document.querySelector(".event-list");
-  eventList.classList.remove("viewTrans");
+  const eventList = document.querySelector('.event-list');
+  eventList.classList.remove('viewTrans');
 }
 
 export const EventList = ({ filter }) => {
   const url =
-    process.env.NODE_ENV === "development"
-      ? "http://localhost:3000/events"
-      : "https://sleepy-crag-13951.herokuapp.com/bvents.json";
+    process.env.NODE_ENV === 'development' ? localEndpoint : apiEndpoint;
 
   const [today, setToday] = useState(true);
   const [events, setEvents] = useState(null);
@@ -31,7 +31,7 @@ export const EventList = ({ filter }) => {
 
   useEffect(() => {
     setEvents(filter(data));
-    filter.name === "FilterToday" ? setToday(true) : setToday(false);
+    filter.name === 'FilterToday' ? setToday(true) : setToday(false);
     viewTransition();
   }, [data, filter]);
 
