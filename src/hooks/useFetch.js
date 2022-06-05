@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import convertDates from "../helpers/convertDates";
+import { useState, useEffect } from 'react';
+import convertDates from '../helpers/convertDates';
 
 const useFetch = (url) => {
   const [data, setData] = useState(null);
