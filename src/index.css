@@ -16,6 +16,7 @@
 
   /* font-sizes */
   --fs-200: 1.2rem;
+  --fs-300: 1.4rem;
   --fs-400: 1.6rem;
   --fs-600: 1.8rem;
 
@@ -193,20 +194,20 @@ header h1 svg {
 }
 
 .nav__item.tomorrow {
-  border-color: var(--clr-btn-1);
+  border-color: var(--clr-accent);
 }
 .nav__item.tomorrow.active {
-  background-color: var(--clr-btn-1);
+  background-color: var(--clr-accent);
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
 }
 
 .nav__item.all {
-  border-color: var(--clr-btn-2);
+  border-color: var(--clr-accent);
 }
 
 .nav__item.all.active {
-  background-color: var(--clr-btn-2);
+  background-color: var(--clr-accent);
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
 }
@@ -226,11 +227,13 @@ header h1 svg {
 
 .event-card {
   display: flex;
+  position: relative;
   flex-direction: column;
   border: 1px solid var(--clr-fg);
   border-radius: var(--border-radius);
   color: var(--clr-fg);
   font-size: var(--fs-400);
+  padding: 0.8rem;
 }
 
 /* This link wraps the whole event */
@@ -242,8 +245,10 @@ header h1 svg {
 .event-card__lower {
   display: flex;
   align-items: bottom;
-  position: relative;
-  margin: 1.5rem 0;
+  margin: 2.4rem 0;
+}
+.event-card__upper {
+  margin-top: 2.8rem;
 }
 
 .event-card__upper > *:not(:last-child) {
@@ -260,7 +265,7 @@ header h1 svg {
 
 .event-card__lower svg {
   position: absolute;
-  right: 0;
+  right: 0.8rem;
   width: 3.2rem;
   height: 3.2rem;
   fill: var(--clr-accent);
@@ -287,22 +292,38 @@ header h1 svg {
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
+  text-decoration: underline;
+  text-decoration-color: var(--clr-fg);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
-.event-card:hover .event__name {
+.event-card__lower:hover .event__name {
   text-decoration: underline;
   text-decoration-color: var(--clr-accent);
   text-decoration-thickness: 2px;
 }
 
-.event__type {
+a.event__type {
   position: absolute;
-  top: -1.9rem;
+  top: 0;
   right: 0;
   padding-bottom: 0.8rem;
+  margin: 0.8rem;
+  margin-bottom: 1.6rem;
   color: var(--clr-accent);
-  font-size: 1.2rem;
+  font-size: var(--fs-300);
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+a.event__type:hover {
+  text-decoration-color: var(--clr-fg);
+  text-decoration-thickness: 2px;
 }
 
 /* EventsNone */
@@ -368,7 +389,10 @@ header h1 svg {
  * Media Queries
  * ===================================== */
 
-@media (max-width: 340px) {
+@media (max-width: 400px) {
+  html {
+    font-size: 60%;
+  }
   nav .btn {
     padding: 0.5em 0.5em 0.3em 0.5em;
     font-size: var(--fs-200);
