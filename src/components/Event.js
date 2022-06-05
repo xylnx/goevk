@@ -14,23 +14,22 @@ const typeLink = (eventType) => {
 };
 
 export const Event = ({ event, slug }) => {
-  // console.log({ slug });
   return (
     <article className="event-card" data-color={event.dateDetails.weekday}>
-      <a href={event.link} target="blank" rel="noopener">
-        {/* Event meta data */}
-        <div className="event-card__upper">
-          <div className="event__place">{event.place}</div>
-          <div className="event__date">{event.dateDetails.date}</div>
-          <div className="event__day">[ {event.dateDetails.weekday} ]</div>
-          <Link
-            to={`${slug ? slug : ''}${typeLink(event.type)}`}
-            className="event__type"
-          >
-            {event.type}
-          </Link>
-        </div>
+      {/* Event meta data */}
+      <div className="event-card__upper">
+        <div className="event__place">{event.place}</div>
+        <div className="event__date">{event.dateDetails.date}</div>
+        <div className="event__day">[ {event.dateDetails.weekday} ]</div>
+        <Link
+          to={`${slug ? slug : ''}${typeLink(event.type)}`}
+          className="event__type"
+        >
+          {event.type}
+        </Link>
+      </div>
 
+      <a href={event.link} target="blank" rel="noopener">
         <div className="event-card__lower">
           <div className="event__time">{event.dateDetails.time}</div>
 
