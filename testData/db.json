@@ -1,309 +1,15 @@
 {
     "events": [
         {
-            "date": "2022-06-04T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "River",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-04T17:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "The Jews and the Blues",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-04T17:45:00.000Z",
-            "link": "https://www.dt-goettingen.de/stueck/alles-luege-und-immer-wieder-waechst-das-gras",
-            "name": "Alles L\u00fcge und immer wieder w\u00e4chst das Gras",
-            "place": "Deutsches Theater",
-            "type": "theater"
-        },
-        {
-            "date": "2022-06-04T18:00:00.000Z",
-            "link": "https://www.dt-goettingen.de/stueck/der-weg-zurueck",
-            "name": "Der Weg zur\u00fcck",
-            "place": "Deutsches Theater",
-            "type": "theater"
-        },
-        {
-            "date": "2022-06-04T18:00:00.000Z",
-            "link": "https://www.junges-theater.de/stueck/koenig-korczak-oder-wenn-ich-wieder-klein-bin-ua/",
-            "name": "K\u00f6nig Korczak oder Wenn ich wieder klein bin (UA)",
-            "place": "Junges Theater",
-            "type": "theater, musicals, veranstaltungen"
-        },
-        {
-            "date": "2022-06-05T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Red Rocket",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-05T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "River",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-05T17:45:00.000Z",
-            "link": "https://www.dt-goettingen.de/stueck/das-letzte-haus",
-            "name": "Das letzte Haus",
-            "place": "Deutsches Theater",
-            "type": "theater"
-        },
-        {
-            "date": "2022-06-05T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Abteil Nr. 6",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-05T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "The Jews and the Blues",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-06T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Red Rocket",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-06T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "Das M\u00e4dchen mit den goldenen H\u00e4nden",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-06T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Abteil Nr. 6",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-06T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "River",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-07T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Abteil Nr. 6",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-07T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "Das M\u00e4dchen mit den goldenen H\u00e4nden",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-07T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Red Rocket",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-07T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "River",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-08T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Red Rocket",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-08T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "River",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-08T18:00:00.000Z",
-            "link": "https://www.dt-goettingen.de/stueck/am-boden",
-            "name": "Am Boden",
-            "place": "Deutsches Theater",
-            "type": "theater"
-        },
-        {
-            "date": "2022-06-08T18:00:00.000Z",
-            "link": "https://www.junges-theater.de/stueck/mondscheintarif/",
-            "name": "Mondscheintarif",
-            "place": "Junges Theater",
-            "type": "theater, musicals, veranstaltungen"
-        },
-        {
-            "date": "2022-06-08T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Abteil Nr. 6",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-08T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "Das M\u00e4dchen mit den goldenen H\u00e4nden",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-08T18:00:00.000Z",
-            "link": "https://noergelbuff.de/events/salsa-en-sotano/2022-06-08/",
-            "name": "Salsa en sotano",
-            "place": "N\u00f6rgelbuff",
-            "type": "konzert, party"
-        },
-        {
-            "date": "2022-06-08T18:15:00.000Z",
-            "link": "https://www.apex-goe.de/programm/2022-06-08-benefiz-sh-hoerspiel.html",
-            "name": "stille hunde: HUNDSTAGE 2022: Deutsche Stunden",
-            "place": "Apex",
-            "type": "konzert, veranstaltungen"
-        },
-        {
-            "date": "2022-06-09T15:00:00.000Z",
-            "link": "https://www.junges-theater.de/stueck/ich-mach-dich-gesund-sagte-der-baer-zu-gast-im-festzelt-woellmarshausen/",
-            "name": "Ich mach dich gesund, sagte der B\u00e4r \u2013 Zu Gast im Festzelt W\u00f6llmarshausen",
-            "place": "Junges Theater",
-            "type": "theater, musicals, veranstaltungen"
-        },
-        {
-            "date": "2022-06-09T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Nawalny",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-09T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "Mit Herz und Hund",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-09T17:00:00.000Z",
-            "link": "https://www.apex-goe.de/programm/2022-06-09-sh-hoerspiel.html",
-            "name": "stille hunde: HUNDSTAGE 2022: Deutsche Stunden",
-            "place": "Apex",
-            "type": "konzert, veranstaltungen"
-        },
-        {
-            "date": "2022-06-09T17:45:00.000Z",
-            "link": "https://www.dt-goettingen.de/stueck/gewalt-und-leidenschaft",
-            "name": "Gewalt und Leidenschaft",
-            "place": "Deutsches Theater",
-            "type": "theater"
-        },
-        {
-            "date": "2022-06-09T18:00:00.000Z",
-            "link": "https://www.junges-theater.de/stueck/buergerdenkmal-zu-gast-im-festzelt-woellmarshausen/",
-            "name": "B\u00fcrgerdenkmal \u2013 Zu Gast im Festzelt W\u00f6llmarshausen",
-            "place": "Junges Theater",
-            "type": "theater, musicals, veranstaltungen"
-        },
-        {
-            "date": "2022-06-09T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Everything Everywhere All At Once",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-09T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-10T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Nawalny",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-10T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "Mit Herz und Hund",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-10T17:00:00.000Z",
-            "link": "https://www.apex-goe.de/programm/2022-06-10-sh-hoerspiel.html",
-            "name": "stille hunde: HUNDSTAGE 2022: Deutsche Stunden",
-            "place": "Apex",
-            "type": "konzert, veranstaltungen"
-        },
-        {
-            "date": "2022-06-10T17:45:00.000Z",
-            "link": "https://www.dt-goettingen.de/stueck/szenen-einer-ehe",
-            "name": "Szenen einer Ehe",
-            "place": "Deutsches Theater",
-            "type": "theater"
-        },
-        {
-            "date": "2022-06-10T18:00:00.000Z",
-            "link": "https://www.dt-goettingen.de/stueck/der-schimmelreiter",
-            "name": "Der Schimmelreiter",
-            "place": "Deutsches Theater",
-            "type": "theater"
-        },
-        {
-            "date": "2022-06-10T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
-            "name": "Everything Everywhere All At Once",
-            "place": "Lumi\u00e8re",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-10T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
-            "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
-            "place": "Meli\u00e8s",
-            "type": "kino"
-        },
-        {
-            "date": "2022-06-10T18:30:00.000Z",
-            "link": "https://noergelbuff.de/events/bonsai/",
-            "name": "Bonsai",
-            "place": "N\u00f6rgelbuff",
-            "type": "konzert, party"
-        },
-        {
             "date": "2022-06-11T13:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12382",
             "name": "Geschichten vom Franz",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-11T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12321",
             "name": "Mit Herz und Hund",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -317,7 +23,7 @@
         },
         {
             "date": "2022-06-11T17:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12420",
             "name": "Everything Everywhere All At Once",
             "place": "Lumi\u00e8re",
             "type": "kino"
@@ -338,6 +44,13 @@
         },
         {
             "date": "2022-06-11T18:00:00.000Z",
+            "link": "https://einkaufen-in-goettingen.de/event/pro-city-nacht-der-kultur-2022/",
+            "name": "Gastspiel: Nacht der Kultur G\u00f6ttingen",
+            "place": "GSO [G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
+            "date": "2022-06-11T18:00:00.000Z",
             "link": "https://www.junges-theater.de/stueck/qualityland/",
             "name": "QualityLand",
             "place": "Junges Theater",
@@ -345,7 +58,7 @@
         },
         {
             "date": "2022-06-11T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12329",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -358,6 +71,13 @@
             "type": "konzert, party"
         },
         {
+            "date": "2022-06-12T09:00:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1674589",
+            "name": "Sonntagsmatinee 6 - Youngstars",
+            "place": "GSO [Deutsches Theater G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
             "date": "2022-06-12T13:00:00.000Z",
             "link": "https://www.junges-theater.de/stueck/yola-club-zwischen-zwei-welten/",
             "name": "YOLA-Club: Zwischen zwei Welten",
@@ -366,21 +86,21 @@
         },
         {
             "date": "2022-06-12T13:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12383",
             "name": "Geschichten vom Franz",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-12T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12322",
             "name": "Mit Herz und Hund",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-12T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12385",
             "name": "Die Odyssee",
             "place": "Lumi\u00e8re",
             "type": "kino"
@@ -401,14 +121,14 @@
         },
         {
             "date": "2022-06-12T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12376",
             "name": "Nawalny",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-12T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12330",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -422,7 +142,7 @@
         },
         {
             "date": "2022-06-13T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12323",
             "name": "Mit Herz und Hund",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -443,14 +163,14 @@
         },
         {
             "date": "2022-06-13T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12379",
             "name": "Everything Everywhere All At Once",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-13T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12332",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -471,17 +191,24 @@
         },
         {
             "date": "2022-06-14T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12324",
             "name": "Mit Herz und Hund",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-14T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12386",
             "name": "Die Odyssee",
             "place": "Lumi\u00e8re",
             "type": "kino"
+        },
+        {
+            "date": "2022-06-14T17:30:00.000Z",
+            "link": "https://www.dt-goettingen.de/stueck/gemeinwohl-oekonomie",
+            "name": "Gemeinwohl-\u00d6konomie",
+            "place": "Deutsches Theater",
+            "type": "theater"
         },
         {
             "date": "2022-06-14T18:00:00.000Z",
@@ -492,14 +219,14 @@
         },
         {
             "date": "2022-06-14T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12380",
             "name": "Everything Everywhere All At Once",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-14T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12331",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -527,14 +254,14 @@
         },
         {
             "date": "2022-06-15T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12325",
             "name": "Mit Herz und Hund",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-15T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12387",
             "name": "Die Odyssee",
             "place": "Lumi\u00e8re",
             "type": "kino"
@@ -555,17 +282,24 @@
         },
         {
             "date": "2022-06-15T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12381",
             "name": "Everything Everywhere All At Once",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-15T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12333",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
+        },
+        {
+            "date": "2022-06-15T18:00:00.000Z",
+            "link": "https://noergelbuff.de/events/salsa-en-sotano/2022-06-15/",
+            "name": "Salsa en sotano",
+            "place": "N\u00f6rgelbuff",
+            "type": "konzert, party"
         },
         {
             "date": "2022-06-15T18:15:00.000Z",
@@ -583,17 +317,24 @@
         },
         {
             "date": "2022-06-16T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12388",
             "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-16T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12341",
             "name": "Alles in bester Ordnung",
             "place": "Meli\u00e8s",
             "type": "kino"
+        },
+        {
+            "date": "2022-06-16T17:45:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1944110",
+            "name": "Abschlusskonzert Dirigierseminar",
+            "place": "GSO [G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
         },
         {
             "date": "2022-06-16T18:00:00.000Z",
@@ -611,21 +352,21 @@
         },
         {
             "date": "2022-06-16T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12418",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-16T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12334",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-17T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12342",
             "name": "Alles in bester Ordnung",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -653,14 +394,14 @@
         },
         {
             "date": "2022-06-17T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12394",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-17T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12335",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -681,21 +422,21 @@
         },
         {
             "date": "2022-06-18T13:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12400",
             "name": "Janosch - Komm, wir finden einen Schatz!",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-18T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12389",
             "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-18T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12336",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -716,14 +457,14 @@
         },
         {
             "date": "2022-06-18T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12395",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-18T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12343",
             "name": "Alles in bester Ordnung",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -751,14 +492,14 @@
         },
         {
             "date": "2022-06-19T13:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12401",
             "name": "Janosch - Komm, wir finden einen Schatz!",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-19T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12396",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
@@ -772,70 +513,91 @@
         },
         {
             "date": "2022-06-19T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12337",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-19T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12390",
             "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-19T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12344",
             "name": "Alles in bester Ordnung",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
+            "date": "2022-06-20T13:30:00.000Z",
+            "link": "https://www.gso-online.de/konzerte",
+            "name": "Gastspiel: GDA Wohnstift",
+            "place": "GSO [G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
             "date": "2022-06-20T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12391",
             "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-20T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12338",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-20T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://gso.reservix.de/p/reservix/event/1685675",
+            "name": "Rathaus-Serenade 5",
+            "place": "GSO [Altes Rathaus G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
+            "date": "2022-06-20T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12345",
             "name": "Alles in bester Ordnung",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
+            "date": "2022-06-20T19:00:00.000Z",
+            "link": "https://noergelbuff.de/events/die-gong-show/2022-06-20/",
+            "name": "Die Gong-Show",
+            "place": "N\u00f6rgelbuff",
+            "type": "konzert, party"
+        },
+        {
             "date": "2022-06-21T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12392",
             "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-21T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12339",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-21T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12419",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-21T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12346",
             "name": "Alles in bester Ordnung",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -849,14 +611,14 @@
         },
         {
             "date": "2022-06-22T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12393",
             "name": "Molek\u00fcle der Erinnerung - Venedig, wie es niemand kennt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-22T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12347",
             "name": "Alles in bester Ordnung",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -877,28 +639,28 @@
         },
         {
             "date": "2022-06-22T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12397",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-22T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12340",
             "name": "Gl\u00fcck auf einer Skala von 1 bis 10",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-23T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12408",
             "name": "Der Schneeleopard",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-23T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12348",
             "name": "Der Waldmacher",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -912,14 +674,14 @@
         },
         {
             "date": "2022-06-23T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12407",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-23T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12360",
             "name": "Schmetterlinge im Ohr",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -933,14 +695,14 @@
         },
         {
             "date": "2022-06-24T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12409",
             "name": "Der Schneeleopard",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-24T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12349",
             "name": "Der Waldmacher",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -961,14 +723,14 @@
         },
         {
             "date": "2022-06-24T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12402",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-24T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12362",
             "name": "Schmetterlinge im Ohr",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -982,21 +744,21 @@
         },
         {
             "date": "2022-06-25T13:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12415",
             "name": "Der kleine Nick auf Schatzsuche",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-25T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12410",
             "name": "Der Schneeleopard",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-25T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12350",
             "name": "Der Waldmacher",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -1017,21 +779,14 @@
         },
         {
             "date": "2022-06-25T18:00:00.000Z",
-            "link": "https://www.junges-theater.de/stueck/der-tatortreiniger/",
-            "name": "Der Tatortreiniger",
-            "place": "Junges Theater",
-            "type": "theater, musicals, veranstaltungen"
-        },
-        {
-            "date": "2022-06-25T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12403",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-25T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12363",
             "name": "Schmetterlinge im Ohr",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -1045,21 +800,21 @@
         },
         {
             "date": "2022-06-26T13:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12416",
             "name": "Der kleine Nick auf Schatzsuche",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-26T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12411",
             "name": "Der Schneeleopard",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-26T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12364",
             "name": "Schmetterlinge im Ohr",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -1067,62 +822,69 @@
         {
             "date": "2022-06-26T17:00:00.000Z",
             "link": "https://www.junges-theater.de/stueck/poetry-slam/",
-            "name": "Poetry Slam",
+            "name": "Poetry Slam goes Open Air \u2013 Komm ins Offene!",
             "place": "Junges Theater",
             "type": "theater, musicals, veranstaltungen"
         },
         {
             "date": "2022-06-26T17:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12417",
             "name": "The Disciple",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
+            "date": "2022-06-26T17:45:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1914685",
+            "name": "Kulturkirche Klassik 4",
+            "place": "GSO [St. Johannis G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
             "date": "2022-06-26T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12351",
             "name": "Der Waldmacher",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-27T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12404",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-27T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12365",
             "name": "Schmetterlinge im Ohr",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-27T17:30:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12352",
             "name": "Der Waldmacher",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-27T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12412",
             "name": "Der Schneeleopard",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-28T15:30:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12405",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-28T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12361",
             "name": "Schmetterlinge im Ohr",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -1143,28 +905,28 @@
         },
         {
             "date": "2022-06-28T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12413",
             "name": "Der Schneeleopard",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-28T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12353",
             "name": "Der Waldmacher",
             "place": "Meli\u00e8s",
             "type": "kino"
         },
         {
             "date": "2022-06-29T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12414",
             "name": "Der Schneeleopard",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-29T16:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12354",
             "name": "Der Waldmacher",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -1185,14 +947,14 @@
         },
         {
             "date": "2022-06-29T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/lumiere-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12406",
             "name": "Der schlimmste Mensch der Welt",
             "place": "Lumi\u00e8re",
             "type": "kino"
         },
         {
             "date": "2022-06-29T18:00:00.000Z",
-            "link": "https://lumiere-melies.de/melies-programm/",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12366",
             "name": "Schmetterlinge im Ohr",
             "place": "Meli\u00e8s",
             "type": "kino"
@@ -1226,11 +988,39 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-06-30T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12372",
+            "name": "Wie im echten Leben",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
             "date": "2022-06-30T17:45:00.000Z",
             "link": "https://www.dt-goettingen.de/stueck/pardauz-schnupdiwup-klirrbatsch-rabum",
             "name": "PARDAUZ! SCHNUPDIWUP! KLIRRBATSCH! RABUM!",
             "place": "Deutsches Theater",
             "type": "theater"
+        },
+        {
+            "date": "2022-06-30T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12421",
+            "name": "Heikos Welt",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-01T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12367",
+            "name": "Wie im echten Leben",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-01T18:00:00.000Z",
+            "link": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/beethoven-pur-i-wir-feiern-den-250-geburtstag-des-meisters-einfach-nach.html",
+            "name": "Gastspiel: Weilburg - Beethoven Pur I",
+            "place": "GSO [Weilburg]",
+            "type": "konzert, klassische musik"
         },
         {
             "date": "2022-07-01T18:00:00.000Z",
@@ -1240,11 +1030,25 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-07-01T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12422",
+            "name": "Heikos Welt",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-02T17:00:00.000Z",
             "link": "https://www.junges-theater.de/stueck/komm-ins-offene-danke-fuer-das-geraeusch/",
             "name": "Danke f\u00fcr das Ger\u00e4usch!",
             "place": "Junges Theater",
             "type": "theater, musicals, veranstaltungen"
+        },
+        {
+            "date": "2022-07-02T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12368",
+            "name": "Wie im echten Leben",
+            "place": "Meli\u00e8s",
+            "type": "kino"
         },
         {
             "date": "2022-07-02T18:00:00.000Z",
@@ -1254,6 +1058,69 @@
             "type": "konzert, veranstaltungen"
         },
         {
+            "date": "2022-07-02T18:00:00.000Z",
+            "link": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/beethoven-pur-ii.html",
+            "name": "Gastspiel: Weilburg - Beethoven Pur II",
+            "place": "GSO [Weilburg]",
+            "type": "konzert, klassische musik"
+        },
+        {
+            "date": "2022-07-02T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12427",
+            "name": "Impro Show",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-03T15:00:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1685905",
+            "name": "ABSAGE: Last Night of the Proms",
+            "place": "GSO [Sparkassen-Arena G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
+            "date": "2022-07-03T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12369",
+            "name": "Wie im echten Leben",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-03T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12423",
+            "name": "Heikos Welt",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-04T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12370",
+            "name": "Wie im echten Leben",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-04T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12424",
+            "name": "Heikos Welt",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-05T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12373",
+            "name": "Wie im echten Leben",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-05T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12425",
+            "name": "Heikos Welt",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-05T18:15:00.000Z",
             "link": "https://www.apex-goe.de/programm/2022-07-05-querquassler.html",
             "name": "QuerQuassler: Impro-Poetry-Musik",
@@ -1261,11 +1128,32 @@
             "type": "konzert, veranstaltungen"
         },
         {
+            "date": "2022-07-06T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12371",
+            "name": "Wie im echten Leben",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-06T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12426",
+            "name": "Heikos Welt",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-06T18:15:00.000Z",
             "link": "https://www.apex-goe.de/programm/2022-07-06-benefiz-zora.html",
             "name": "SORA & Friends: Female Artist Power",
             "place": "Apex",
             "type": "konzert, veranstaltungen"
+        },
+        {
+            "date": "2022-07-07T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12374",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
         },
         {
             "date": "2022-07-07T18:15:00.000Z",
@@ -1282,11 +1170,25 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-07-08T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12375",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-09T17:00:00.000Z",
             "link": "https://www.junges-theater.de/stueck/extrawurst/",
             "name": "Extrawurst",
             "place": "Junges Theater",
             "type": "theater, musicals, veranstaltungen"
+        },
+        {
+            "date": "2022-07-09T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12428",
+            "name": "AEIOU - Das schnelle Alphabet der Liebe",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
         },
         {
             "date": "2022-07-10T13:00:00.000Z",
@@ -1296,11 +1198,39 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-07-10T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12376",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-11T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12377",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-11T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12429",
+            "name": "AEIOU - Das schnelle Alphabet der Liebe",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-12T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12378",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-12T18:00:00.000Z",
-            "link": "https://www.junges-theater.de/stueck/qualityland/",
-            "name": "QualityLand",
-            "place": "Junges Theater",
-            "type": "theater, musicals, veranstaltungen"
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12430",
+            "name": "AEIOU - Das schnelle Alphabet der Liebe",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
         },
         {
             "date": "2022-07-13T17:00:00.000Z",
@@ -1310,11 +1240,25 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-07-13T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12379",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-13T17:30:00.000Z",
             "link": "https://www.apex-goe.de/programm/2022-07-13-benefiz-improjam.html",
             "name": "Friends with Benefiz: Impro-Jam",
             "place": "Apex",
             "type": "konzert, veranstaltungen"
+        },
+        {
+            "date": "2022-07-13T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12431",
+            "name": "AEIOU - Das schnelle Alphabet der Liebe",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
         },
         {
             "date": "2022-07-14T17:00:00.000Z",
@@ -1324,11 +1268,25 @@
             "type": "konzert, club"
         },
         {
+            "date": "2022-07-14T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12380",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-14T18:00:00.000Z",
             "link": "https://www.junges-theater.de/stueck/fraeulein-julie/",
             "name": "Fr\u00e4ulein Julie",
             "place": "Junges Theater",
             "type": "theater, musicals, veranstaltungen"
+        },
+        {
+            "date": "2022-07-14T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12432",
+            "name": "Everything will change",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
         },
         {
             "date": "2022-07-15T17:00:00.000Z",
@@ -1338,11 +1296,39 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-07-15T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12381",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-15T18:00:00.000Z",
             "link": "https://kultur-im-esel.de//konzert/event/140-friend-n-fellow",
             "name": "Friend N Fellow",
             "place": "Kultur im Esel [Einbeck]",
             "type": "konzert, veranstaltungen"
+        },
+        {
+            "date": "2022-07-15T18:00:00.000Z",
+            "link": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/bolero-1.html",
+            "name": "Gastspiel: Limburg - Bol\u00e9ro",
+            "place": "GSO [Josef-Kohlmaier-Halle]",
+            "type": "konzert, klassische musik"
+        },
+        {
+            "date": "2022-07-15T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12433",
+            "name": "Everything will change",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-16T17:00:00.000Z",
+            "link": "https://www.weilburger-schlosskonzerte.de/programmuebersicht/uebersicht/konzert/details/schwanensee.html",
+            "name": "Gastspiel: Weilburg - Schwanensee",
+            "place": "GSO [Weilburg]",
+            "type": "konzert, klassische musik"
         },
         {
             "date": "2022-07-16T17:00:00.000Z",
@@ -1352,11 +1338,263 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-07-16T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12382",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-16T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12434",
+            "name": "Everything will change",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-17T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12383",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-17T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12435",
+            "name": "Everything will change",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-18T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12384",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-18T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12436",
+            "name": "Everything will change",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-19T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12385",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-19T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12437",
+            "name": "Everything will change",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-20T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12386",
+            "name": "Corsage",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-20T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12438",
+            "name": "Everything will change",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
             "date": "2022-07-20T18:15:00.000Z",
             "link": "https://www.apex-goe.de/programm/2022-07-20-gitarrenquartett.html",
             "name": "G\u00f6ttinger Gitarrenquartett: Vier, there and everywhere - Kammermusik auf 4 Gitarren",
             "place": "Apex",
             "type": "konzert, veranstaltungen"
+        },
+        {
+            "date": "2022-07-21T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12392",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-21T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12443",
+            "name": "Cop Secret",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-22T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12387",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-22T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12444",
+            "name": "Cop Secret",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-23T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12388",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-23T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12439",
+            "name": "Cop Secret",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-24T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12389",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-24T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12440",
+            "name": "Cop Secret",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-26T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12393",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-26T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12441",
+            "name": "Cop Secret",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-27T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12391",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-27T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12442",
+            "name": "Cop Secret",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-28T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12394",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-28T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12449",
+            "name": "Der perfekte Chef",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-29T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12395",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-29T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12450",
+            "name": "Der perfekte Chef",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-30T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12396",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-30T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12445",
+            "name": "Der perfekte Chef",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-31T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12397",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-07-31T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12446",
+            "name": "Der perfekte Chef",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-08-01T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12398",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-08-01T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12451",
+            "name": "Der perfekte Chef",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-08-02T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12400",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-08-02T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12447",
+            "name": "Der perfekte Chef",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
+        },
+        {
+            "date": "2022-08-03T17:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-melies-goettingen/show/12399",
+            "name": "Monsieur Claude und sein gro\u00dfes Fest",
+            "place": "Meli\u00e8s",
+            "type": "kino"
+        },
+        {
+            "date": "2022-08-03T18:00:00.000Z",
+            "link": "https://www.kinoheld.de/cinema-goettingen/kino-lumiere-goettingen/show/12448",
+            "name": "Der perfekte Chef",
+            "place": "Lumi\u00e8re",
+            "type": "kino"
         },
         {
             "date": "2022-08-18T17:00:00.000Z",
@@ -1373,6 +1611,13 @@
             "type": "theater, musicals, veranstaltungen"
         },
         {
+            "date": "2022-08-28T16:00:00.000Z",
+            "link": "https://www.gso-online.de/konzerte",
+            "name": "Gastspiel: Holzminden",
+            "place": "GSO [Holzminden]",
+            "type": "konzert, klassische musik"
+        },
+        {
             "date": "2022-09-02T17:00:00.000Z",
             "link": "https://www.junges-theater.de/stueck/extrawurst/",
             "name": "Extrawurst",
@@ -1387,11 +1632,11 @@
             "type": "konzert, club"
         },
         {
-            "date": "2022-09-03T17:00:00.000Z",
-            "link": "https://www.junges-theater.de/stueck/extrawurst/",
-            "name": "Extrawurst",
-            "place": "Junges Theater",
-            "type": "theater, musicals, veranstaltungen"
+            "date": "2022-09-04T16:00:00.000Z",
+            "link": "https://www.reservix.de/tickets-sport-meets-music-die-profis-in-goettingen-sparkassen-arena-am-4-9-2022/e1940349",
+            "name": "Sport meets Music",
+            "place": "GSO [Sparkassen-Arena]",
+            "type": "konzert, klassische musik"
         },
         {
             "date": "2022-09-08T17:00:00.000Z",
@@ -1408,6 +1653,13 @@
             "type": "konzert, club"
         },
         {
+            "date": "2022-09-19T17:45:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1944965",
+            "name": "Rathaus-Serenade 1: Farbenreiche Dialoge",
+            "place": "GSO [G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
             "date": "2022-09-23T17:00:00.000Z",
             "link": "https://www.exil-web.de/index.php/ct-menu-item-5/2159-the-hirsch-effekt-2",
             "name": "THE HIRSCH EFFEKT",
@@ -1415,11 +1667,39 @@
             "type": "konzert, club"
         },
         {
+            "date": "2022-09-24T08:00:00.000Z",
+            "link": "https://www.gso-online.de/konzerte",
+            "name": "Tag der offenen T\u00fcr",
+            "place": "GSO [G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
+            "date": "2022-10-01T17:45:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1944653",
+            "name": "Lokhalle Klassik 1: Schicksal",
+            "place": "GSO [G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
+        },
+        {
+            "date": "2022-10-03T17:30:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1944972",
+            "name": "Schicksal in Einbeck",
+            "place": "GSO [Einbeck]",
+            "type": "konzert, klassische musik"
+        },
+        {
             "date": "2022-10-08T18:00:00.000Z",
             "link": "https://kultur-im-esel.de//konzert/event/141-julio-resende-quartett",
             "name": "Julio Resende Quartett",
             "place": "Kultur im Esel [Einbeck]",
             "type": "konzert, veranstaltungen"
+        },
+        {
+            "date": "2022-10-09T14:00:00.000Z",
+            "link": "https://gso.reservix.de/p/reservix/event/1944951",
+            "name": "Familienkonzert 1: Achterbahnfahrt der Gef\u00fchle",
+            "place": "GSO [G\u00f6ttingen]",
+            "type": "konzert, klassische musik"
         },
         {
             "date": "2022-11-04T18:00:00.000Z",
@@ -1430,8 +1710,8 @@
         },
         {
             "date": "2022-11-19T19:00:00.000Z",
-            "link": "https://kultur-im-esel.de//konzert/event/142-sigurd-hole-trio",
-            "name": "Sigurd Hole Trio",
+            "link": "https://kultur-im-esel.de//konzert/event/144-helge-lien-trio",
+            "name": "Helge Lien Trio",
             "place": "Kultur im Esel [Einbeck]",
             "type": "konzert, veranstaltungen"
         },
