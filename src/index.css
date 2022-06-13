@@ -299,6 +299,7 @@ header h1 svg {
 }
 
 a.event__type {
+  text-transform: capitalize;
   position: absolute;
   top: 0;
   right: 0;
