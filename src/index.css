@@ -172,7 +172,8 @@ header h1 svg {
 
 /* BUTTON NAV */
 
-.nav__item {
+.nav__item,
+.filter-control__btn {
   display: inline-block;
   margin: 8px 8px 8px 0;
   border: 2px solid var(--clr-accent);
@@ -210,6 +211,12 @@ header h1 svg {
   background-color: var(--clr-accent);
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
+}
+
+/* Filter Cotrols */
+.filter-control__btn {
+  background-color: transparent;
+  border-color: #f0f;
 }
 
 /* EVENTS */

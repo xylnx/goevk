@@ -49,6 +49,7 @@ export const EventList = ({ filter, routeProps }) => {
     viewTransition();
     const queryParams = new URLSearchParams(search);
     const query = queryParams.getAll('type');
+    console.log(query);
     setFe(filterTypes(events, query));
   }, [events, search]);
 

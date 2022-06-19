@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import { ButtonNav } from './components/ButtonNav';
+import { FilterControls } from './components/FilterControls';
 import { EventList } from './components/EventList';
 
 import {
@@ -27,6 +28,7 @@ function App() {
         <Header />
         <ButtonNav />
         <main className="main">
+          <FilterControls />
           <Switch>
             <Route
               exact
