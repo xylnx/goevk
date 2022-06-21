@@ -1,18 +1,33 @@
+import { useLocation, useHistory } from 'react-router';
+
 export const FilterControls = () => {
+  const { search, pathname } = useLocation();
+  const history = useHistory();
+
+  const removeFilter = () => {
+    history.push(pathname);
+  };
+
+  // read url params
+  const queryParams = new URLSearchParams(search);
+  const queries = queryParams.getAll('type');
+
   return (
     <>
       <span style={{ color: '#f0f', marginRight: '.8rem' }}>
         aktive Filter:
       </span>
-      <button type="button" className="filter-control__btn">
-        Filter x
-      </button>
+      {queries.map((query) => {
+        return (
+          <button
+            onClick={removeFilter}
+            type="button"
+            className="filter-control__btn"
+          >
+            {query}
+          </button>
+        );
+      })}
     </>
   );
-
-  /* TODO:
-   * read url params
-   * display btn according to url params
-   * delete url params when removing button
-   */
 };
