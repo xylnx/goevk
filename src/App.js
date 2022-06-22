@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import { ButtonNav } from './components/ButtonNav';
+import { Nav } from './components/Nav';
 import { EventList } from './components/EventList';
 
 import {
@@ -25,7 +25,7 @@ function App() {
       {mode === 'light' && <GlobalStylesLight />}
       <div className="App">
         <Header />
-        <ButtonNav />
+        <Nav />
         <main className="main">
           <Switch>
             <Route
