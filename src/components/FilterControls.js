@@ -14,7 +14,10 @@ export const FilterControls = () => {
 
   return (
     <>
-      <span style={{ color: '#f0f', marginRight: '.8rem' }}>
+      <span
+        style={{ color: '#f0f', marginRight: '.8rem' }}
+        className="filter-control__btn"
+      >
         aktive Filter:
       </span>
       {queries.map((query) => {
