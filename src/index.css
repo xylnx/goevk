@@ -215,13 +215,15 @@ header h1 svg {
 
 /* Filter Cotrols */
 .filter-control__btn {
+  position: relative;
   background-color: transparent;
   border-color: #f0f;
+  margin-right: 1rem;
 }
 
-.filter-control__btn {
-  position: relative;
-  margin-right: 1rem;
+.filter-control__btn:first-child {
+  margin-right: 0.8rem;
+  color: #f0f;
 }
 
 .filter-control__btn:not(:first-child)::after {
