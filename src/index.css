@@ -186,6 +186,7 @@ header h1 svg {
   text-transform: uppercase;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  user-select: none;
 }
 
 .nav__item.active {
@@ -246,6 +247,10 @@ header h1 svg {
 
   font-size: var(--fs-200);
   cursor: pointer;
+}
+
+.filter-control__btn.filter-control__btn--all::after {
+  display: none;
 }
 
 /* EVENTS */
