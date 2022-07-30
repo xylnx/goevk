@@ -172,7 +172,8 @@ header h1 svg {
 
 /* BUTTON NAV */
 
-.nav__item {
+.nav__item,
+.filter-control__btn {
   display: inline-block;
   margin: 8px 8px 8px 0;
   border: 2px solid var(--clr-accent);
@@ -185,6 +186,7 @@ header h1 svg {
   text-transform: uppercase;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  user-select: none;
 }
 
 .nav__item.active {
@@ -210,6 +212,45 @@ header h1 svg {
   background-color: var(--clr-accent);
   color: var(--clr-bg);
   transition: background-color 0.3s ease;
+}
+
+/* Filter Cotrols */
+.filter-control__btn {
+  position: relative;
+  background-color: transparent;
+  border-color: #f0f;
+  margin-right: 1rem;
+}
+
+.filter-control__btn:first-child {
+  margin-right: 0.8rem;
+  color: #f0f;
+}
+
+.filter-control__btn:not(:first-child)::after {
+  content: 'x';
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: -40%;
+  right: 0;
+  transform: translateX(50%);
+
+  width: 1.7em;
+  height: 1.7em;
+  background-color: #f0f;
+  border: 0.2rem solid var(--clr-fg);
+  border-radius: 100vmax;
+
+  font-size: var(--fs-200);
+  cursor: pointer;
+}
+
+.filter-control__btn.filter-control__btn--all::after {
+  display: none;
 }
 
 /* EVENTS */
