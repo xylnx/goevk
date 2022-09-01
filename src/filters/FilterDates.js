@@ -53,26 +53,17 @@ const FilterTomorrow = (events) => {
 
 const FilterAll = (events) => {
   const allEvents = [];
-  const today = getCurrentDateInfo();
+  const today = new Date();
+
   if (events) {
     // Filter events to not show expired events
     events.forEach((event) => {
       const eventDate = new Date(event.date);
 
-      if (
-        eventDate.getMonth() === today.month && // Event is this month
-        eventDate.getDate() < today.date // but, date is in the past
-      ) {
+      if (today > eventDate) {
         return;
       }
-      if (
-        eventDate.getMonth() === today.month && // The month is this month
-        eventDate.getDate() === today.date && // The day is today
-        eventDate.getHours() <= today.hours - timeOffset // but, the event already started (- offset)
-      ) {
-        return;
-      }
-      // The event is today and did n
+
       allEvents.push(event);
     });
     // Return null, if array is empty
