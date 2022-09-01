@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;400;700&display=swap");
 
 /* ========================================
  * Custom Props
@@ -21,7 +21,7 @@
   --fs-600: 1.8rem;
 
   /* font-families */
-  --ff-main: 'Open Sans', sans-serif;
+  --ff-main: "Open Sans", sans-serif;
 }
 
 /* ========================================
@@ -107,7 +107,7 @@ a:visited {
 }
 
 h1 {
-  font-family: 'Bungee Shade', 'Open Sans';
+  font-family: "Bungee Shade", "Open Sans";
   color: var(--clr-accent);
 }
 
@@ -218,17 +218,17 @@ header h1 svg {
 .filter-control__btn {
   position: relative;
   background-color: transparent;
-  border-color: #f0f;
+  border-color: var(--clr-btn-2);
   margin-right: 1rem;
 }
 
 .filter-control__btn:first-child {
   margin-right: 0.8rem;
-  color: #f0f;
+  color: var(--clr-btn-2);
 }
 
 .filter-control__btn:not(:first-child)::after {
-  content: 'x';
+  content: "x";
 
   display: flex;
   justify-content: center;
@@ -241,7 +241,7 @@ header h1 svg {
 
   width: 1.7em;
   height: 1.7em;
-  background-color: #f0f;
+  background-color: var(--clr-btn-2);
   border: 0.2rem solid var(--clr-fg);
   border-radius: 100vmax;
 
