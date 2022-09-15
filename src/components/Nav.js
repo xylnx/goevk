@@ -10,7 +10,7 @@ export const Nav = () => {
         Morgen
       </NavLink>
       <NavLink to="/all" className="btn nav__item all">
-        Alle Veranstaltungen
+        Alle Events
       </NavLink>
     </nav>
   );
