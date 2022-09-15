@@ -89,7 +89,7 @@ body {
 }
 
 .App {
-  margin: 1rem;
+  padding: 0 var(--gap);
 }
 
 h1 {
@@ -390,30 +390,38 @@ header h1 svg {
  * Media Queries
  * ===================================== */
 
-@media (max-width: 400px) {
+/* Tablets */
+
+@media (max-width: 819px) {
+  .App {
+    max-width: 600px;
+    margin: auto;
+  }
+}
+
+/* Mobiles */
+
+@media (max-width: 600px) {
+  .App {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 420px) {
   html {
     font-size: 56%;
   }
 
-  nav .btn {
-    padding: 0.5em 0.5em 0.3em 0.5em;
-    font-size: var(--fs-200);
-  }
-}
-
-@media (max-width: 800px) {
   .event-list {
     grid-template-columns: 1fr;
   }
 }
 
+/* Large screens */
+
 @media (min-width: 900px) {
   .App {
     width: 900px;
     margin: auto;
-  }
-  .events,
-  .header {
-    width: 100% !important;
   }
 }
