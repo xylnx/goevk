@@ -132,7 +132,9 @@ a:hover {
  * Components
  * ===================================== */
 
-/* HEADER */
+/* >>>>>>>>>>>>>>>>>>>>
+ * HEADER
+ * */
 
 header {
   display: grid;
@@ -140,6 +142,11 @@ header {
   margin-top: 2.4rem;
   margin-bottom: 3.2rem;
   color: var(--clr-fg);
+}
+
+header a {
+  margin-right: auto;
+  text-decoration: none;
 }
 
 header h1 {
@@ -156,17 +163,13 @@ header h1 svg {
   justify-self: end;
 }
 
-.header__claim {
-  grid-column: 1 / -1;
-}
-
 .header__mode-selector__button {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 0;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 4.8rem;
+  height: 4.8rem;
   background-color: transparent;
   cursor: pointer;
 }
@@ -176,51 +179,37 @@ header h1 svg {
   color: var(--clr-accent);
 }
 
-/* BUTTON NAV */
+.header__claim {
+  grid-column: 1 / -1;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>
+ * Navigation + filter btns
+ */
 
 .nav__item,
 .filter-control__btn {
   display: inline-block;
   margin: 8px 8px 8px 0;
-  border: 2px solid var(--clr-accent);
+  border: var(--border-600);
+  border-color: var(--clr-accent);
   border-radius: var(--border-radius);
   padding: 0.3em;
-  color: var(--clr-fg);
-  font-family: var(--fnt-main), sans-serif;
-  font-size: var(--fs-400);
-  font-weight: 700;
+  font-weight: var(--fw-600);
   text-transform: uppercase;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: background-color var(--trans);
   user-select: none;
 }
 
 .nav__item.active {
   background-color: var(--clr-accent);
   color: var(--clr-bg);
-  transition: background-color 0.3s ease;
-}
-
-.nav__item.tomorrow {
-  border-color: var(--clr-accent);
-}
-.nav__item.tomorrow.active {
-  background-color: var(--clr-accent);
-  color: var(--clr-bg);
-  transition: background-color 0.3s ease;
-}
-
-.nav__item.all {
-  border-color: var(--clr-accent);
-}
-
-.nav__item.all.active {
-  background-color: var(--clr-accent);
-  color: var(--clr-bg);
-  transition: background-color 0.3s ease;
+  transition: background-color var(--trans);
 }
 
 /* Filter Cotrols */
+
 .filter-control__btn {
   position: relative;
   background-color: transparent;
@@ -234,8 +223,7 @@ header h1 svg {
 }
 
 .filter-control__btn:not(:first-child)::after {
-  content: "x";
-
+  content: '\2715';
   display: flex;
   justify-content: center;
   align-items: center;
@@ -248,7 +236,8 @@ header h1 svg {
   width: 1.7em;
   height: 1.7em;
   background-color: var(--clr-btn-2);
-  border: 0.2rem solid var(--clr-fg);
+  border: var(--border-600);
+  border-color: var(--clr-fg);
   border-radius: 100vmax;
 
   font-size: var(--fs-200);
