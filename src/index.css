@@ -262,7 +262,7 @@ header h1 svg {
 .event-card {
   position: relative;
   display: grid;
-  grid-template-columns: 0.75fr repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--gap);
   align-items: baseline;
   padding: 2.4rem 1.6rem;
