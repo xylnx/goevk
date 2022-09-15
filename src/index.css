@@ -51,42 +51,15 @@
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-weight: 400;
-}
-
 html {
   min-height: 100vh;
-  /* prevent layout from jumping to the left if no scrollbar exists */
-  /* Happens when switching from a view without to a view with scrollbar or vice versa */
-  margin-left: calc(100vw - 100%);
   font-size: 62.5%;
 }
 
 /* Set up the body */
 body {
-  background-color: var(--clr-bg);
   margin: 0;
-  font-family: var(--ff-main);
-  font-size: var(--fs-400);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 1.5;
   overflow-x: hidden;
-}
-
-/* make form elements easier to work with */
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 /* remove animations if people have turned them off */
@@ -101,29 +74,46 @@ select {
   }
 }
 
-/* clear link styles */
-a:link,
-a:hover {
-  color: var(--clr-fg);
-  text-decoration: none;
-}
-
-a:active,
-a:visited {
-  color: var(--clr-fg);
-}
-
 /* ========================================
  * General Styles
  * ===================================== */
+
+body {
+  background-color: var(--clr-bg);
+  font-family: var(--ff-main);
+  font-size: var(--fs-400);
+  color: var(--clr-fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
 
 .App {
   margin: 1rem;
 }
 
 h1 {
-  font-family: "Bungee Shade", "Open Sans";
+  font-family: 'Bungee Shade', 'Open Sans';
   color: var(--clr-accent);
+}
+
+a,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-color: var(--clr-fg);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--clr-accent);
 }
 
 /* ========================================
@@ -133,8 +123,9 @@ h1 {
 .flow > * + * {
   margin-top: 0.8rem;
 }
+
 .text-bold {
-  font-weight: 700;
+  font-weight: var(--fw-600);
 }
 
 /* ========================================
