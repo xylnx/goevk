@@ -14,8 +14,8 @@ export const ModeSelector = ({ cssClass }) => {
           mode === 'dark' ? changeMode('light') : changeMode('dark')
         }
       >
-        {mode === 'light' && <IconModeLight />}
-        {mode === 'dark' && <IconModeDark />}
+        {mode === 'dark' && <IconModeLight />}
+        {mode === 'light' && <IconModeDark />}
       </button>
     </div>
   );
