@@ -1,27 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;400;700&display=swap');
 
 /* ========================================
  * Custom Props
  * ===================================== */
 
 :root {
+  /* Colors */
   --clr-bg: #001524;
   --clr-fg: #ffecd1;
   --clr-accent: #ff7d00;
   --clr-btn-1: #007745;
   --clr-btn-2: #9b0095;
+
+  /* Borders */
+  --border-400: 1px solid;
+  --border-600: 2px solid;
   --border-radius: 1px;
 
-  /* font-sizes */
+  /* Font families */
+  --ff-main: 'Open Sans', sans-serif;
+
+  /* Font sizes */
   --fs-200: 1.2rem;
   --fs-300: 1.4rem;
   --fs-400: 1.6rem;
   --fs-600: 1.8rem;
 
-  /* font-families */
-  --ff-main: "Open Sans", sans-serif;
+  /* Font weights */
+  --fw-400: 400;
+  --fw-600: 700;
+
+  /* Layout */
+  --gap: 0.8rem;
+
+  /* Transitions */
+  --trans: 0.3s ease;
 }
 
 /* ========================================
