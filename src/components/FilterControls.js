@@ -37,18 +37,16 @@ export const FilterControls = () => {
     }
   };
 
-  // read url params
-  const queryParams = new URLSearchParams(search);
-  const queries = queryParams.getAll('type');
-
   useEffect(() => {
-    setTypeQueries(queries);
+    // read url params
+    const queryParams = new URLSearchParams(search);
+    setTypeQueries(queryParams.getAll('type'));
   }, [search]);
 
   return (
     <>
       <span className="filter-control__btn">Kategorien:</span>
-      {!queries.length && (
+      {!typeQueries.length && (
         <button
           onClick={removeFilter}
           type="button"
@@ -57,7 +55,7 @@ export const FilterControls = () => {
           Alle
         </button>
       )}
-      {queries?.map((query) => {
+      {typeQueries?.map((query) => {
         return (
           <button
             onClick={removeFilter}
