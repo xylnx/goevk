@@ -265,7 +265,7 @@ header h1 svg {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--gap);
   align-items: baseline;
-  padding: 2.4rem 1.6rem;
+  padding: 3.2rem 1.6rem 2.4rem 1.6rem;
   border: var(--border-400);
   border-color: var(--clr-fg);
   border-radius: var(--border-radius);
