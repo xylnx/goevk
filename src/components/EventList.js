@@ -17,7 +17,7 @@ const localEndpoint = 'http://localhost:5033/events.json';
 // const localEndpoint = 'http://localhost:3000/events';
 const apiEndpoint = 'https://sleepy-crag-13951.herokuapp.com/bvents.json';
 
-export const EventList = ({ filter, routeProps }) => {
+export const EventList = ({ filter }) => {
   const url =
     process.env.NODE_ENV === 'development' ? localEndpoint : apiEndpoint;
 
@@ -29,7 +29,7 @@ export const EventList = ({ filter, routeProps }) => {
   const [fe, setFe] = useState(null); // Filtered events
   const { data, pending } = useFetch(url);
 
-  const { search } = useLocation();
+  const { search, pathname } = useLocation();
 
   useEffect(() => {
     setEvents(filter(data));
@@ -49,12 +49,7 @@ export const EventList = ({ filter, routeProps }) => {
         {/* today's events */}
         {fe &&
           fe.map((event, index) => (
-            <Event
-              key={index}
-              event={event}
-              index={index}
-              slug={routeProps.location.pathname}
-            />
+            <Event key={index} event={event} index={index} slug={pathname} />
           ))}
         {/* no events */}
         {!events && (

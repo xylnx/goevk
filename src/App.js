@@ -30,27 +30,15 @@ function App() {
         <main className="main">
           <FilterControls />
           <Switch>
-            <Route
-              exact
-              path="/"
-              render={(routeProps) => (
-                <EventList filter={FilterToday} routeProps={routeProps} />
-              )}
-            ></Route>
-            <Route
-              exact
-              path="/tomorrow"
-              render={(routeProps) => (
-                <EventList filter={FilterTomorrow} routeProps={routeProps} />
-              )}
-            ></Route>
-            <Route
-              exact
-              path="/all"
-              render={(routeProps) => (
-                <EventList filter={FilterAll} routeProps={routeProps} />
-              )}
-            />
+            <Route exact path="/">
+              <EventList filter={FilterToday} />
+            </Route>
+            <Route path="/tomorrow">
+              <EventList filter={FilterTomorrow} />
+            </Route>
+            <Route path="/all">
+              <EventList filter={FilterAll} />
+            </Route>
           </Switch>
         </main>
       </div>
