@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router';
-import { filterTypes } from '../filters/filterTypes';
 
 // CUSTOM HOOKS
 import useFetch from '../hooks/useFetch';
@@ -14,15 +13,18 @@ import { Event } from './Event';
 import EventsNone from './EventsNone';
 
 // API ENDPOINTS
-// const localEndpoint = 'http://localhost:5033/events.json';
-const localEndpoint = 'http://localhost:3000/events';
+const localEndpoint = 'http://localhost:5033/events.json';
+// const localEndpoint = 'http://localhost:3000/events';
 const apiEndpoint = 'https://sleepy-crag-13951.herokuapp.com/bvents.json';
 
 export const EventList = ({ filter, routeProps }) => {
   const url =
     process.env.NODE_ENV === 'development' ? localEndpoint : apiEndpoint;
 
+  // Today is drilled into `<EventsNone />` component
+  // => used to display a button to all events (or not)
   const [today, setToday] = useState(true);
+
   const [events, setEvents] = useState(null);
   const [fe, setFe] = useState(null); // Filtered events
   const { data, pending } = useFetch(url);

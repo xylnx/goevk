@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { IconArrow } from '../assets/icon-arrow';
 
+// Create a query from an events type property
 const typeLink = (eventType) => {
   const types = eventType.split(',');
   let query = '?';
@@ -42,7 +43,7 @@ export const Event = ({ event, slug }) => {
       >
         {event.name}
 
-        {/* Arrow */}
+        {/* Just an arrow icon */}
         <IconArrow />
       </a>
     </article>
