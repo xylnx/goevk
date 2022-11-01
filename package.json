@@ -31,7 +31,8 @@
     "startOld": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider start",
     "start": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "deploy": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider build && gh-pages -d build",
+    "deployOld": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider build && gh-pages -d build",
+    "deploy": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts build && gh-pages -d build",
     "devServer": "json-server --watch testData/db.json --port 3002"
   },
   "eslintConfig": {
