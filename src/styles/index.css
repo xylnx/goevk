@@ -58,6 +58,7 @@ html {
 
 /* Set up the body */
 body {
+  width: 100vw;
   margin: 0;
   overflow-x: hidden;
 }
@@ -167,10 +168,11 @@ header h1 svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
   border: 0;
-  width: 4.8rem;
   height: 4.8rem;
   background-color: transparent;
+  text-transform: capitalize;
   cursor: pointer;
 }
 .header__mode-selector__button svg {
