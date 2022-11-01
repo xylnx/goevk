@@ -407,6 +407,14 @@ header h1 svg {
   .App {
     width: 100vw;
   }
+
+  header {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .header__mode-selector__button {
+    font-size: 90%;
+  }
 }
 
 @media (max-width: 420px) {
