@@ -13,7 +13,8 @@ import { Event } from './Event';
 import EventsNone from './EventsNone';
 
 // API ENDPOINTS
-const apiEndpoint = 'https://sleepy-crag-13951.herokuapp.com/bvents.json';
+// const apiEndpoint = 'https://sleepy-crag-13951.herokuapp.com/bvents.json';
+const apiEndpoint = 'http://194.233.172.109/events.json';
 const localEndpoint = 'http://localhost:5033/events.json';
 
 export const EventList = ({ filter }) => {
