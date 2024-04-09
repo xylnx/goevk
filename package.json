@@ -30,10 +30,10 @@
   "scripts": {
     "startOld": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider start",
     "buildOld": "react-scripts --openssl-legacy-provider build",
-    "start": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts start",
-    "build": "react-scripts build && cp CNAME build",
+    "start": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build && cp CNAME",
     "deployOld": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider build && gh-pages -d build",
-    "deploy": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts build && cp CNAME build/ && gh-pages -d build",
+    "deploy": "REACT_APP_BUILD_DATE=$(date '+%Y-%m-%d %H:%M:%S') react-scripts --openssl-legacy-provider build && cp CNAME build/ && gh-pages -d build",
     "devServer": "json-server --watch testData/db.json --port 3002"
   },
   "eslintConfig": {
