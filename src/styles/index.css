@@ -322,6 +322,10 @@ header h1 svg {
 .event__day {
   font-size: var(--fs-200);
 }
+.event__start-time-hint {
+  font-size: var(--fs-200);
+  text-decoration-color: var(--clr-accent);
+}
 
 /* >>>>>>>>>>>>>>>>>>>>
  * Info Boxes
