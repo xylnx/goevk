@@ -1,14 +1,7 @@
 import Header from './components/Header';
-import { Nav } from './components/Nav';
-import { FilterControls } from './components/FilterControls';
+import { BrowserRouter, Routes, Route, } from "react-router-dom"; 
+import { Nav } from './components/Nav'; import { FilterControls } from './components/FilterControls';
 import { EventList } from './components/EventList';
-
-import {
-  //BrowserRouter as Router,
-  HashRouter,
-  Route,
-  Switch,
-} from 'react-router-dom';
 
 import { useTheme } from './hooks/useTheme';
 
@@ -18,10 +11,12 @@ import { GlobalStyles, GlobalStylesLight } from './styles/GlobalStyles';
 // Date filters
 import { FilterToday, FilterTomorrow, FilterAll } from './filters/FilterDates';
 
+
+
 function App() {
   const { mode } = useTheme();
   return (
-    <HashRouter>
+    <BrowserRouter>
       {mode === 'dark' && <GlobalStyles />}
       {mode === 'light' && <GlobalStylesLight />}
       <div className="App">
@@ -29,20 +24,15 @@ function App() {
         <Nav />
         <main className="main">
           <FilterControls />
-          <Switch>
-            <Route exact path="/">
-              <EventList filter={FilterToday} />
-            </Route>
-            <Route path="/tomorrow">
-              <EventList filter={FilterTomorrow} />
-            </Route>
-            <Route path="/all">
-              <EventList filter={FilterAll} />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/" element={<EventList filter={FilterToday} />} />
+            <Route path="/tomorrow" element={<EventList filter={FilterTomorrow} />} />
+            <Route path="/all" element={<EventList filter={FilterAll} />} />
+          </Routes>
         </main>
       </div>
-    </HashRouter>
+
+    </BrowserRouter>
   );
 }
 

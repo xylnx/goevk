@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import { useLocation, useHistory } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
 
 export const FilterControls = () => {
   const { search, pathname } = useLocation();
   const [typeQueries, setTypeQueries] = useState([]);
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const removeFilter = (e) => {
     // Get event type from clicked button
@@ -27,16 +27,17 @@ export const FilterControls = () => {
         query += params;
 
         // Push the new query
-        history.push(pathname + query);
+        navigate(pathname + query);
         return;
       }
       // If newTypes is empty
       // (happens after removing the last filter)
       // reload current path
-      history.push(pathname);
+      navigate(pathname);
     }
   };
 
+  
   useEffect(() => {
     // read url params
     const queryParams = new URLSearchParams(search);
