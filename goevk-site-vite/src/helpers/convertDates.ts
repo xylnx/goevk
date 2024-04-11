@@ -2,21 +2,22 @@
 // Takes an array of event objects
 // manipulates each of the containing objects
 
-function convertDates(eventObjects) {
+import type { GEvent } from '@/types.ts';
+
+function convertDates(eventObjects: GEvent[]) {
   eventObjects.forEach((eventObj) => {
-    const dateDetails = getDateDetails(eventObj.date, eventObj.name);
+    const dateDetails = getDateDetails(eventObj.date);
     eventObj.dateDetails = dateDetails;
-    // console.log(eventObj.dateDetails);
   });
   return eventObjects;
 }
 
-function getDateDetails(dateStr, eventName) {
-  // dateObj gets passed as a string, so:
-  // Convert it back into a date object!
+function getDateDetails(dateStr: string) {
+  // Convert date object into a date object
   const date = new Date(dateStr);
 
-  var options = {
+  // Format date
+  const options: Intl.DateTimeFormatOptions = {
     weekday: 'short',
     year: 'numeric',
     month: 'long',
@@ -24,10 +25,8 @@ function getDateDetails(dateStr, eventName) {
     minute: 'numeric',
     day: 'numeric',
     timeZone: 'Europe/Berlin',
-    // timeZoneName: "short",
   };
 
-  // Format date
   const dateArr = new Intl.DateTimeFormat('de-DE', options)
     .format(date)
     .split(/(,|\sum\s)/);
