@@ -5,7 +5,7 @@ import { useLocation } from 'react-router';
 import useFetch from '../hooks/useFetch';
 
 // Custom functions
-import { filterTypes } from '../filters/filterTypes'; // filter events according to its types
+import { filterCategories } from '../filters/filterCategories'; // filter events according to its types
 import { viewTransition } from '../helpers/viewTransition'; // show a fade in/out effect
 
 // COMPONENTS
@@ -41,7 +41,7 @@ export const EventList = ({ filter }) => {
   useEffect(() => {
     const queryParams = new URLSearchParams(search);
     const query = queryParams.getAll('type');
-    setFe(filterTypes(events, query));
+    setFe(filterCategories(events, query));
     viewTransition('.event-list');
   }, [events, search]);
 

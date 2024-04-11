@@ -28,3 +28,15 @@ const enhancedEventExample = {
 
 export type GRawEvent = typeof rawEventExample;
 export type GEvent = typeof enhancedEventExample;
+
+export enum GEventCategories {
+  cinema = 'kino',
+  classicalMusic = 'klassische musik',
+  club = 'club',
+  concert = 'konzert',
+  generalEvents = 'veranstaltungen',
+  musical = 'musicals',
+  party = 'party',
+  theater = 'theater',
+  nightlife = 'nightlife',
+}
