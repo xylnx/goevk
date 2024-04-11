@@ -37,7 +37,6 @@ export const FilterControls = () => {
     }
   };
 
-  
   useEffect(() => {
     // read url params
     const queryParams = new URLSearchParams(search);

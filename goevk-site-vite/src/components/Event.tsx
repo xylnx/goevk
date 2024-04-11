@@ -32,18 +32,21 @@ export const Event = ({ event, slug }) => {
         {event.type}
       </Link>
 
-      { event.hasStartTime && <div className="event__time">{event.dateDetails.time}</div> }
-      { !event.hasStartTime && (
-          <div>
-            <a
-              href={event.link}
-              target="blank"
-              rel="noopener"
-              className="event__start-time-hint"
-            >
-              Beginn nicht bekannt. Checke die {event.place} Website.
-            </a>
-          </div> )}
+      {event.hasStartTime && (
+        <div className="event__time">{event.dateDetails.time}</div>
+      )}
+      {!event.hasStartTime && (
+        <div>
+          <a
+            href={event.link}
+            target="blank"
+            rel="noopener"
+            className="event__start-time-hint"
+          >
+            Beginn nicht bekannt. Checke die {event.place} Website.
+          </a>
+        </div>
+      )}
       {/* Event name, links a page related to the event */}
       <a
         href={event.link}
