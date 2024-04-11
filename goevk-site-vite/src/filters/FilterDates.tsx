@@ -1,22 +1,24 @@
+import type { GEvent } from '@/types';
+
 // Define how long after it's starting time an event will still be displayed
-const timeOffset = 2;
+const timeOffset = 2; // hours
+
 // Return an object with info on the current time
-const getCurrentDateInfo = () => {
+function getCurrentDateInfo() {
   const date = new Date();
   return {
     month: date.getMonth(),
     date: date.getDate(),
     hours: date.getHours(),
   };
-};
+}
 
-const FilterToday = (events) => {
-  const todaysEvents = [];
+export function FilterToday(events: GEvent[]) {
+  const todaysEvents: GEvent[] = [];
   const today = getCurrentDateInfo();
   if (events) {
     events.forEach((event) => {
       const eventDate = new Date(event.date);
-      // console.log(date.getDay());
       if (
         eventDate.getMonth() === today.month &&
         eventDate.getDate() === today.date &&
@@ -29,15 +31,14 @@ const FilterToday = (events) => {
     return todaysEvents;
   }
   return null;
-};
+}
 
-const FilterTomorrow = (events) => {
-  const todaysEvents = [];
+export function FilterTomorrow(events: GEvent[]) {
+  const todaysEvents: GEvent[] = [];
   const today = getCurrentDateInfo();
   if (events) {
     events.forEach((event) => {
       const eventDate = new Date(event.date);
-      // console.log(date.getDay());
       if (
         eventDate.getMonth() === today.month &&
         eventDate.getDate() === today.date + 1
@@ -49,10 +50,10 @@ const FilterTomorrow = (events) => {
     return todaysEvents;
   }
   return null;
-};
+}
 
-const FilterAll = (events) => {
-  const allEvents = [];
+export function FilterAll(events: GEvent[]) {
+  const allEvents: GEvent[] = [];
   const today = new Date();
 
   if (events) {
@@ -71,6 +72,4 @@ const FilterAll = (events) => {
     return allEvents;
   }
   return null;
-};
-
-export { FilterToday, FilterTomorrow, FilterAll };
+}
