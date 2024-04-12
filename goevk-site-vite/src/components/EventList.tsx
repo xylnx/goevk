@@ -43,7 +43,6 @@ export const EventList = ({ filter }: Props) => {
   useEffect(() => {
     const queryParams = new URLSearchParams(search);
     const query = queryParams.getAll('type') as GEventCategories[];
-    console.log({ query })
     setFilteredEvents(filterCategories(events, query) as GEvent[]);
     viewTransition('.event-list');
   }, [events, search]);
