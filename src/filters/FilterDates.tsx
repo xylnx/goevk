@@ -7,6 +7,7 @@ const timeOffset = 2; // hours
 function getCurrentDateInfo() {
   const date = new Date();
   return {
+    year: date.getFullYear(),
     month: date.getMonth(),
     date: date.getDate(),
     hours: date.getHours(),
@@ -15,14 +16,14 @@ function getCurrentDateInfo() {
 
 export function FilterToday(events: GEvent[]): GEvent[] {
   const todaysEvents: GEvent[] = [];
-  const today = getCurrentDateInfo();
+  const now = getCurrentDateInfo();
   if (events) {
     events.forEach((event) => {
       const eventDate = new Date(event.date);
       if (
-        eventDate.getMonth() === today.month &&
-        eventDate.getDate() === today.date &&
-        eventDate.getHours() >= today.hours - timeOffset
+        eventDate.getMonth() === now.month &&
+        eventDate.getDate() === now.date &&
+        eventDate.getHours() >= now.hours - timeOffset
       )
         todaysEvents.push(event);
     });
@@ -54,16 +55,31 @@ export function FilterTomorrow(events: GEvent[]) {
 
 export function FilterAll(events: GEvent[]) {
   const allEvents: GEvent[] = [];
-  const today = new Date();
 
   if (events) {
     // Filter events to not show expired events
+    const now = getCurrentDateInfo();
     events.forEach((event) => {
-      const eventDate = new Date(event.date);
 
-      if (today > eventDate) {
-        return;
-      }
+      const eventDate = new Date(event.date);
+      console.log(now)
+
+      if (eventDate.getFullYear() < now.year) return; 
+
+      if (
+        eventDate.getFullYear() == now.year &&
+        eventDate.getMonth() < now.month 
+      ) return; 
+      
+      if (
+        eventDate.getMonth() == now.month && 
+        eventDate.getDate() < now.date
+      ) return; 
+
+      if (
+        eventDate.getDate() == now.date &&
+        eventDate.getHours() < now.hours - timeOffset
+      ) return; 
 
       allEvents.push(event);
     });
