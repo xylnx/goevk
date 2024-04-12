@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { FilterControls } from './components/FilterControls';
 import { EventList } from './components/EventList';
@@ -20,7 +20,7 @@ function App() {
   logBuildDate();
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {mode === 'dark' && <GlobalStyles />}
       {mode === 'light' && <GlobalStylesLight />}
       <div className="App">
@@ -38,7 +38,7 @@ function App() {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
