@@ -4,7 +4,9 @@ import { IconArrow } from '../assets/icon-arrow';
 import { GEvent } from '@/types';
 
 // Create a query from an events type property
-const typeLink = (eventCategories: string) => {
+const typeLink = (eventCategories: string | undefined) => {
+  if(!eventCategories) return
+
   const types = eventCategories.split(',');
   let query = '?';
   let params = 'type=';
