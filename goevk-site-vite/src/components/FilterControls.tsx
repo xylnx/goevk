@@ -3,16 +3,16 @@ import { useLocation, useNavigate } from 'react-router';
 
 export const FilterControls = () => {
   const { search, pathname } = useLocation();
-  const [typeQueries, setTypeQueries] = useState([]);
+  const [typeQueries, setTypeQueries] = useState([] as string[]);
   const navigate = useNavigate();
 
-  const removeFilter = (e) => {
+  const removeFilter = (e: React.SyntheticEvent<HTMLButtonElement>) => {
     // Get event type from clicked button
-    const clickedEventType = e.target.dataset.eventType;
+    const clickedEventType = (e.target as HTMLButtonElement).dataset.eventType;
 
     if (typeQueries.length > 0) {
       // Find position of event type in typeQueries array
-      const pos = typeQueries.indexOf(clickedEventType);
+      const pos = typeQueries.indexOf(clickedEventType!);
       const newTypes = typeQueries;
 
       // Use splice to mutate the newTypes array

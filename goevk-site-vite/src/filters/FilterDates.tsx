@@ -13,7 +13,7 @@ function getCurrentDateInfo() {
   };
 }
 
-export function FilterToday(events: GEvent[]) {
+export function FilterToday(events: GEvent[]): GEvent[] {
   const todaysEvents: GEvent[] = [];
   const today = getCurrentDateInfo();
   if (events) {
@@ -27,10 +27,10 @@ export function FilterToday(events: GEvent[]) {
         todaysEvents.push(event);
     });
     // Return null, if array is empty
-    if (!todaysEvents.length) return null;
+    if (!todaysEvents.length) return [];
     return todaysEvents;
   }
-  return null;
+  return [];
 }
 
 export function FilterTomorrow(events: GEvent[]) {
@@ -46,10 +46,10 @@ export function FilterTomorrow(events: GEvent[]) {
         todaysEvents.push(event);
     });
     // Return null, if array is empty
-    if (!todaysEvents.length) return null;
+    if (!todaysEvents.length) return [];
     return todaysEvents;
   }
-  return null;
+  return [];
 }
 
 export function FilterAll(events: GEvent[]) {
@@ -68,8 +68,8 @@ export function FilterAll(events: GEvent[]) {
       allEvents.push(event);
     });
     // Return null, if array is empty
-    if (!allEvents.length) return null;
+    if (!allEvents.length) return [];
     return allEvents;
   }
-  return null;
+  return [];
 }

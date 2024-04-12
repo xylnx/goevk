@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import { IconArrow } from '../assets/icon-arrow';
 
+import { GEvent } from '@/types';
+
 // Create a query from an events type property
-const typeLink = (eventType) => {
-  const types = eventType.split(',');
+const typeLink = (eventCategories: string) => {
+  const types = eventCategories.split(',');
   let query = '?';
   let params = 'type=';
   params += types.reduce((acc, cur) => {
@@ -14,7 +16,7 @@ const typeLink = (eventType) => {
   return query;
 };
 
-export const Event = ({ event, slug }) => {
+export const Event = ({ event, slug }: { event: GEvent, slug: string }) => {
   return (
     <article className="event-card" data-color={event.dateDetails.weekday}>
       {/* Event meta data */}

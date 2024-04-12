@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
-const EventsNone = ({ today, setToday, pending }) => {
+const EventsNone = ({ today, pending }: {
+  today: boolean, pending: boolean
+}) => {
   return (
     <div className="eventsNone__container">
       <div className="eventsNone__svg-container">

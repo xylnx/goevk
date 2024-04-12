@@ -11,15 +11,17 @@ import { viewTransition } from '../helpers/viewTransition'; // show a fade in/ou
 // COMPONENTS
 import { Event } from './Event';
 import EventsNone from './EventsNone';
+import { GEvent, GEventCategories } from '@/types';
 
 // API ENDPOINTS
-// const apiEndpoint = 'https://sleepy-crag-13951.herokuapp.com/bvents.json';
-// const apiEndpoint = 'http://194.233.172.109/events.json';
-// const localEndpoint = 'http://194.233.172.109/events.json';
 const apiEndpoint = 'https://api.goevk.de/events.json';
 const localEndpoint = 'http://localhost:5033/events.json';
 
-export const EventList = ({ filter }) => {
+type Props = {
+  filter: (events: GEvent[]) => GEvent[] 
+}
+
+export const EventList = ({ filter }: Props) => {
   const url =
     process.env.NODE_ENV === 'development' ? localEndpoint : apiEndpoint;
 
@@ -27,21 +29,22 @@ export const EventList = ({ filter }) => {
   // => used to display a button to all events (or not)
   const [today, setToday] = useState(true);
 
-  const [events, setEvents] = useState(null);
-  const [fe, setFe] = useState(null); // Filtered events
-  const { data, pending } = useFetch(url);
+  const [events, setEvents] = useState<GEvent[]>([]);
+  const [filteredEvents, setFilteredEvents] = useState<GEvent[]>([]); // Filtered events
+  const { data, pending }: { data: GEvent[] | null, pending: boolean } = useFetch(url);
 
   const { search, pathname } = useLocation();
 
   useEffect(() => {
-    setEvents(filter(data));
+    setEvents(filter(data ?? []));
     filter.name === 'FilterToday' ? setToday(true) : setToday(false);
   }, [data, filter]);
 
   useEffect(() => {
     const queryParams = new URLSearchParams(search);
-    const query = queryParams.getAll('type');
-    setFe(filterCategories(events, query));
+    const query = queryParams.getAll('type') as GEventCategories[];
+    console.log({ query })
+    setFilteredEvents(filterCategories(events, query) as GEvent[]);
     viewTransition('.event-list');
   }, [events, search]);
 
@@ -49,13 +52,13 @@ export const EventList = ({ filter }) => {
     <>
       <div className="event-list">
         {/* today's events */}
-        {fe &&
-          fe.map((event, index) => (
-            <Event key={index} event={event} index={index} slug={pathname} />
+        {filteredEvents &&
+          filteredEvents.map((event, index) => (
+            <Event key={index} event={event} slug={pathname} />
           ))}
         {/* no events */}
         {!events && (
-          <EventsNone today={today} setToday={setToday} pending={pending} />
+          <EventsNone today={today} pending={pending} />
         )}
       </div>
     </>
