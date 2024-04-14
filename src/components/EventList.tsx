@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router';
 
 // CUSTOM HOOKS
-import useFetch from '../hooks/useFetch';
+import { useFetch } from '@/hooks/useFetch';
 
 // Custom functions
 import { filterCategories } from '../filters/filterCategories'; // filter events according to its types
@@ -13,25 +13,21 @@ import { Event } from './Event';
 import EventsNone from './EventsNone';
 import { GEvent, GEventCategories } from '@/types';
 
-// API ENDPOINTS
-const apiEndpoint = 'https://api.goevk.de/events.json';
-const localEndpoint = 'http://localhost:5033/events.json';
+// API
+const apiEndpoint = `${import.meta.env.VITE_API_ROOT}/events`;
 
 type Props = {
   filter: (events: GEvent[]) => GEvent[] 
 }
 
 export const EventList = ({ filter }: Props) => {
-  const url =
-    process.env.NODE_ENV === 'development' ? localEndpoint : apiEndpoint;
-
   // Today is drilled into `<EventsNone />` component
   // => used to display a button to all events (or not)
   const [today, setToday] = useState(true);
 
   const [events, setEvents] = useState<GEvent[]>([]);
   const [filteredEvents, setFilteredEvents] = useState<GEvent[]>([]); // Filtered events
-  const { data, pending }: { data: GEvent[] | null, pending: boolean } = useFetch(url);
+  const { data, pending }: { data: GRawEvent[] | null, pending: boolean } = useFetch(apiEndpoint);
 
   const { search, pathname } = useLocation();
 
