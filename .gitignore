@@ -28,7 +28,7 @@ dist-ssr
 .config.js
 .config
 .env
-.env.*.local
+.env.*
 
 # Local files + dirs
 .DS_Store
