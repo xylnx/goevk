@@ -11,7 +11,7 @@ import { viewTransition } from '../helpers/viewTransition'; // show a fade in/ou
 // COMPONENTS
 import { Event } from './Event';
 import EventsNone from './EventsNone';
-import { GEvent, GEventCategories } from '@/types';
+import { GEvent, GRawEvent, GEventCategories } from '@/types';
 
 // API
 const apiEndpoint = `${import.meta.env.VITE_API_ROOT}/events`;
