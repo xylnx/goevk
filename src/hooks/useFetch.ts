@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import convertDates from '../helpers/convertDates';
 
-const useFetch = (url: string) => {
+export const useFetch = (url: string) => {
   const [data, setData] = useState(null);
   const [pending, setPending] = useState(false);
 
@@ -21,4 +21,3 @@ const useFetch = (url: string) => {
   return { data, pending };
 };
 
-export default useFetch;
