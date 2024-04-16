@@ -16,10 +16,10 @@ export const ModeSelector = ({ cssClass }: Props) => {
           mode === 'dark' ? changeMode('light') : changeMode('dark')
         }
       >
-        {mode === 'dark' && <span>light mode</span>}
-        {mode === 'light' && <span>dark mode</span>}
-        {mode === 'dark' && <IconModeLight />}
-        {mode === 'light' && <IconModeDark />}
+        {mode === 'light' && <span>light mode</span>}
+        {mode === 'dark' && <span>dark mode</span>}
+        {mode === 'light' && <IconModeLight />}
+        {mode === 'dark' && <IconModeDark />}
       </button>
     </div>
   );
