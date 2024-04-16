@@ -1,14 +1,18 @@
+import { useEffect, useRef, useState } from 'react';
 import Header from './components/Header';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
-import { FilterControls } from './components/FilterControls';
+// import { FilterControls } from './components/FilterControls';
 import { EventList } from './components/EventList';
 
 import { logBuildDate } from './helpers/logBuildDate';
 
 import { useTheme } from './hooks/useTheme';
 
-import './components/AppLayout'
+import './components/AppLayout';
+import './components/AppDrawer';
+
+import { AppLayout } from './components/AppLayout';
 
 // Use global styles to change themes
 import { GlobalStyles, GlobalStylesLight } from './styles/GlobalStyles';
@@ -18,14 +22,25 @@ import { FilterToday, FilterTomorrow, FilterAll } from './filters/FilterDates';
 
 function App() {
   const { mode } = useTheme();
+  const [appDrawerIsColapsed, setAppDrawerIsCollapsed] = useState(false);
+  const appLayoutRef = useRef(null);
 
   logBuildDate();
+
+  function toggleAppDrawer() {
+    setAppDrawerIsCollapsed((prev) => !prev)
+  }
+
+  useEffect(() => {
+    (appLayoutRef.current as AppLayout).addEventListener(
+      'app-layout-click-btn-3', toggleAppDrawer);
+  }, [])
 
   return (
     <HashRouter>
       {mode === 'dark' && <GlobalStyles />}
       {mode === 'light' && <GlobalStylesLight />}
-      <app-layout>
+      <app-layout ref={appLayoutRef}>
         <header slot="header">
           <Header />
           <Nav />
@@ -39,6 +54,7 @@ function App() {
             />
             <Route path="/all" element={<EventList filter={FilterAll} />} />
           </Routes>
+          <app-drawer collapsed={appDrawerIsColapsed}></app-drawer>
         </main>
       </app-layout>
     </HashRouter>
