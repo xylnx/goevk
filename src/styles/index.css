@@ -37,6 +37,7 @@
 
   /* Transitions */
   --trans: 0.3s ease;
+
 }
 
 /* ========================================
@@ -80,6 +81,11 @@ body {
  * General Styles
  * ===================================== */
 
+:root {
+  /* ios: disable zooming in */
+  touch-action: none;
+}
+
 body {
   background-color: var(--clr-bg);
   font-family: var(--ff-main);
@@ -91,9 +97,6 @@ body {
 
   /* ios: account for safari address bar */
   height: -webkit-fill-available;
-
-  /* ios: disable zooming in */
-  touch-action: none;
 }
 
 .App {
