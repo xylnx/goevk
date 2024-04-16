@@ -16,12 +16,12 @@ export class AppLayout extends HTMLElement {
       if(linkClicked) {
 	footerLinks.forEach(fl => fl.classList.remove('active'));
 	linkClicked.classList.add('active');
-	this.emit({ detail: { target: linkClicked.id } });
+	this.emit({ type:`click-${linkClicked.id}`, detail: { target: linkClicked.id } });
       }
     })
   }
   emit ({ type = 'default', detail = {} }) {
-    const event = new CustomEvent(`custom-event-${type}`, {
+    const event = new CustomEvent(`app-layout-${type}`, {
       bubbles: true,
       cancelable: true,
       detail
@@ -68,20 +68,20 @@ const footerNav = `
 <nav>
   <ul>
     <li>
-      <a id="tab-1" class="active" href="#">
+      <a id="btn-1" class="active" href="#">
 	${IconSquare}
 	<span>Tab 1</span>
       </a>
     </li>
     <li>
-      <a id="tab-2" href="#">
+      <a id="btn-2" href="#">
 	${IconTriangle}
 	<span>Tab 2</span>
       </a>
     </li>
     <li>
       <slot name="button-3">
-      <a id="tab-3" href="#">
+      <a id="btn-3" href="#">
 	${IconCircle}
 	<span>Tab 3</span>
       </a>
@@ -112,14 +112,16 @@ const style = `
     margin: 0;
   }
   :host {
+
     display: flex;
     flex-direction: column;
     height: 100vh;
     /* Accont for safari address bar */
     height: -webkit-fill-available;
+
     overflow-x: hidden;
     max-width: 840px;
-    margin: auto;
+    margin: auto !important;
   }
   main {
     flex: 1;
