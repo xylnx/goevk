@@ -8,6 +8,8 @@ import { logBuildDate } from './helpers/logBuildDate';
 
 import { useTheme } from './hooks/useTheme';
 
+import './components/AppLayout'
+
 // Use global styles to change themes
 import { GlobalStyles, GlobalStylesLight } from './styles/GlobalStyles';
 
@@ -23,11 +25,12 @@ function App() {
     <HashRouter>
       {mode === 'dark' && <GlobalStyles />}
       {mode === 'light' && <GlobalStylesLight />}
-      <div className="App">
-        <Header />
-        <Nav />
-        <main className="main">
-          <FilterControls />
+      <app-layout>
+        <header slot="header">
+          <Header />
+          <Nav />
+        </header>
+        <main slot="main" className="main">
           <Routes>
             <Route path="/" element={<EventList filter={FilterToday} />} />
             <Route
@@ -37,7 +40,7 @@ function App() {
             <Route path="/all" element={<EventList filter={FilterAll} />} />
           </Routes>
         </main>
-      </div>
+      </app-layout>
     </HashRouter>
   );
 }

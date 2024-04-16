@@ -52,16 +52,17 @@
 }
 
 html {
-  min-height: 100vh;
   font-size: 62.5%;
 }
 
 /* Set up the body */
+/*
 body {
   width: 100vw;
   margin: 0;
   overflow-x: hidden;
 }
+*/
 
 /* remove animations if people have turned them off */
 @media (prefers-reduced-motion: reduce) {
@@ -87,6 +88,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
+
+  /* ios: account for safari address bar */
+  height: -webkit-fill-available;
+
+  /* ios: disable zooming in */
+  touch-action: none;
 }
 
 .App {
@@ -137,11 +144,12 @@ a:hover {
  * HEADER
  * */
 
-header {
+.logo-header {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  margin-top: 2.4rem;
-  margin-bottom: 3.2rem;
+  grid-template-columns: 3fr 2fr;
+  margin-top: .8rem;
+  margin-bottom: 1.6rem;
+
   color: var(--clr-fg);
 }
 
@@ -354,6 +362,17 @@ header h1 svg {
 
 .eventsNone__copy {
   color: inherit;
+}
+
+app-layout::part(header), 
+app-layout::part(main), 
+app-layout::part(footer) {
+  padding: 8px
+}
+
+app-layout::part(header) {
+  border-bottom: 1px solid var(--clr-fg);
+
 }
 
 /* ========================================

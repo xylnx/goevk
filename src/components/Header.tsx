@@ -8,7 +8,7 @@ import { IconBolt } from './../assets/icon-bolt';
 
 const Header = () => {
   return (
-    <header className="header">
+    <div className="logo-header">
       <Link to="/">
         <h1>
           <IconBolt />
@@ -19,7 +19,7 @@ const Header = () => {
       <div className="header__claim">
         Dein Veranstaltungskalender für Göttingen
       </div>
-    </header>
+    </div>
   );
 };
 
