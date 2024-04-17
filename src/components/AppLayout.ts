@@ -116,7 +116,7 @@ const style = `
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* Accont for safari address bar */
+    /* Account for safari address bar */
     height: -webkit-fill-available;
 
     overflow-x: hidden;

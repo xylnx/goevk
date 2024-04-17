@@ -51,7 +51,6 @@ const style = `
   --app-drawer-height: 48vh;
   position: fixed;
   flex-direction: column;
-  background: var(--card-background-color);
   padding: calc(var(--td-gap) * 2);
 
   border: var(--td-border);
@@ -69,7 +68,7 @@ const style = `
 }
 
 .app-drawer.collapsed {
-  bottom: calc(var(--app-drawer-height) * -1);
+  bottom: calc(var(--app-drawer-height) * -1.2);
   transition: .4s bottom;
 }
 
@@ -84,9 +83,12 @@ const style = `
   border: 0;
   color: inherit;
   font-size: 24px;
-  width: 40px;
-  height: 40px;
-}
+  width: 80px;
+  height: 80px;
 
+  padding-top: 8px;
+  display: flex;
+  justify-content: end;
+}
 </style>
 `;

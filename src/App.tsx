@@ -31,19 +31,20 @@ function App() {
     setAppDrawerIsCollapsed((prev) => !prev)
   }
 
+  /*
   useEffect(() => {
     (appLayoutRef.current as AppLayout).addEventListener(
       'app-layout-click-btn-3', toggleAppDrawer);
   }, [])
+   */
 
   return (
     <HashRouter>
       {mode === 'dark' && <GlobalStyles />}
       {mode === 'light' && <GlobalStylesLight />}
-      <app-layout ref={appLayoutRef}>
         <header slot="header">
           <Header />
-          <Nav />
+          <Nav filterBtnAction={toggleAppDrawer}/>
         </header>
         <main slot="main" className="main">
           <Routes>
@@ -56,7 +57,6 @@ function App() {
           </Routes>
           <app-drawer collapsed={appDrawerIsColapsed}></app-drawer>
         </main>
-      </app-layout>
     </HashRouter>
   );
 }

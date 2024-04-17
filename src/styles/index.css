@@ -38,6 +38,7 @@
   /* Transitions */
   --trans: 0.3s ease;
 
+  --box-shadow: 0px -2px 32px 0px rgb(0 0 0 / 40%);
 }
 
 /* ========================================
@@ -52,18 +53,34 @@
   padding: 0;
 }
 
+
+/* Set up the body */
+body {
+  max-width: 960px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
 html {
   font-size: 62.5%;
 }
 
-/* Set up the body */
-/*
-body {
-  width: 100vw;
-  margin: 0;
-  overflow-x: hidden;
+
+main {
+  overflow-y: auto;
 }
-*/
+
+button {
+  background: transparent;
+  border: 0;
+}
 
 /* remove animations if people have turned them off */
 @media (prefers-reduced-motion: reduce) {
@@ -97,6 +114,7 @@ body {
 
   /* ios: account for safari address bar */
   height: -webkit-fill-available;
+  scrollbar-color: var(--clr-fg) var(--clr-bg);
 }
 
 .App {
@@ -139,9 +157,24 @@ a:hover {
   font-weight: var(--fw-600);
 }
 
+
 /* ========================================
  * Components
  * ===================================== */
+
+/*
+.btn {
+  background: transparent;
+  border: 1px solid red;
+  border-radius: var(--border-radius);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-600);
+  padding: 0.3em; 
+  text-transform: uppercase;
+  border: var(--border-600);
+}
+*/
+
 
 /* >>>>>>>>>>>>>>>>>>>>
  * HEADER
@@ -196,10 +229,16 @@ header h1 svg {
   grid-column: 1 / -1;
 }
 
+
+
 /* >>>>>>>>>>>>>>>>>>>>
  * Navigation + filter btns
  */
 
+nav {
+}
+
+.btn,
 .nav__item,
 .filter-control__btn {
   display: inline-block;
@@ -219,6 +258,11 @@ header h1 svg {
   background-color: var(--clr-accent);
   color: var(--clr-bg);
   transition: background-color var(--trans);
+}
+
+.btn__filters {
+  border-color: var(--clr-fg);
+  margin-left: auto;
 }
 
 /* Filter Cotrols */
@@ -375,8 +419,19 @@ app-layout::part(footer) {
 
 app-layout::part(header) {
   border-bottom: 1px solid var(--clr-fg);
-
 }
+
+app-drawer::part(app-drawer) {
+  background-color: var(--clr-bg);
+  box-shadow: var(--box-shadow);
+  
+}
+
+app-drawer::part(app-drawer-close-btn) {
+  color: red;
+  font-size: 28px;
+}
+
 
 /* ========================================
  * Animation
