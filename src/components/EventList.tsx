@@ -32,14 +32,20 @@ export const EventList = ({ filter }: Props) => {
   const { search, pathname } = useLocation();
 
   useEffect(() => {
-    setEvents(filter(data ?? []));
-    filter.name === 'FilterToday' ? setToday(true) : setToday(false);
+    if (!data) return;
+    const enrichtedData = convertDates(data);
+    setEvents(filter(enrichtedData ?? []));
   }, [data, filter]);
 
   useEffect(() => {
     const queryParams = new URLSearchParams(search);
-    const query = queryParams.getAll('type') as GEventCategories[];
-    setFilteredEvents(filterCategories(events, query) as GEvent[]);
+    const queryTypes = queryParams.getAll('type') as GEventCategories[];
+    const queryLocations = queryParams.getAll('location') as GLocation[];
+
+    setFilteredEvents(filterCategories(events, queryTypes) as GEvent[]);
+    setFilteredEvents(
+      (prev) => filterLocations(prev, queryLocations) as GEvent[],
+    );
     viewTransition('.event-list');
   }, [events, search]);
 

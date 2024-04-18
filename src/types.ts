@@ -40,3 +40,5 @@ export enum GEventCategories {
   theater = 'theater',
   nightlife = 'nightlife',
 }
+
+export type GLocation = string;
