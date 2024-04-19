@@ -1,62 +1,73 @@
-import { useEffect, useRef, useState } from 'react';
-import Header from './components/Header';
+import { ReactElement, useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { Nav } from './components/Nav';
-// import { FilterControls } from './components/FilterControls';
-import { EventList } from './components/EventList';
 
-import { logBuildDate } from './helpers/logBuildDate';
+// Components
+import Header from '@/components/Header';
+import { Nav } from '@/components/Nav';
+import { EventList } from '@/components/EventList';
+import '@/components/AppDrawer';
 
-import { useTheme } from './hooks/useTheme';
+// Functions
+import { logBuildDate } from '@/helpers/logBuildDate';
+import { useTheme } from '@/hooks/useTheme';
 
-import './components/AppLayout';
-import './components/AppDrawer';
-
-import { AppLayout } from './components/AppLayout';
-
-// Use global styles to change themes
-import { GlobalStyles, GlobalStylesLight } from './styles/GlobalStyles';
-
-// Date filters
+// Filters
 import { FilterToday, FilterTomorrow, FilterAll } from './filters/FilterDates';
+import { LocationFilters } from '@/components/Filters';
+
+// Style sheets
+import { GlobalStyles, GlobalStylesLight } from '@/styles/GlobalStyles';
+
+// Acquaint TS and web components
+declare module 'react/jsx-runtime' {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-drawer': AppDrawerAttributes;
+    }
+    interface AppDrawerAttributes {
+      collapsed: boolean;
+      children: HTMLElement | ReactElement;
+    }
+  }
+}
 
 function App() {
-  const { mode } = useTheme();
-  const [appDrawerIsColapsed, setAppDrawerIsCollapsed] = useState(false);
-  const appLayoutRef = useRef(null);
+  const { mode }: { mode: 'light' | 'dark' } = useTheme();
+  const [appDrawerIsColapsed, setAppDrawerIsCollapsed] = useState(true);
 
   logBuildDate();
 
   function toggleAppDrawer() {
-    setAppDrawerIsCollapsed((prev) => !prev)
+    setAppDrawerIsCollapsed((prev) => !prev);
   }
-
-  /*
-  useEffect(() => {
-    (appLayoutRef.current as AppLayout).addEventListener(
-      'app-layout-click-btn-3', toggleAppDrawer);
-  }, [])
-   */
 
   return (
     <HashRouter>
       {mode === 'dark' && <GlobalStyles />}
       {mode === 'light' && <GlobalStylesLight />}
-        <header slot="header">
-          <Header />
-          <Nav filterBtnAction={toggleAppDrawer}/>
-        </header>
-        <main slot="main" className="main">
-          <Routes>
-            <Route path="/" element={<EventList filter={FilterToday} />} />
-            <Route
-              path="/tomorrow"
-              element={<EventList filter={FilterTomorrow} />}
-            />
-            <Route path="/all" element={<EventList filter={FilterAll} />} />
-          </Routes>
-          <app-drawer collapsed={appDrawerIsColapsed}></app-drawer>
-        </main>
+
+      <header>
+        <Header />
+        <Nav filterBtnAction={toggleAppDrawer} />
+      </header>
+
+      <main slot="main" className="main">
+        <Routes>
+          <Route path="/" element={<EventList filter={FilterToday} />} />
+          <Route
+            path="/tomorrow"
+            element={<EventList filter={FilterTomorrow} />}
+          />
+          <Route path="/all" element={<EventList filter={FilterAll} />} />
+        </Routes>
+
+        <app-drawer collapsed={appDrawerIsColapsed}>
+          <div slot="default">
+            <LocationFilters />
+          </div>
+        </app-drawer>
+      </main>
     </HashRouter>
   );
 }
