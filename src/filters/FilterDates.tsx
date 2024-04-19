@@ -13,7 +13,7 @@ function getCurrentDateInfo() {
     hours: date.getHours(),
   };
 }
- 
+
 export function FilterToday(events: GEvent[]): GEvent[] {
   const todaysEvents: GEvent[] = [];
   const now = getCurrentDateInfo();
@@ -61,25 +61,28 @@ export function FilterAll(events: GEvent[]) {
       const eventDate = new Date(event.date);
 
       // Get rid of events from last year
-      if (eventDate.getFullYear() < now.year) return; 
+      if (eventDate.getFullYear() < now.year) return;
 
       if (
         // Get rid of events from last month
         eventDate.getFullYear() == now.year &&
-        eventDate.getMonth() < now.month 
-      ) return; 
-      
-      if (
-        // Get rid of events from yesterday
-        eventDate.getMonth() == now.month && 
-        eventDate.getDate() < now.date
-      ) return; 
+        eventDate.getMonth() < now.month
+      )
+        return;
 
       if (
-        // Get rid of events which started more than ${timeOffeset} hours ago 
+        // Get rid of events from yesterday
+        eventDate.getMonth() == now.month &&
+        eventDate.getDate() < now.date
+      )
+        return;
+
+      if (
+        // Get rid of events which started more than ${timeOffeset} hours ago
         eventDate.getDate() == now.date &&
         eventDate.getHours() < now.hours - timeOffset
-      ) return; 
+      )
+        return;
 
       allEvents.push(event);
     });

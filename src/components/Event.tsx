@@ -5,7 +5,7 @@ import { GEvent } from '@/types';
 
 // Create a query from an events type property
 const typeLink = (eventCategories: string | undefined) => {
-  if(!eventCategories) return
+  if (!eventCategories) return;
 
   const types = eventCategories.split(',');
   let query = '?';
@@ -18,7 +18,7 @@ const typeLink = (eventCategories: string | undefined) => {
   return query;
 };
 
-export const Event = ({ event, slug }: { event: GEvent, slug: string }) => {
+export const Event = ({ event, slug }: { event: GEvent; slug: string }) => {
   return (
     <article className="event-card" data-color={event.dateDetails.weekday}>
       {/* Event meta data */}

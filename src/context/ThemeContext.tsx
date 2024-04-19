@@ -1,16 +1,19 @@
 import { ReactNode, createContext, useReducer } from 'react';
 
-type ThemeContextTypes = { 
-  mode: GMode,
-  changeMode: (mode: GMode) => void 
-}
+type ThemeContextTypes = {
+  mode: GMode;
+  changeMode: (mode: GMode) => void;
+};
 
-export const ThemeContext = createContext<ThemeContextTypes>({mode: 'light', changeMode: () => {}});
+export const ThemeContext = createContext<ThemeContextTypes>({
+  mode: 'light',
+  changeMode: () => {},
+});
 
 type GMode = 'light' | 'dark';
-type GMsg = { type: "CHANGE_MODE", payload: "light" | "dark" }
+type GMsg = { type: 'CHANGE_MODE'; payload: 'light' | 'dark' };
 
-function themeRedudcer(state: { mode: GMode }, msg: GMsg ) {
+function themeRedudcer(state: { mode: GMode }, msg: GMsg) {
   switch (msg.type) {
     case 'CHANGE_MODE':
       return { ...state, mode: msg.payload };

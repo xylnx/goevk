@@ -4,7 +4,7 @@ import { useTheme } from '../hooks/useTheme';
 // Components
 import { IconModeLight, IconModeDark } from '../assets/icon-mode';
 
-type Props = { cssClass: string }
+type Props = { cssClass: string };
 
 export const ModeSelector = ({ cssClass }: Props) => {
   const { mode, changeMode } = useTheme();

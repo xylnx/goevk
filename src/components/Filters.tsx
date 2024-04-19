@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router';
 import { useFetch } from '@/hooks/useFetch';
 
-import type { GLocation } from '@/types'; 
+import type { GLocation } from '@/types';
 
 // API
 const apiEndpoint = `${import.meta.env.VITE_API_ROOT}/locations`;
@@ -22,7 +22,6 @@ export function LocationFilters() {
   const navigate = useNavigate();
 
   function handleLocation(loc: GLocation) {
-
     if (activeLocations.includes(loc))
       return setActiveLocations((prev) =>
         prev.filter((location) => location != loc),
