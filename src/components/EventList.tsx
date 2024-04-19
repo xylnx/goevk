@@ -5,20 +5,24 @@ import { useLocation } from 'react-router';
 import { useFetch } from '@/hooks/useFetch';
 
 // Custom functions
-import { filterCategories } from '../filters/filterCategories'; // filter events according to its types
-import { viewTransition } from '../helpers/viewTransition'; // show a fade in/out effect
+import { filterCategories } from '@/filters/filterCategories'; // filter events according to its types
+import { filterLocations } from '@/filters/filterLocations';
+
+import { viewTransition } from '@/helpers/viewTransition'; // show a fade in/out effect
+import { convertDates } from '@/helpers/convertDates';
 
 // COMPONENTS
-import { Event } from './Event';
-import EventsNone from './EventsNone';
-import { GEvent, GRawEvent, GEventCategories } from '@/types';
+import { Event } from '@/components/Event';
+import { EventsNone } from '@/components/EventsNone';
+
+import type { GEvent, GEventCategories, GLocation, GRawEvent } from '@/types';
 
 // API
 const apiEndpoint = `${import.meta.env.VITE_API_ROOT}/events`;
 
 type Props = {
-  filter: (events: GEvent[]) => GEvent[] 
-}
+  filter: (events: GEvent[]) => GEvent[];
+};
 
 export const EventList = ({ filter }: Props) => {
   // Today is drilled into `<EventsNone />` component
@@ -27,7 +31,8 @@ export const EventList = ({ filter }: Props) => {
 
   const [events, setEvents] = useState<GEvent[]>([]);
   const [filteredEvents, setFilteredEvents] = useState<GEvent[]>([]); // Filtered events
-  const { data, pending }: { data: GRawEvent[] | null, pending: boolean } = useFetch(apiEndpoint);
+  const { data, pending }: { data: GRawEvent[] | null; pending: boolean } =
+    useFetch(apiEndpoint);
 
   const { search, pathname } = useLocation();
 
@@ -52,7 +57,7 @@ export const EventList = ({ filter }: Props) => {
   return (
     <>
       <div className="event-list">
-        {/* today's events */}
+        {/* filtered events */}
         {filteredEvents &&
           filteredEvents.map((event, index) => (
             <Event key={index} event={event} slug={pathname} />
