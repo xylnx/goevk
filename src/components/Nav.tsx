@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-export const Nav = ({ filterBtnAction }) => {
+export const Nav = ({ filterBtnAction }: { filterBtnAction: () => void }) => {
   return (
     <nav className="nav">
       <NavLink to="/" className="nav__item today">
@@ -12,7 +12,9 @@ export const Nav = ({ filterBtnAction }) => {
       <NavLink to="/all" className="nav__item all">
         Alle Events
       </NavLink>
-      <button className='btn btn__filters' onClick={filterBtnAction}>Mehr Filter</button>
+      <button className="btn btn__filters" onClick={filterBtnAction}>
+        Filter
+      </button>
     </nav>
   );
 };
