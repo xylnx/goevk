@@ -25,10 +25,6 @@ type Props = {
 };
 
 export const EventList = ({ filter }: Props) => {
-  // Today is drilled into `<EventsNone />` component
-  // => used to display a button to all events (or not)
-  const [today, setToday] = useState(true);
-
   const [events, setEvents] = useState<GEvent[]>([]);
   const [filteredEvents, setFilteredEvents] = useState<GEvent[]>([]); // Filtered events
   const { data, pending }: { data: GRawEvent[] | null; pending: boolean } =
@@ -63,9 +59,13 @@ export const EventList = ({ filter }: Props) => {
             <Event key={index} event={event} slug={pathname} />
           ))}
         {/* no events */}
-        {!events && (
-          <EventsNone today={today} pending={pending} />
-        )}
+        {!events ||
+          (!filteredEvents.length && (
+            <EventsNone
+              hasAllEventsBtn={pathname == '/' || pathname == '/tomorrow'}
+              pending={pending}
+            />
+          ))}
       </div>
     </>
   );
