@@ -114,7 +114,14 @@ body {
 
   /* ios: account for safari address bar */
   height: -webkit-fill-available;
+
   scrollbar-color: var(--clr-fg) var(--clr-bg);
+  ::-webkit-scrollbar {
+    background: var(--clr-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--clr-fg);
+  }
 }
 
 .App {
