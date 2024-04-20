@@ -1,10 +1,9 @@
-// Provide date + time of an event
-// Takes an array of event objects
-// manipulates each of the containing objects
+// Transforms ISO date strings of event objects
+// Adds a `dateInfo` property for convenience
 
 import type { GEvent } from '@/types.ts';
 
-function convertDates(eventObjects: GEvent[]) {
+export function convertDates(eventObjects: GEvent[]) {
   eventObjects.forEach((eventObj) => {
     const dateDetails = getDateDetails(eventObj.date);
     eventObj.dateDetails = dateDetails;
