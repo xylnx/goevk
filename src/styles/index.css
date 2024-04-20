@@ -253,6 +253,10 @@ header h1 svg {
   margin: 4px 4px 0px 0;
 }
 
+.btn--border-fg {
+  border-color: var(--clr-fg);
+}
+
 .btn__filters {
   border-color: var(--clr-fg);
   margin-left: auto;

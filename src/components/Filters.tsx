@@ -36,13 +36,13 @@ export function LocationFilters() {
       activeLocations.forEach((loc) => (query += `${loc}&location=`));
       return navigate(`${pathname}${query}`);
     }
+    return navigate(`${pathname}`);
   }, [activeLocations, navigate, pathname]);
 
   return (
     <div className="filters">
       <details open>
         <summary>Locations</summary>
-        <div>Alle zurücksetzen</div>
 
         {locations &&
           locations.map((loc, i) => (
@@ -54,6 +54,17 @@ export function LocationFilters() {
               {loc}
             </button>
           ))}
+        <br />
+
+        {activeLocations.length != 0 && (
+          <button
+            className="btn btn--small btn--border-fg"
+            onClick={() => setActiveLocations([])}
+          >
+            <span>&times; </span>
+            Alle zurücksetzen
+          </button>
+        )}
       </details>
     </div>
   );
