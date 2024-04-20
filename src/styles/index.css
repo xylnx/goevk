@@ -402,14 +402,14 @@ header h1 svg {
 app-drawer::part(app-drawer) {
   background-color: var(--clr-bg);
   box-shadow: var(--box-shadow);
-  
+  padding: var(--gap);
 }
 
 app-drawer::part(app-drawer-close-btn) {
-  color: red;
+  color: var(--clr-fg);
+  font-weight: var(--fw-600);
   font-size: 28px;
 }
-
 
 /* ========================================
  * Animation
