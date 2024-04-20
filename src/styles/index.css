@@ -232,10 +232,16 @@ header h1 svg {
   user-select: none;
 }
 
+.btn.active,
 .nav__item.active {
   background-color: var(--clr-accent);
   color: var(--clr-bg);
   transition: background-color var(--trans);
+}
+
+.btn--small {
+  font-size: var(--fs-200);
+  margin: 4px 4px 0px 0;
 }
 
 .btn__filters {
