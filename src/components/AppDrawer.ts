@@ -16,6 +16,10 @@ export class AppDrawer extends HTMLElement {
     this.shadow
       ?.getElementById('closeBtn')
       ?.addEventListener('click', () => this.toggleIsCollapsed());
+
+    this.shadow
+      ?.getElementById('appDrawerBackdrop')
+      ?.addEventListener('click', () => this.toggleIsCollapsed());
   }
 
   attributeChangedCallback(name: string, oldValue: string) {
@@ -43,12 +47,12 @@ const html = `
       <slot name="default">DEFAULT SLOT<slot>
     </div>
   </div>
+  <div id="appDrawerBackdrop" class="app-drawer__backdrop" par="app-drawer-backdrop"></div>
 `;
 
 const style = `
 <style>
 .app-drawer {
-  --app-drawer-height: 48vh;
   position: fixed;
   flex-direction: column;
   padding: calc(var(--td-gap) * 2);
@@ -64,8 +68,9 @@ const style = `
   margin: auto;
 
   transition: .4s bottom;
-  background: orangered;
+  z-index: 1;
 }
+
 
 .app-drawer.collapsed {
   bottom: calc(var(--app-drawer-height) * -1.2);
@@ -90,5 +95,21 @@ const style = `
   display: flex;
   justify-content: end;
 }
+
+.app-drawer__backdrop {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0,0,0, 80%);
+}
+
+.collapsed ~ .app-drawer__backdrop {
+  display: none;
+}
+
 </style>
 `;
