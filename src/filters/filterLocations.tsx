@@ -4,14 +4,10 @@ export function filterLocations(events: GEvent[], query: GLocation[]) {
   if (!events.length) return events;
   if (!query.length) return events;
 
-  console.log(arguments);
   try {
-    const evs = events.filter((e) => query.includes(e.place));
-
-    console.log(evs);
-    return evs;
+    return events.filter((e) => query.includes(e.place));
   } catch (error) {
-    console.log(error);
+    console.error(error);
     return events;
   }
 }
