@@ -53,7 +53,6 @@
   padding: 0;
 }
 
-
 /* Set up the body */
 body {
   max-width: 960px;
@@ -71,7 +70,6 @@ body {
 html {
   font-size: 62.5%;
 }
-
 
 main {
   overflow-y: auto;
@@ -157,24 +155,9 @@ a:hover {
   font-weight: var(--fw-600);
 }
 
-
 /* ========================================
  * Components
  * ===================================== */
-
-/*
-.btn {
-  background: transparent;
-  border: 1px solid red;
-  border-radius: var(--border-radius);
-  font-size: var(--fs-400);
-  font-weight: var(--fw-600);
-  padding: 0.3em; 
-  text-transform: uppercase;
-  border: var(--border-600);
-}
-*/
-
 
 /* >>>>>>>>>>>>>>>>>>>>
  * HEADER
@@ -183,7 +166,7 @@ a:hover {
 .logo-header {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-bottom: 1.6rem;
 
   color: var(--clr-fg);
@@ -229,14 +212,9 @@ header h1 svg {
   grid-column: 1 / -1;
 }
 
-
-
 /* >>>>>>>>>>>>>>>>>>>>
  * Navigation + filter btns
  */
-
-nav {
-}
 
 .btn,
 .nav__item,
@@ -411,15 +389,9 @@ nav {
   color: inherit;
 }
 
-app-layout::part(header), 
-app-layout::part(main), 
-app-layout::part(footer) {
-  padding: 8px
-}
-
-app-layout::part(header) {
-  border-bottom: 1px solid var(--clr-fg);
-}
+/* >>>>>>>>>>>>>>>>>>>>
+ * Bottom drawer 
+ */
 
 app-drawer::part(app-drawer) {
   background-color: var(--clr-bg);
