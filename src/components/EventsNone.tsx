@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 
-const EventsNone = ({ today, pending }: {
-  today: boolean, pending: boolean
-}) => {
+export function EventsNone({
+  hasAllEventsBtn,
+  pending,
+}: {
+  hasAllEventsBtn: boolean;
+  pending: boolean;
+}) {
   return (
     <div className="eventsNone__container">
       <div className="eventsNone__svg-container">
@@ -17,19 +21,19 @@ const EventsNone = ({ today, pending }: {
           <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z" />
         </svg>
       </div>
-      {/* Still loading data */}
+      {/* Loading data */}
       {pending && (
         <div className="eventsNone__copy">
           <span className="text-bold">Einen Moment... </span>
           <p>Ich suche nach Veranstaltungen.</p>
         </div>
       )}
-      {/* No events for today */}
-      {today && !pending && (
+      {/* No events (today + tomorrow) */}
+      {hasAllEventsBtn && !pending && (
         <>
           <div className="eventsNone__copy">
             <span className="text-bold">Ooops</span>, leider finde ich keine
-            Events für heute. Guck doch mal, was in den kommenden Tagen los ist:
+            Events. Guck doch mal, was in den kommenden Tagen los ist:
           </div>
           <div>
             <Link to="/all" className="nav__item">
@@ -39,7 +43,7 @@ const EventsNone = ({ today, pending }: {
         </>
       )}
       {/* No events at all */}
-      {!today && !pending && (
+      {!hasAllEventsBtn && !pending && (
         <div className="eventsNone__copy">
           <span className="text-bold">
             Leider finde ich keine Veranstaltungen.
@@ -49,6 +53,4 @@ const EventsNone = ({ today, pending }: {
       )}
     </div>
   );
-};
-
-export default EventsNone;
+}
