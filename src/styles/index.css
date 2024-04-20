@@ -39,6 +39,8 @@
   --trans: 0.3s ease;
 
   --box-shadow: 0px -2px 32px 0px rgb(0 0 0 / 40%);
+
+  --app-max-width: 960px;
 }
 
 /* ========================================
@@ -55,7 +57,7 @@
 
 /* Set up the body */
 body {
-  max-width: 960px;
+  max-width: var(--app-max-width);
   margin: auto;
   overflow-x: hidden;
 }
@@ -64,7 +66,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 8px;
+  padding: var(--gap);
 }
 
 html {
@@ -400,6 +402,8 @@ header h1 svg {
  */
 
 app-drawer::part(app-drawer) {
+  --app-drawer-height: 48vh;
+  max-width: calc(var(--app-max-width) - var(--gap) * 2);
   background-color: var(--clr-bg);
   box-shadow: var(--box-shadow);
   padding: var(--gap);
