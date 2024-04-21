@@ -13,7 +13,7 @@ import { useTheme } from '@/hooks/useTheme';
 
 // Filters
 import { FilterToday, FilterTomorrow, FilterAll } from './filters/FilterDates';
-import { LocationFilters } from '@/components/Filters';
+import { Filters } from '@/components/Filters';
 
 // Style sheets
 import { GlobalStyles, GlobalStylesLight } from '@/styles/GlobalStyles';
@@ -64,7 +64,7 @@ function App() {
 
         <app-drawer collapsed={appDrawerIsColapsed}>
           <div slot="default">
-            <LocationFilters />
+            <Filters />
           </div>
         </app-drawer>
       </main>
