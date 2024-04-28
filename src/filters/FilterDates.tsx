@@ -51,6 +51,27 @@ export function FilterTomorrow(events: GEvent[]) {
   return [];
 }
 
+export function filterByStartAndEndDate(
+  events: GEvent[] = [],
+  startDate: Date | null,
+  endDate: Date | null,
+) {
+  if (startDate && endDate) {
+    return events.filter((event) => {
+      const eventDate = new Date(event.date);
+      return eventDate >= startDate && eventDate <= endDate;
+    });
+  }
+
+  if (startDate && !endDate) {
+    return events.filter((event) => new Date(event.date) >= startDate);
+  }
+
+  if (!startDate && endDate) {
+    return FilterAll(events.filter((event) => new Date(event.date) <= endDate));
+  }
+}
+
 export function FilterAll(events: GEvent[]) {
   const allEvents: GEvent[] = [];
 

@@ -33,32 +33,8 @@ export function LocationFilter() {
     setSearchParams(searchParams);
   }
 
-  /*
-  function handleStartDate(e: React.SyntheticEvent<HTMLInputElement>) {
-    const target = e.target as HTMLInputElement;
-    searchParams.set('start', target.value);
-    return setSearchParams(searchParams)
-  }
-
-  function handleEndDate(e: React.SyntheticEvent<HTMLInputElement>) {
-    const target = e.target as HTMLInputElement;
-    searchParams.set('end', target.value);
-    return setSearchParams(searchParams)
-  }
-   */
-
   return (
     <div className="filters">
-      {/*
-      <details open>
-        <summary>Datum</summary>
-        <label htmlFor="startDate">Beginn</label>
-        <input type="date" name="start-date" id="startDate"  onChange={(e) => handleStartDate(e)}/>
-        <label htmlFor="endDate">Ende</label>
-        <input type="date" name="end-date" id="startDate"  onChange={(e) => handleEndDate(e)}/>
-      </details>
-      */}
-
       <details open>
         <summary>Locations</summary>
 
@@ -80,7 +56,7 @@ export function LocationFilter() {
             onClick={resetLocations}
           >
             <span>&times; </span>
-            Alle zurücksetzen
+            Locations zurücksetzen
           </button>
         )}
       </details>

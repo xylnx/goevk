@@ -4,9 +4,10 @@ import { useLocation } from 'react-router';
 // CUSTOM HOOKS
 import { useFetch } from '@/hooks/useFetch';
 
-// Custom functions
+// Filters
 import { filterCategories } from '@/filters/filterCategories'; // filter events according to its types
 import { filterLocations } from '@/filters/filterLocations';
+import { filterByStartAndEndDate } from '@/filters/FilterDates';
 
 import { viewTransition } from '@/helpers/viewTransition'; // show a fade in/out effect
 import { convertDates } from '@/helpers/convertDates';
@@ -42,11 +43,24 @@ export const EventList = ({ filter }: Props) => {
     const queryParams = new URLSearchParams(search);
     const queryTypes = queryParams.getAll('type') as GEventCategories[];
     const queryLocations = queryParams.getAll('location') as GLocation[];
+    const startDate = queryParams.get('start');
+    const endDate = queryParams.get('end');
 
     setFilteredEvents(filterCategories(events, queryTypes) as GEvent[]);
-    setFilteredEvents(
-      (prev) => filterLocations(prev, queryLocations) as GEvent[],
-    );
+    if (queryLocations.length) {
+      setFilteredEvents(
+        (prev) => filterLocations(prev, queryLocations) as GEvent[],
+      );
+    }
+
+    if (startDate || endDate) {
+      const sd = startDate ? new Date(startDate) : null;
+      const ed = endDate ? new Date(endDate) : null;
+      setFilteredEvents(
+        (prev) => filterByStartAndEndDate(prev, sd, ed) as GEvent[],
+      );
+    }
+
     viewTransition('.event-list');
   }, [events, search]);
 
@@ -60,7 +74,7 @@ export const EventList = ({ filter }: Props) => {
           ))}
         {/* no events */}
         {!events ||
-          (!filteredEvents.length && (
+          (!filteredEvents?.length && (
             <EventsNone
               hasAllEventsBtn={pathname == '/' || pathname == '/tomorrow'}
               pending={pending}
