@@ -264,6 +264,7 @@ header h1 svg {
 
 /* Filter Cotrols */
 
+/*
 .filter-control__btn {
   position: relative;
   background-color: transparent;
@@ -300,6 +301,38 @@ header h1 svg {
 
 .filter-control__btn.filter-control__btn--all::after {
   display: none;
+}
+*/
+
+/* >>>>>>>>>>>>>>>>>>>>
+ * Filters 
+ */
+
+.filters__dates__container {
+  display: flex;
+  gap: var(--gap);
+}
+
+.filters__dates__container label {
+  display: flex;
+  flex-direction: column;
+}
+
+.filters__dates__container input {
+  border: var(--border-600) var(--clr-accent);
+  border-radius: var(--border-radius);
+  background: transparent;
+  color: var(--clr-fg);
+  font-family: inherit;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-600);
+  margin: 4px 4px 0px 0;
+  padding: 0.3em;
+}
+
+input[type='date']::after {
+  color: var(--clr-fg);
+  content: attr(placeholder);
 }
 
 /* >>>>>>>>>>>>>>>>>>>>

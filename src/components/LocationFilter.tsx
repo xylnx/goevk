@@ -34,7 +34,7 @@ export function LocationFilter() {
   }
 
   return (
-    <div className="filters">
+    <div className="filters__location">
       <details open>
         <summary>Locations</summary>
 
