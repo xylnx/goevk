@@ -53,7 +53,7 @@ export function DateFilter() {
               type="date"
               value={endInputValue}
               name="end-date"
-              id="startDate"
+              id="endDate"
               onChange={(e) => handleEndDate(e)}
             />
           </label>
